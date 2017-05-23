@@ -1,0 +1,4993 @@
+negativo	1	desc metr altur  nao_corag 
+positivo	2	melhor parqu 
+neutro	3	pessoal pael pael 
+neutro	4	
+positivo	5	bom lov 
+neutro	6	
+ambiguo	7	filh desc tamb vez 
+positivo	8	desc vez prim dia outr legal nunc perd grac 
+positivo	9	mass savi 
+neutro	10	lo disfrut much gust volv 
+neutro	11	alh 
+positivo	12	melhor mund 
+neutro	13	
+neutro	14	lais 
+neutro	15	aguared 
+positivo	16	louc 
+positivo	17	hah saaudad 
+neutro	18	naquel branc 
+positivo	19	 insano bom tre vez 
+positivo	20	quer_ir denov emoca xd 
+positivo	21	ador 
+positivo	22	
+neutro	23	vam 
+neutro	24	am 
+neutro	25	niv ser qu_ir 
+positivo	26	show 
+positivo	27	mass 
+positivo	28	sonh 
+positivo	29	bom 
+neutro	30	 insano tobog fot 
+neutro	31	faz temp  nao_vou 
+positivo	32	
+neutro	33	kind slid 
+positivo	34	estud bast pass ano sab ferias 
+positivo	35	chiarat guard dinh fer log log cheg vam nov 
+positivo	36	vam kkk 
+neutro	37	
+positivo	38	fantas famil moment inesqueci volt brev 
+positivo	39	maravilh 
+positivo	40	quer 
+positivo	41	lug 
+positivo	42	quant entr 
+positivo	43	lug maravilh recom 
+positivo	44	lug fantas 
+positivo	45	lug lind maravilh agor cham lo lingu gring diz ancelm cacet 
+neutro	46	boa ter dess 
+neutro	47	parqu quas daquel vez
+neutro	48	diz prim fot heh 
+positivo	49	dez 
+positivo	50	coment dia kkk 
+neutro	51	lembr kalafri 
+neutro	52	chalub lembr 
+positivo	53	 nao_aparec fot dev ser insano 
+positivo	54	log log est codignol huhuhuhu  nao_vej hor 
+positivo	55	ramubrink logic 
+positivo	56	prim kkk show bol 
+neutro	57	ramubrink 
+positivo	58	ramubrink porqu  nao_pod_ir kalafri ano vou tud 
+neutro	59	arrepi 
+neutro	60	arrep kalafri 
+positivo	61	circ amo princip ador vam volt 
+negativo	62	parqu otim estrut agor fal organizaca not alem abr fech  pont prec ser entr sugir dur seman fim seman ning conseg divert consegu_ir atraco parqu fil enorm falt organizaca agil parqu sol rach 
+neutro	63	parec term laranj 
+positivo	64	ador 
+positivo	65	ame tud isso gost insano enta vez quer_ir rs 
+neutro	66	ramubrink 
+positivo	67	felizv 
+positivo	68	kkk fal quant saudade 
+neutro	69	arrep kalafri lov 
+positivo	70	felizp bor 
+positivo	71	famil gost 
+neutro	72	vou vou 
+neutro	73	est 
+neutro	74	
+neutro	75	park casc nei 
+positivo	76	bel park 
+positivo	77	 saudade 
+positivo	78	vou vou 
+neutro	79	arep 
+neutro	80	oh 
+neutro	81	lembr kalafri taci 
+positivo	82	maravilh oo 
+neutro	83	porra lembr doid vam volt porr 
+neutro	84	ramubrink 
+positivo	85	tod lov 
+positivo	86	deu legal 
+neutro	87	arrep 
+positivo	88	calafri bom 
+positivo	89	ramubrinc bom 
+neutro	90	ramubr 
+positivo	91	amo cal frio 
+neutro	92	
+positivo	93	bom af med val diversa 
+positivo	94	top 
+neutro	95	tod brinqued mass pricinp arrep 
+positivo	96	tod sao maravilh 
+positivo	97	ser prox vou ter corag kkkk 
+neutro	98	palavr 
+neutro	99	tip desist_ir fil 
+positivo	100	delic 
+neutro	101	arrep 
+neutro	102	arrep apes  nao_aparec fot tbm gost 
+positivo	103	lembr felizd 
+neutro	104	arrep uaud 
+positivo	105	calafri bom 
+positivo	106	isa bor 
+positivo	107	quas tod am lov 
+positivo	108	 nao_diz melhor tod 
+positivo	109	mass 
+neutro	110	lembr algum cois 
+positivo	111	lov top 
+neutro	112	arrep 
+neutro	113	riquet vam outr vez 
+neutro	114	arrep marida circ filha ame esper volt nov 
+positivo	115	quer_ir prox fer 
+neutro	116	
+positivo	117	imagin fin pai mai divert 
+neutro	118	arrep feliz
+negativo	119	ach pouc temp abert abr ced  nao_conhec mta cois 
+positivo	120	elo vam guard um troc_ir felizd 
+positivo	121	demor vam final ano 
+neutro	122	sim am sil 
+positivo	123	perfeit mo alan 
+positivo	124	deslumbr cheg contempl mund admir adentr sent mag cad vc obrig proporc sensaca famil volt brev 
+positivo	125	vam nov felizd 
+positivo	126	cidad maravilh passei mor dinheiro 
+neutro	127	 insano 
+neutro	128	arrep 
+positivo	129	kalafri lov 
+positivo	130	tod comparaca fa carte etern 
+neutro	131	aew bom vc mai 
+positivo	132	tod kkk 
+neutro	133	 insano o 
+neutro	134	cont am hahah 
+neutro	135	 insano deix p_ir ult 
+positivo	136	 insano clar 
+positivo	137	cheg log outubr precis prestigi nov avent 
+positivo	138	prepar psicologic temp p_ir insano fer novembr kkk 
+positivo	139	nest barq rs 
+neutro	140	
+positivo	141	lif beach 
+positivo	142	 insano top 
+positivo	143	atlant duvid famil int 
+neutro	144	 insano corag 
+positivo	145	dezembr est trabalh 
+positivo	146	quer_ir novo 
+neutro	147	arreem 
+positivo	148	tod excet insano falt corag kkk 
+neutro	149	arrepi insano cri corag ach  nao_
+positivo	150	dia pouc demais 
+neutro	151	arrepi 
+positivo	152	nunc recom insano experienc unic maravilh emoca junt alegr tud melhor fer 
+neutro	153	capsul arrep hueheuh 
+positivo	154	 insano felizd 
+positivo	155	dia vou parais 
+neutro	156	segund abr norm 
+neutro	157	eoutr mund 
+positivo	158	 insano lov 
+positivo	159	ei sempr vou prim kal fri ador 
+neutro	160	cassit 
+positivo	161	parab equip nov port arras 
+positivo	162	 insano 
+neutro	163	cheg outubr novembr 
+neutro	164	tud 
+positivo	165	 insano feliz vou feliz 
+neutro	166	arrep 
+positivo	167	hamunbrik melhor feliz 
+positivo	168	 insano 
+positivo	169	maravilh ram brinc show quas dou piripak amarel 
+neutro	170	kro promoca 
+positivo	171	 insano 
+positivo	172	fam capsul rs 
+positivo	173	prim ser rakubrinc kalafri tod pens_ir insano 
+positivo	174	tod  nao_vou insano falt corag rest 
+negativo	175	cert gran pouc temp p curt 
+positivo	176	 insano lov 
+neutro	177	piscin ond 
+positivo	178	 insano  insano abr hor  nao_pod 
+positivo	179	 insano lov 
+positivo	180	ador vou corr prim corrent p relax esper hah 
+positivo	181	 saudade parais 
+neutro	182	mass savi 
+negativo	183	moment abr park mai alegr msm fech mai trist feliz tod 
+neutro	184	 insano 
+positivo	185	 insano ihu feliz 
+positivo	186	lind 
+positivo	187	perfeit pass lug saudade 
+neutro	188	gost tod iri arrepi kkk massa 
+neutro	189	 insano 
+positivo	190	vam ano vem kkk 
+neutro	191	 insano 
+positivo	192	parqu aqua barra 
+positivo	193	ire descobr outubr feliz 
+negativo	194	bacan tud prec ric real bem salg 
+neutro	195	 insano o 
+neutro	196	ram brink 
+positivo	197	ame 
+neutro	198	 insano o 
+neutro	199	kalafri comec 
+positivo	200	tod amo 
+positivo	201	corr corrent encant 
+neutro	202	vix sei prim dia fim ano 
+neutro	203	tod 
+positivo	204	tod fa 
+positivo	205	tod sao show tod vez vou quer brinc tod lov ame lov 
+positivo	206	feliz 
+positivo	207	 insano bom 
+positivo	208	tod feliz 
+positivo	209	bom 
+neutro	210	 insano 
+positivo	211	 insano feliz 
+positivo	212	
+positivo	213	ador 
+positivo	214	 insano o 
+neutro	215	part navi 
+positivo	216	legal 
+positivo	217	feliz 
+positivo	218	fe quer_ir tod prim ser insano feliz felizp soseforcomemoca 
+positivo	219	hup hop feliz 
+positivo	220	hup hop feliz 
+neutro	221	maremot 
+neutro	222	hup hop cert 
+neutro	223	hup hop 
+positivo	224	doi hup hop diversa garantida 
+neutro	225	janil 
+neutro	226	doi 
+neutro	227	hup hop 
+neutro	228	hup hop 
+neutro	229	hup hop 
+neutro	230	maremot 
+neutro	231	hup hop 
+neutro	232	hup hop 
+neutro	233	hup hop 
+neutro	234	hup hop 
+positivo	235	nunc vej melhor hup hop 
+neutro	236	vam soel fim outubr nov 
+neutro	237	vou dia julh quas cheg huhuhuhuhuhuhuhuhuhuhuhuhuh 
+positivo	238	amo beach park 
+neutro	239	pens_ir mesm epoc comec setembr 
+neutro	240	deix mens inbox vc 
+positivo	241	ame sit 
+positivo	242	hahah vam volt 
+neutro	243	tal waldyan 
+neutro	244	aceit 
+neutro	245	gost sab orc aniversari 
+neutro	246	
+neutro	247	prox seman est uhu 
+neutro	248	vend fot qe vontad volt 
+neutro	249	cheg 
+positivo	250	seri mud boi kalafri agor sim sim ant dav med pescoc sai cant kkk felizfelizfeliz feliz kalafri 
+positivo	251	kkkk socorr kkkk mand 
+positivo	252	 saudade defin rua prim brinqued kkk 
+neutro	253	
+positivo	254	comfirmado formo kkk 
+positivo	255	maric bora imagin gent morr rir kkk 
+positivo	256	cont dia raphael feliz 
+positivo	257	lembr desesper kkk 
+neutro	258	lembr alg 
+neutro	259	 nao_med beb 
+positivo	260	
+positivo	261	sempr cheg prin saudade 
+positivo	262	kkkk saudade feliz 
+positivo	263	kkkk 
+positivo	264	brinqued legal nel var vez 
+positivo	265	uhul kkk 
+positivo	266	top 
+neutro	267	arre eegua arrep amo setembr beachpark 
+positivo	268	louc 
+positivo	269	kkk saudade 
+positivo	270	doan kkk 
+neutro	271	nalyson nov fal 
+positivo	272	brinqued show 
+positivo	273	otim brinqued 
+neutro	274	lembr 
+positivo	275	ramubrink feliz 
+neutro	276	kely pre pa ra 
+positivo	277	adoro agost obah 
+neutro	278	
+positivo	279	entr divert 
+positivo	280	hah 
+neutro	281	vem ach dign thain 
+neutro	282	nayh vam noiz 
+neutro	283	
+neutro	284	mul 
+neutro	285	kely 
+neutro	286	
+positivo	287	gorda anasc bor feliz 
+positivo	288	enta am feliz entend n h am rs jusley 
+positivo	289	bom divert 
+neutro	290	sab dat 
+positivo	291	tal gost quer 
+positivo	292	respost dign 
+positivo	293	 saudade 
+positivo	294	 saudade emoca 
+neutro	295	dia vou deu quis 
+neutro	296	dind corag boi 
+positivo	297	vontad conhec aument felizd 
+positivo	298	tamb ach lov 
+neutro	299	brev 
+neutro	300	rid 
+neutro	301	lembr 
+neutro	302	qual dia fech dur seman 
+neutro	303	quant entr 
+positivo	304	lembr feliz joneilson dim taj taj emoca rs bor nov kkk sd 
+positivo	305	layl alt demais mulherr vou  nao_kkkk dia barc 
+positivo	306	mto show 
+positivo	307	almeida vamo ner kkk 
+positivo	308	imaginenasf 
+positivo	309	imaginenasf 
+positivo	310	esper volt 
+positivo	311	quis cuid 
+positivo	312	quer est aqu hj denov bom 
+positivo	313	agost est junt filh 
+neutro	314	filh arcturu companh cert 
+neutro	315	compan cert 
+neutro	316	aih selem hahah 
+positivo	317	gost avent 
+positivo	318	tah cheg fer vou conhec beach park kkkk 
+positivo	319	lug simples maravilh 
+positivo	320	quer ve encar viu pai 
+positivo	321	cuid bor nov dioys 
+positivo	322	nom diz tud kalafri bom 
+neutro	323	roandy outubr 
+positivo	324	quero irr 
+positivo	325	famil curt 
+neutro	326	apen simpl curt pod faz diferenc ajud pod_ir long melhor compartilh ide 
+neutro	327	brevedavid aragonfabi dah 
+positivo	328	lind 
+positivo	329	bonit 
+positivo	330	tud bom 
+positivo	331	aproveit pec bat coc boa 
+positivo	332	aproveit bast lug incri boa sort insano ser_ir ir nel 
+positivo	333	parais feliz 
+positivo	334	lind maravilh lug 
+neutro	335	real 
+positivo	336	cant 
+positivo	337	lind lug 
+neutro	338	
+positivo	339	real tdo maravilh 
+positivo	340	tud bom aproveit diversa 
+positivo	341	lug 
+neutro	342	vid 
+positivo	343	
+positivo	344	ador lug 
+positivo	345	parais 
+positivo	346	fort desc insano 
+positivo	347	show 
+positivo	348	amo lug 
+positivo	349	maravilh 
+positivo	350	ador 
+positivo	351	lug parais amo 
+positivo	352	lug incri adoro 
+positivo	353	tam cheg 
+positivo	354	adoro 
+positivo	355	heheh menos me ver fe pert 
+positivo	356	lind lug 
+positivo	357	lind ador kkk 
+positivo	358	lind parais 
+positivo	359	est agost 
+positivo	360	cheg outubr 
+neutro	361	pagin  nao_abr 
+positivo	362	quer volt 
+positivo	363	ser corr 
+positivo	364	vi gost vi sent beachparkmimagu soseforcomemoca 
+neutro	365	
+positivo	366	eba vam tod felizd 
+positivo	367	parais torn sonh 
+positivo	368	delic jul 
+positivo	369	
+positivo	370	etern 
+positivo	371	maravilh ame 
+positivo	372	sonh beach park gost ador delic 
+positivo	373	parqu abenco bom 
+positivo	374	gent desc final daquel vermelh caid pai 
+neutro	375	verd sonh 
+positivo	376	 bomdemais  dia inesquesi sonh 
+positivo	377	 saudade 
+neutro	378	vam tod 
+neutro	379	dalv 
+positivo	380	gent cheg cost morr rir hah 
+positivo	381	
+positivo	382	vid lar kkk feliz 
+positivo	383	 saudade kkk 
+positivo	384	tud bom 
+positivo	385	
+neutro	386	excursa pasei hor fortal beach park dia novembr dia hotel caf manh cit tour fortal dia banh beach park retorn joa peso parcel jur tod carto mailfeliz contat passeiosdah br 
+neutro	387	dil 
+positivo	388	merec prim 
+neutro	389	kkk 
+neutro	390	greg 
+neutro	391	teruel vam 
+positivo	392	uhul maravilh 
+positivo	393	tent 
+neutro	394	auribert djeny walesk vitypac 
+positivo	395	log est 
+positivo	396	hoj lov 
+positivo	397	gent pod marc_ir carnav 
+positivo	398	u top dm feliz 
+negativo	399	quer sab pesquis feit cert verd  nao_long ser diz text 
+neutro	400	 insano 
+positivo	401	ador 
+neutro	402	fiq hotel bom 
+positivo	403	show 
+positivo	404	put ki hor hah 
+positivo	405	uaal demais 
+positivo	406	fer boa agor vou ter us bast beach parqu 
+positivo	407	
+positivo	408	jajajaj otim 
+positivo	409	
+positivo	410	lind 
+neutro	411	
+neutro	412	trig trig podi_ir 
+neutro	413	
+positivo	414	
+positivo	415	lug inesqueci esper volt ano vem anim sheyl 
+positivo	416	show bol iradouauauau 
+positivo	417	 saudade e 
+positivo	418	sonh 
+positivo	419	bom famil 
+neutro	420	lourd 
+positivo	421	real maravilh 
+neutro	422	veenh 
+positivo	423	lug maravilh inesqueci precis volt 
+positivo	424	pen curt lug bom 
+neutro	425	favor 
+neutro	426	jajaj 
+neutro	427	sobr 
+positivo	428	ador filh ano ped tod final seman_ir rs 
+neutro	429	
+positivo	430	cois fof 
+neutro	431	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	432	cheg ae hem 
+positivo	433	unic hor  nao_gost sol sab porqu porqu hor brinc acab kkk 
+positivo	434	amo_ir beach park 
+neutro	435	uhu 
+positivo	436	
+positivo	437	quer_ir outr vez 
+positivo	438	demais adoramos conhec parqu cert brev volt 
+positivo	439	amo tud 
+positivo	440	tiel cont regress 
+positivo	441	quer_ir vez 
+positivo	442	lug incri vou volt cert 
+positivo	443	
+positivo	444	tud lindo ame quer volt dia net 
+positivo	445	nunc quer 
+neutro	446	
+positivo	447	lind lug 
+positivo	448	dun parais 
+neutro	449	
+neutro	450	
+positivo	451	ano famil conhec fal doi filh menin conhec fic hosped conhec lev conhec gost 
+neutro	452	ador volt ador maremot arrep more outr 
+positivo	453	log est nest maravilh lug 
+positivo	454	lind 
+positivo	455	feliz 
+positivo	456	show 
+positivo	457	quer_ir kkk 
+neutro	458	amr 
+neutro	459	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	460	vam curt agor lug maravilh crianc alduto 
+positivo	461	lug alegr bem divert 
+positivo	462	quer ser feliz kkk 
+positivo	463	bom 
+neutro	464	
+positivo	465	felizd 
+positivo	466	pret volt nov parais 
+neutro	467	dia ire conhec 
+neutro	468	diov harth mostr gat 
+positivo	469	eit lug maravilh 
+positivo	470	lind sim pouq car 
+neutro	471	gost sab fech pacot_ir rizot acess tod brinqued 
+neutro	472	
+positivo	473	feliz uau 
+neutro	474	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	475	viu izidor 
+positivo	476	baladel verr zach desej vc 
+positivo	477	bor 
+positivo	478	edgleum bismarck esper deu quis 
+positivo	479	mar cham chop 
+positivo	480	 saudade 
+positivo	481	perfeica sonh 
+neutro	482	amig 
+positivo	483	opaah bora vou vend cas vam rum dat volt kkk 
+positivo	484	amo lind 
+positivo	485	lind feliz 
+neutro	486	
+positivo	487	mor nun lug des iri sai cas 
+positivo	488	sab feliz 
+positivo	489	porqu quer_ir fortal feliz 
+positivo	490	lind lug 
+positivo	491	quero_ir 
+positivo	492	lug bom 
+neutro	493	gost sab fech pacot_ir rizot acess tod brinqued 
+positivo	494	lind demais 
+positivo	495	parais 
+positivo	496	heck otim escolh p prox rs 
+positivo	497	ual sonh prai 
+positivo	498	prox fer 
+positivo	499	mass 
+positivo	500	loterman felizp 
+neutro	501	torner 
+neutro	502	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	503	papov fech 
+neutro	504	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+neutro	505	gost sab fech pacot_ir rizot acess tod brinqued 
+positivo	506	deu quer 
+positivo	507	vam 
+positivo	508	louc 
+positivo	509	vou 
+positivo	510	boa tard 
+positivo	511	adrenalin pur 
+neutro	512	
+neutro	513	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	514	bel recuerd salud desd 
+positivo	515	hj amanh vou tbm glau 
+positivo	516	ramb iln kkkk 
+positivo	517	bor 
+positivo	518	eniran 
+neutro	519	espezim 
+neutro	520	
+positivo	521	lug bom 
+positivo	522	quer conhec 
+positivo	523	ain boom demais felizd 
+positivo	524	ame cobr 
+neutro	525	cas 
+neutro	526	tia rosilen more negr 
+positivo	527	melhor diversa aqu 
+positivo	528	show bol 
+positivo	529	bom filh ador 
+positivo	530	
+positivo	531	bom 
+positivo	532	s ker_ir 
+positivo	533	cobr mass 
+positivo	534	vou lev 
+positivo	535	med ui 
+ambiguo	536	ah 
+positivo	537	bom 
+positivo	538	demais 
+positivo	539	delic saudade 
+positivo	540	deu med neh zanchet escur kkk 
+positivo	541	bom ame 
+positivo	542	show bol gost demais 
+positivo	543	quer experiment lov 
+positivo	544	alt rs 
+neutro	545	arrep demais fiq med_ir insano 
+neutro	546	n more negr n 
+positivo	547	demais 
+neutro	548	sab pass 
+ambiguo	549	ir sab n corag desc 
+positivo	550	maravilh  bomdemais saudade 
+neutro	551	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	552	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+negativo	553	otim lug pess atend 
+positivo	554	ont ame 
+positivo	555	tod fal lug otim nunc conhec fe pai cri vou sair 
+positivo	556	 saudade lug pud est nov tod famil  nao_falt oportun encontr nov 
+positivo	557	vam mo alan 
+positivo	558	 saudade diversa tod vapo  nao_
+neutro	559	
+neutro	560	
+positivo	561	emanuel feliz 
+neutro	562	ae idaci tamanh 
+neutro	563	n dar falt liedson 
+positivo	564	tud bom feliz 
+neutro	565	
+neutro	566	prox me est 
+positivo	567	hoj show 
+neutro	568	
+positivo	569	moment divert pass nest lug magic dia est nov quis convit feit 
+positivo	570	 saudade nao_pass jeit algum queromtom 
+positivo	571	melhor lug mundo raza algum pesso trabalh sao capaz manch imag parqu moment tao intens viv melhor  nao_deix pesso estrag dia euam insano vez opioresub descereamelhorsensaca voltareiembrev 
+neutro	572	
+positivo	573	fer est 
+neutro	574	pret_ir brev conhec wet n  nao_sei corag volt  nao_caibr pern quas morr afog salv pod cham jeit  nao_ajud jog boi fic olh  nao_fez nad amig pul piscin ajud 
+positivo	575	lug demais quer mor 
+positivo	576	ult quatr dia ador parab esper retorn var vez 
+positivo	577	ador park 
+positivo	578	est quis 
+positivo	579	vou 
+positivo	580	bom 
+positivo	581	fot angul fic show 
+positivo	582	deu quis u 
+neutro	583	
+positivo	584	 saudade nao_pass ano vem uru 
+neutro	585	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	586	 insano 
+neutro	587	am 
+neutro	588	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+neutro	589	ad menin qu dinh suj bat pap 
+positivo	590	lug lind demais 
+positivo	591	felizd 
+neutro	592	cheg 
+positivo	593	 insano difer  bomdemais  quer nov iu 
+positivo	594	bom sint saudade tud brev est nov 
+positivo	595	eit saudade e bom 
+positivo	596	beachpark 
+neutro	597	lucely 
+positivo	598	bom 
+positivo	599	ador esper ser desafi kkk 
+positivo	600	bom 
+positivo	601	sensac lug melhor divert naum 
+neutro	602	hoj 
+positivo	603	emjan est rs 
+positivo	604	vou nov 
+positivo	605	adrenalin 
+positivo	606	 nao_precis bab  nao_pod deix prox vez ti lev kkk 
+neutro	607	tb 
+positivo	608	
+neutro	609	verdad 
+positivo	610	aind vo lug quis feliz 
+positivo	611	show brinqued 
+positivo	612	julh mto bom 
+positivo	613	ador brinqued 
+positivo	614	
+positivo	615	 nao_max 
+positivo	616	ir show bol 
+neutro	617	americh 
+neutro	618	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	619	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+positivo	620	filh am lug 
+positivo	621	feliz gnt noil_ir kkk noil encont tesour kkk feliz feliz reg 
+positivo	622	vam fa kkkk 
+neutro	623	
+neutro	624	 nao_aind 
+neutro	625	
+positivo	626	espetacul lug filh  nao_quer_ir emb 
+positivo	627	quer 
+positivo	628	tud bom aqua ire nov 
+positivo	629	outubr est 
+positivo	630	brinq 
+positivo	631	quer volt parais 
+positivo	632	bom cert 
+neutro	633	dc passei bom dia contat tim inter fech pacot aguard inbox 
+positivo	634	visit terr maravilh 
+neutro	635	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	636	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+positivo	637	melhor aind 
+positivo	638	 nao_corag desc troc kkk morr med 
+positivo	639	brinqued melhor 
+negativo	640	brinqued nunc machuc ning deu assistenc 
+positivo	641	emanuel kass hahahahahshahahahahah lembra melhor brinquedo 
+positivo	642	iembr kkk 
+positivo	643	vam vamo kkk 
+positivo	644	mariel 
+positivo	645	fic med kalafri felizv kkk 
+positivo	646	kkkk sim 
+positivo	647	stephany ristich lembr feliz 
+positivo	648	adrenalin show 
+positivo	649	vem deu qz 
+neutro	650	
+positivo	651	bor part 
+positivo	652	cost amig amig fort dia var vx decorr vd filh ador park agua obrig atenca 
+negativo	653	ruim sai trem 
+negativo	654	nunc sent tant med vid sinistr 
+negativo	655	otim lug pess atend 
+neutro	656	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	657	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+positivo	658	quer dess aqu bel kkk 
+positivo	659	agil ser  nao_sonh cant 
+neutro	660	
+positivo	661	sim vid 
+positivo	662	amanh est nov 
+positivo	663	dentro 
+positivo	664	ador alt relax tir stres hor 
+neutro	665	
+neutro	666	tamb corrent encant 
+positivo	667	ame corrent relax 
+positivo	668	melhor cant park 
+neutro	669	auxili 
+positivo	670	necessit 
+positivo	671	 bomdemais saudade 
+positivo	672	unic lug possi relax perfeito 
+positivo	673	cant gost_ir relax 
+positivo	674	maravilh 
+positivo	675	dig kkk 
+positivo	676	gost 
+positivo	677	 saudade 
+positivo	678	precis dia 
+positivo	679	setembr est aguard 
+neutro	680	
+positivo	681	
+positivo	682	amo lov lov lov 
+positivo	683	lug real bom 
+positivo	684	amo lug 
+neutro	685	
+positivo	686	desc nest corrent bom quer volt 
+neutro	687	
+positivo	688	kkkk crianc  nao_suport fort emoco 
+positivo	689	neiril lembr gent kkk 
+positivo	690	am 
+positivo	691	oh cois boa 
+positivo	692	 bomdemais  
+positivo	693	un sonh gal fort pod_ir qualqu hor 
+positivo	694	ame bom gost demais 
+positivo	695	ador 
+positivo	696	lembr franzin bom neh cal relax rs 
+positivo	697	 saudade lug 
+positivo	698	lembr algum lug rs 
+positivo	699	quis vam 
+positivo	700	ador corrent 
+positivo	701	bom 
+positivo	702	bom 
+positivo	703	demais 
+positivo	704	prepar melhor biquin kkk 
+positivo	705	vam rol junt turm n 
+positivo	706	demais 
+positivo	707	gost 
+positivo	708	real bom 
+positivo	709	bom 
+negativo	710	ruim corrent vem afob chut boi cai 
+positivo	711	oportun conhec maravilh sensac 
+neutro	712	
+positivo	713	and bem legal 
+positivo	714	brinqued maravilh sena melhor ame 
+positivo	715	ame 
+positivo	716	 bomdemais  mei 
+neutro	717	vam fd am 
+positivo	718	ador pont 
+positivo	719	maravilg 
+positivo	720	sim hein kkkk 
+neutro	721	gent ama bich peluc alerg 
+ambiguo	722	otim lug pess atend 
+positivo	723	sensac 
+positivo	724	lind bom 
+neutro	725	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	726	avis continu leit morr apen olh avis palavr vez hav menin cham dez ano idad viv hospit psiquiatr porqu mat mae pai fic tao ruim mat tod funcionari hospit enta govern decid melhor ide livr enta mont sal espec mat tao human possi deu err maquin us deu err sent agon hor morr agor tod seman dia mort retorn pesso cart noit segund feir feliz arrast quart mat lent cort assist sangr mort agor envi dez outr imag nest sit assombr outr pesso  nao_ nao_fals aparent copi col dez comentari prox dez 
+positivo	727	tao tranquil desc boi nad otim pesso gost silenci 
+neutro	728	
+positivo	729	nunc vou desist realiz 
+neutro	730	tod vez sai cost 
+neutro	731	rox branc n sei arr egu arr ema pat escur legsl rod tbm 
+negativo	732	tent_ir hoj amarel cim desc esc feliz 
+positivo	733	kind wat park 
+positivo	734	vici doi prefir capsul vez  nao_cans_ir 
+positivo	735	 saudade fortal 
+neutro	736	desc verd nom 
+positivo	737	lembr feliz 
+positivo	738	sd ame ter tir fot tubara u u ter encar insano outr nivel lov 
+positivo	739	 saudade doi sao not 
+positivo	740	queria kkk dia combin blz 
+positivo	741	bor 
+positivo	742	marc_ir busc felic 
+positivo	743	ser kkkk 
+positivo	744	eit cois boa eranilson 
+positivo	745	mana edilan 
+neutro	746	
+positivo	747	 saudade quer volt 
+neutro	748	ir doi 
+positivo	749	doi esta melhor parqu 
+positivo	750	hah saudade 
+positivo	751	kkkk lembr sim medr 
+positivo	752	lembr rs 
+positivo	753	arr ema duvid 
+positivo	754	bom 
+positivo	755	bom 
+positivo	756	doi sao otim 
+positivo	757	sho 
+positivo	758	legal 
+positivo	759	doi sao otim 
+neutro	760	prox me vou vou concert arrep 
+positivo	761	verd maravilh 
+positivo	762	verd branc 
+positivo	763	areegu bom 
+positivo	764	ame doi lov 
+positivo	765	doi sao perfeit tud bom diversa 
+positivo	766	gost verd cm branc 
+positivo	767	arr egu emoca tod sao maravilh 
+neutro	768	
+positivo	769	rox demais 
+positivo	770	doi sao bom amu 
+positivo	771	nunc vou esquec boi legal 
+positivo	772	rosa top feliz felizx 
+positivo	773	simples maravilh quer retorn rap possi fic menos um dia pouc 
+neutro	774	wil 
+positivo	775	melhor 
+positivo	776	sent saudade 
+neutro	777	arrepi petrov daislan 
+positivo	778	prox fer ame doi jan 
+positivo	779	bom quer volt 
+positivo	780	legal 
+positivo	781	show 
+positivo	782	am 
+positivo	783	 saudade poxa 
+neutro	784	arr ema 
+positivo	785	doi adrenalin pur 
+positivo	786	gost doi 
+positivo	787	mass 
+neutro	788	agu 
+positivo	789	are ema 
+neutro	790	rox arrepi 
+positivo	791	ador brinqued 
+positivo	792	uhu noil manerac 
+positivo	793	divert 
+ambiguo	794	dificil diz 
+neutro	795	rox 
+neutro	796	arr ema 
+positivo	797	doi sao demais 
+positivo	798	vam sim 
+positivo	799	 saudade  saudade jkkk 
+positivo	800	doi ador volta 
+neutro	801	tod 
+neutro	802	arr egu 
+positivo	803	tod sao bom 
+positivo	804	vam am 
+positivo	805	ador 
+positivo	806	dar tud est parais nov demais lug 
+positivo	807	
+positivo	808	tairin vam sim clar soach 
+neutro	809	doi 
+neutro	810	arr egu 
+neutro	811	arr ema 
+positivo	812	ros verd doi pront kkk 
+positivo	813	arr egu demais 
+neutro	814	doi 
+neutro	815	arreegu logic 
+positivo	816	gost recom 
+positivo	817	nunc esquec saudade 
+neutro	818	arr ema 
+positivo	819	doi arr egu show 
+neutro	820	tod 
+positivo	821	amanh tou feliz 
+positivo	822	arr egu melhor feliz 
+positivo	823	doi sao maravilh diversa garant lug 
+positivo	824	arr ema tav hj 
+neutro	825	vi lembr isabel padil 
+positivo	826	 saudade feliz 
+neutro	827	hahah 
+positivo	828	doi sao maravilh saudade beach park 
+neutro	829	arem 
+positivo	830	adoro 
+positivo	831	ador 
+positivo	832	sd 
+neutro	833	fontenel 
+positivo	834	arr egu lov 
+positivo	835	bom 
+neutro	836	arr agu 
+positivo	837	outubro quer_ir nov 
+positivo	838	arr egu melhorr lugarr 
+neutro	839	jamil bach park 
+positivo	840	
+positivo	841	missa quas impossi escolh melhor 
+positivo	842	maravilh 
+negativo	843	nist nunc 
+neutro	844	nivel altur qual sao 
+positivo	845	acab enotel imagin rs 
+neutro	846	amig ki  nao_ki com ont fal mi ki ia pro beach park falt pe cha pod kkk 
+positivo	847	cost horri kkkk 
+positivo	848	 nao_quer desc cost kkkk 
+positivo	849	saudaad quer volt 
+positivo	850	doi sao sinistr gost arr egu 
+positivo	851	vam kak 
+neutro	852	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	853	am parqu tod 
+neutro	854	americh 
+neutro	855	quer ter corag est colun legal_ir atlantil more kalafri maravilh rs tom dorflex dorm  nao_arrepend 
+positivo	856	est are chin 
+positivo	857	pod vim equip beach friend dar alegr assin tio lige 
+positivo	858	pequen mand abrac pro tio castanh 
+positivo	859	quant bel eit uaud 
+neutro	860	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	861	omv company uk currently looking work that work her kingdom diferent skil vacant position company her uk kindly submit your resum job detail writ us thil emailfeliz omvcompanyuk gmail feliz befor aplying must valid passport 
+positivo	862	 saudade 
+positivo	863	ont msm admir hor hor vist mto lind senssaca magnif adrenalin mta emoca prox fd vez lei feliz 
+positivo	864	prai tir fot parqu 
+neutro	865	ser corr 
+positivo	866	 saudade feliz diegr bergson 
+positivo	867	vist felizd 
+positivo	868	tal vam 
+positivo	869	
+positivo	870	brev pais 
+positivo	871	cont dia feliz 
+neutro	872	
+ambiguo	873	deu mulh insano 
+positivo	874	ach dezembr nov feliz 
+positivo	875	
+positivo	876	bom 
+positivo	877	lug maravilh 
+positivo	878	part beach park 
+positivo	879	vist 
+positivo	880	aqu bom 
+positivo	881	 saudade tud 
+positivo	882	fot vist 
+positivo	883	muitoleg 
+neutro	884	vi 
+positivo	885	kkkk melhor 
+neutro	886	arrep show vei melhor 
+positivo	887	aa explod quer cheg dia 
+positivo	888	obrig 
+neutro	889	
+neutro	890	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	891	scur 
+neutro	892	
+neutro	893	bismarck edgleum 
+neutro	894	log pul outubr 
+positivo	895	adoor frut mar hum 
+positivo	896	notici dev ser delic 
+neutro	897	sim faz part cardapi 
+positivo	898	etiv me pass fer com pesc divin delic 
+positivo	899	quero 
+neutro	900	pouq 
+positivo	901	pass fer am net feliz me julh 
+positivo	902	lind 
+positivo	903	hum 
+neutro	904	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	905	hum 
+positivo	906	maravilh esper_ir jan net 
+neutro	907	categor 
+neutro	908	vot 
+neutro	909	local 
+positivo	910	maravilh 
+positivo	911	tud bom 
+neutro	912	
+neutro	913	
+positivo	914	delic delic 
+positivo	915	b adoro brinc espac 
+positivo	916	cheg 
+positivo	917	
+positivo	918	vot 
+positivo	919	quero 
+neutro	920	kauling 
+neutro	921	vot particip 
+neutro	922	
+neutro	923	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	924	escorpia 
+positivo	925	dayl nuely vc feliz 
+neutro	926	ari 
+positivo	927	quer ver ter corag rs 
+neutro	928	sargitari 
+neutro	929	geme 
+positivo	930	escorpia feliz 
+positivo	931	adoro kkk 
+neutro	932	
+neutro	933	ari u u 
+neutro	934	capricorni 
+neutro	935	lea 
+positivo	936	peix feliz ama amizad sao insepara hup hop 
+neutro	937	canc 
+neutro	938	virgem 
+neutro	939	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+neutro	940	
+positivo	941	schwartz thain schwartz saudade prai sim 
+positivo	942	program_ir feliz 
+neutro	943	frent 
+positivo	944	parais cert_ir volt carin rodrig volt 
+neutro	945	tretin 
+neutro	946	mae edgleum jerdeson kayn bismarck aguard dezembr bom 
+neutro	947	log est 
+neutro	948	mla 
+positivo	949	dond bor rssr 
+positivo	950	paraisooo penz 
+neutro	951	ravanel ravanel 
+neutro	952	 nao_cheg log mor 
+positivo	953	
+positivo	954	simples maravilh quer volt 
+positivo	955	maravilh 
+positivo	956	lug maravilh ame 
+positivo	957	lug tod idad diversa alegr confort descans ativ cont bel lug moment bom pens rm volt 
+positivo	958	bor 
+positivo	959	lind demais 
+positivo	960	ame conhec pass dia incri am pequen 
+positivo	961	est 
+positivo	962	dmal 
+neutro	963	cheg 
+positivo	964	ame 
+positivo	965	natur lind 
+neutro	966	badulaqu marin 
+positivo	967	 saudade es 
+neutro	968	cheg log outubr 
+positivo	969	 saudade 
+positivo	970	vez demais 
+positivo	971	buen est ese lug bel 
+positivo	972	oh parais beliss 
+neutro	973	aqu cost nest seman 
+positivo	974	brev ver viv cor espetacul natur 
+positivo	975	prai quer_ir nov 
+positivo	976	are branc lind 
+neutro	977	mushalah 
+positivo	978	lug log log est rum forlal cidad sol 
+positivo	979	amo sds 
+positivo	980	
+neutro	981	bom 
+positivo	982	delic prai 
+positivo	983	quer conhec 
+positivo	984	imagin daqu me mei rs 
+positivo	985	sim  nao_vej hor 
+positivo	986	ind 
+positivo	987	lind 
+positivo	988	 saudade ce 
+positivo	989	
+positivo	990	precis exat moment rs 
+positivo	991	lind show 
+neutro	992	diegomai imagin 
+positivo	993	tud bom 
+positivo	994	lind 
+neutro	995	aqu penz 
+positivo	996	bel prai aquiraz 
+positivo	997	delic me pass privilegi ame ame quer volt cert 
+positivo	998	 bomdemais  
+positivo	999	lug des tud quer peso 
+positivo	1000	lind 
+neutro	1001	
+positivo	1002	lug lind 
+positivo	1003	lind lug amo 
+positivo	1004	lug 
+positivo	1005	prai lind 
+positivo	1006	cheg log 
+positivo	1007	lug maravilh inesqueci 
+positivo	1008	algum mes dist parais 
+positivo	1009	ati gostari est prai 
+positivo	1010	 saudade 
+positivo	1011	 saudade es lug lind maravilh 
+positivo	1012	tud quer nest moment 
+positivo	1013	delicia 
+neutro	1014	vam 
+positivo	1015	mto lindo fiq apaixon 
+positivo	1016	jog vol fim tard 
+positivo	1017	beliss 
+neutro	1018	
+neutro	1019	brasil deix viuv filh cham proc senh bom sincer trabalh junt cri acim interess ad  nao_sc favor 
+positivo	1020	louc_ir nov 
+positivo	1021	boa 
+positivo	1022	natur lind 
+neutro	1023	
+positivo	1024	lind demais 
+positivo	1025	lind 
+neutro	1026	sortei promoca 
+positivo	1027	quer volt 
+positivo	1028	mar lembr tant cois legal alegr pesso amo maravilh 
+positivo	1029	felizp 
+positivo	1030	novembr uhul 
+positivo	1031	
+positivo	1032	pacot compr dia est ae nov 
+neutro	1033	am 
+positivo	1034	
+neutro	1035	splendid 
+positivo	1036	oh saudade 
+positivo	1037	brev 
+positivo	1038	tud bom 
+neutro	1039	ind dia prim vez 
+positivo	1040	eba noil amig ser sol mar diversa deu quis  nao_vej hor 
+positivo	1041	vist 
+ambiguo	1042	hum p merec 
+positivo	1043	
+positivo	1044	soc algu sab soc  nao_que sab kkkk 
+positivo	1045	atend prim mund ador 
+positivo	1046	 nao_gost olh saudade demais 
+positivo	1047	com camara nest sombr tud bom novembr nov deu quis 
+positivo	1048	maravilh 
+positivo	1049	mund complet difer permanec crianc brinqued 
+positivo	1050	mat saudade famil 
+positivo	1051	sombr som viv bom 
+positivo	1052	maravilh ame 
+positivo	1053	legal 
+positivo	1054	lind ador pret volt 
+positivo	1055	tir ft pais linda 
+positivo	1056	menin amig divirt 
+positivo	1057	bom recom 
+positivo	1058	gost 
+positivo	1059	cont dia rsr 
+positivo	1060	agu cheg  nao_vej hor 
+positivo	1061	 saudade dest lug 
+positivo	1062	lug lind 
+positivo	1063	 saudade 
+positivo	1064	p est hoj feliz 
+positivo	1065	quer volta saudade feliz 
+positivo	1066	 nao_vej hor rs 
+positivo	1067	lug lind sonh 
+positivo	1068	cont minut p volt 
+positivo	1069	volt  nao_alic kkk bj 
+positivo	1070	
+positivo	1071	eit saudade 
+positivo	1072	bom 
+positivo	1073	maravilh 
+positivo	1074	sd dispens 
+positivo	1075	lug maravilh saudade 
+positivo	1076	 saudade sempr 
+positivo	1077	vera bom 
+positivo	1078	eit saudade 
+positivo	1079	abrac famil abenco nadin 
+positivo	1080	ke saudade lug feliz 
+positivo	1081	sab ano vem ire outr vez 
+positivo	1082	demais 
+positivo	1083	x unic dia sensaca adrenalin liberdad sensac 
+positivo	1084	aind vou insano 
+positivo	1085	fer cheg 
+positivo	1086	dirversa  nao_ten fin 
+positivo	1087	brinqued vici tapet 
+neutro	1088	
+neutro	1089	
+neutro	1090	
+positivo	1091	part 
+neutro	1092	top 
+positivo	1093	tapet 
+negativo	1094	perd temp ach 
+positivo	1095	po mass isan des x 
+positivo	1096	part val 
+neutro	1097	mo 
+positivo	1098	perfeito 
+positivo	1099	saudaade 
+positivo	1100	kkk 
+neutro	1101	amo tobog 
+positivo	1102	 insano mass mai par pescoc kkk 
+positivo	1103	vou mostr bom 
+positivo	1104	lembr herlan 
+negativo	1105	medo 
+neutro	1106	ser estr  nao_cenh c pap  nao_pod  nao_tia chat 
+positivo	1107	quero novo 
+positivo	1108	tapet insano saudade 
+positivo	1109	
+positivo	1110	amo parqu 
+neutro	1111	vist long insano assim 
+positivo	1112	amanh confront insano sr 
+positivo	1113	fot 
+positivo	1114	est terc pert cheg 
+positivo	1115	
+positivo	1116	tapet mass 
+positivo	1117	show 
+positivo	1118	 saudade 
+positivo	1119	maravilh 
+neutro	1120	
+positivo	1121	feliz 
+positivo	1122	melhor sensaca mund acord_ir 
+neutro	1123	
+neutro	1124	ditbern 
+neutro	1125	lembr desesper_ir naquel alta 
+ambiguo	1126	pesso acul diz ser coraj hor 
+ambiguo	1127	nov briqued pert damore negr 
+positivo	1128	sime encar insano fic insano melhor 
+positivo	1129	beach louc total 
+neutro	1130	
+negativo	1131	moment tens 
+positivo	1132	quer adquir fac 
+neutro	1133	mo 
+positivo	1134	vam am 
+positivo	1135	lembra delicia 
+neutro	1136	vam faz 
+positivo	1137	 saudade viu mass demais 
+positivo	1138	show 
+positivo	1139	
+positivo	1140	demais ame var ves 
+positivo	1141	vou nov maluc viu ach ia cost toboagu 
+positivo	1142	lind 
+positivo	1143	ali felizd 
+positivo	1144	hor 
+positivo	1145	 saudade kkk 
+neutro	1146	clar 
+positivo	1147	uaud 
+positivo	1148	bom 
+positivo	1149	delici 
+positivo	1150	tbm quer 
+positivo	1151	quer 
+positivo	1152	amo parais diversa vir crianc 
+positivo	1153	ia am chef 
+positivo	1154	esper 
+positivo	1155	vamos 
+neutro	1156	tal 
+neutro	1157	
+neutro	1158	
+neutro	1159	
+neutro	1160	iai 
+neutro	1161	
+positivo	1162	sonh 
+positivo	1163	chef precis_ir 
+neutro	1164	pizol 
+neutro	1165	hum vam 
+neutro	1166	
+neutro	1167	
+positivo	1168	port dun demais 
+neutro	1169	
+neutro	1170	
+positivo	1171	vam 
+positivo	1172	olh parais jer volt qdo 
+positivo	1173	lind lug 
+positivo	1174	perfeica 
+positivo	1175	daqu um dia est volt ce quer 
+positivo	1176	lug lind 
+positivo	1177	suel hor irm vam 
+neutro	1178	
+neutro	1179	
+positivo	1180	organiz direit dev ser parais 
+positivo	1181	tal kkkk 
+neutro	1182	
+positivo	1183	parais 
+neutro	1184	gent 
+neutro	1185	
+neutro	1186	walac 
+positivo	1187	gost ame 
+positivo	1188	lindiss 
+neutro	1189	
+neutro	1190	
+positivo	1191	vam 
+positivo	1192	
+neutro	1193	conferenc rot 
+neutro	1194	
+positivo	1195	parais melhor 
+neutro	1196	
+positivo	1197	jafu parais 
+positivo	1198	
+neutro	1199	
+positivo	1200	vam 
+positivo	1201	vam 
+positivo	1202	sde prai lind 
+positivo	1203	prai simples parais maravilh ador est am 
+neutro	1204	
+positivo	1205	pen conhec tdo bom 
+positivo	1206	hoo saudade 
+positivo	1207	lug maravilh precis conhec prox vez volt fortal 
+positivo	1208	prai lind 
+positivo	1209	lug lind 
+neutro	1210	cheg dia setembr 
+positivo	1211	eit invej louc pasei aproveit su merec 
+positivo	1212	 saudade lug 
+neutro	1213	
+positivo	1214	perfeica divin 
+neutro	1215	lembr ti amig 
+positivo	1216	magnif 
+positivo	1217	lind pais 
+positivo	1218	maravilh 
+neutro	1219	antig fot 
+positivo	1220	mar lind perfeit 
+neutro	1221	prai rs 
+positivo	1222	delic sonh 
+neutro	1223	
+neutro	1224	vc conhec 
+neutro	1225	jericoaco 
+neutro	1226	
+neutro	1227	
+neutro	1228	
+neutro	1229	
+positivo	1230	put par saudade 
+neutro	1231	
+neutro	1232	
+positivo	1233	precis kkk 
+neutro	1234	serv pacot rs 
+positivo	1235	
+positivo	1236	amanh cheg 
+positivo	1237	sonh 
+positivo	1238	uau 
+positivo	1239	vam 
+positivo	1240	sd lug jesus 
+positivo	1241	parais 
+neutro	1242	
+positivo	1243	maravilhoso 
+positivo	1244	ach prai lind ce aind parqu brid amo 
+positivo	1245	
+neutro	1246	bem asim 
+ambiguo	1247	perruc 
+ambiguo	1248	thayan convid gent 
+positivo	1249	amo tud 
+positivo	1250	legal 
+positivo	1251	parec legal 
+neutro	1252	
+positivo	1253	temos_ir proxima vez am pa 
+positivo	1254	sonh 
+positivo	1255	adooro prai vou pouc 
+positivo	1256	maravilh 
+neutro	1257	prest atenca 
+positivo	1258	ador 
+neutro	1259	
+negativo	1260	prai bonit melhor 
+neutro	1261	bem long jericoaco park 
+positivo	1262	
+positivo	1263	sonh 
+positivo	1264	sonh realiz_ir feliz 
+neutro	1265	
+neutro	1266	pois gi tamb lembr post heheheh 
+neutro	1267	
+positivo	1268	
+positivo	1269	 saudade 
+neutro	1270	daniely 
+positivo	1271	erik simb 
+positivo	1272	cont hor 
+positivo	1273	 saudade lug quero volt logo julieny 
+positivo	1274	car princes kkk 
+neutro	1275	lembr 
+positivo	1276	lug perfeito maravilh adrenalin pura felizd feliz qro novo felizd recomendo feliz 
+positivo	1277	ca 
+neutro	1278	
+positivo	1279	lov 
+positivo	1280	kra neh kkkk mass demais 
+neutro	1281	boora noov 
+neutro	1282	
+neutro	1283	obvi gent arminin 
+neutro	1284	
+positivo	1285	melhor ach 
+neutro	1286	cheg dia 
+neutro	1287	quatr  nao_
+positivo	1288	amo demais lug 
+neutro	1289	almoc lanch 
+neutro	1290	
+neutro	1291	ce 
+positivo	1292	cont dia iuhu 
+neutro	1293	gal faz pacot beach park dia doming direit almoc propri restaurant parqu prec ingress parqu prec comig informaca inbox 
+positivo	1294	log log jan 
+positivo	1295	quer bi mass felizd 
+positivo	1296	quer_ir 
+positivo	1297	pox qdo  nao_dev ser top hein 
+positivo	1298	tou b beachpark lov 
+neutro	1299	
+neutro	1300	
+neutro	1301	cidad 
+positivo	1302	simples magic 
+neutro	1303	aond 
+positivo	1304	falt pok rs 
+positivo	1305	top recom tod idad 
+neutro	1306	
+neutro	1307	
+positivo	1308	vam hih 
+neutro	1309	arrepi 
+neutro	1310	mass arrep tod 
+neutro	1311	hj 
+ambiguo	1312	nunc vou cant_ir bech park rs 
+neutro	1313	desc doi filh 
+positivo	1314	ador bom 
+positivo	1315	est 
+positivo	1316	demais 
+positivo	1317	show adrenalin mil 
+positivo	1318	corag am 
+positivo	1319	bom 
+positivo	1320	ah arriegu gent emocion 
+neutro	1321	voou 
+neutro	1322	
+positivo	1323	muito bom brinqued  nao_corag_ir capsul felizd rest tav ind kkk cert est outr nov 
+positivo	1324	lov lov lov 
+positivo	1325	legal 
+positivo	1326	record bom 
+positivo	1327	 nao_vej hor volt 
+positivo	1328	prepar heheheh 
+positivo	1329	quero_ir 
+positivo	1330	bora 
+neutro	1331	noil fiz metalurg 
+positivo	1332	 saudade volt lev pequen 
+positivo	1333	perfeit tod tem insano bom 
+neutro	1334	
+neutro	1335	dia est 
+positivo	1336	capsul  nao_kkk 
+positivo	1337	 saudade 
+positivo	1338	bom 
+positivo	1339	
+neutro	1340	gost 
+positivo	1341	 saudade e feliz dezembr cheg hah 
+positivo	1342	 saudade 
+positivo	1343	uhu 
+neutro	1344	verd rox branc 
+neutro	1345	fal 
+positivo	1346	outubr vou est huerhuerhu 
+positivo	1347	td querom 
+neutro	1348	
+positivo	1349	anais precis volt aind  nao_sufici kkk 
+positivo	1350	ah cois boa vid 
+positivo	1351	precis isabel aha 
+positivo	1352	bem fot incri 
+positivo	1353	lug bom 
+neutro	1354	
+positivo	1355	mar gost est dand mergulh 
+positivo	1356	amanh 
+positivo	1357	precis muito 
+positivo	1358	amanh 
+positivo	1359	precis feliz 
+positivo	1360	vou tb kkk lev bab kkk oh dezesper nor 
+positivo	1361	precis 
+positivo	1362	maravilh total 
+neutro	1363	
+positivo	1364	 saudade infanc quer ter 
+positivo	1365	gal feliz 
+positivo	1366	delic quer volt 
+positivo	1367	vam nov saudade lug 
+neutro	1368	dia 
+positivo	1369	dentr 
+positivo	1370	desc pamonh ramp crianc kkk 
+neutro	1371	
+positivo	1372	 saudade e vam nov 
+positivo	1373	bom 
+positivo	1374	 bomdemais  
+positivo	1375	prox ano ano compromet kkk 
+positivo	1376	rs 
+positivo	1377	preferido ame 
+positivo	1378	ah delic fa brinc tant acquab saudade log est 
+positivo	1379	novembr cheg log 
+positivo	1380	bom quer volt 
+positivo	1381	vou 
+positivo	1382	lov beach lik lik 
+positivo	1383	bat saudade feliz 
+positivo	1384	tud bom 
+positivo	1385	quer 
+positivo	1386	vam sim mto bom feliz 
+positivo	1387	show 
+positivo	1388	corr gol show 
+neutro	1389	 nao_vej hor 
+positivo	1390	melhor kkkk 
+positivo	1391	cheg jan rs 
+positivo	1392	ain saudade 
+positivo	1393	vam 
+positivo	1394	quer volt viv cad moment nov 
+positivo	1395	desc 
+negativo	1396	
+positivo	1397	precis 
+positivo	1398	lug incri quer volt 
+positivo	1399	deu saudade lug tud bom 
+neutro	1400	
+positivo	1401	bom quer_ir nov 
+positivo	1402	ramp fal maar mto gost hihihih 
+positivo	1403	sempr vou filh 
+positivo	1404	lov 
+positivo	1405	tud bom 
+positivo	1406	parec tao legal nunc diz car uau 
+positivo	1407	amo lug 
+positivo	1408	uhu feliz 
+neutro	1409	
+neutro	1410	lembr 
+positivo	1411	mat qualqu deu delic 
+positivo	1412	delic prat 
+positivo	1413	almoc 
+positivo	1414	est planej fer 
+positivo	1415	agu boc 
+positivo	1416	delic deu agu boc 
+positivo	1417	fiz ju prat maravilh 
+positivo	1418	
+positivo	1419	demais 
+positivo	1420	bom peix recom delic 
+positivo	1421	sei  nao_com kkkk parec ser bom 
+positivo	1422	est degust delic part dia vou ador curt 
+positivo	1423	gost parg 
+positivo	1424	fiq agu boc 
+positivo	1425	daquel almoc gratil kkk 
+positivo	1426	
+positivo	1427	convid 
+positivo	1428	hum delic 
+positivo	1429	simb 
+positivo	1430	delic 
+positivo	1431	fiq agu boc 
+positivo	1432	
+positivo	1433	falt melhor terr pitu kkk 
+positivo	1434	parg melhor peix com  nao_beir 
+positivo	1435	peix aprov  nao_kkk 
+neutro	1436	peix 
+neutro	1437	hi anyon being friend pl send friend request 
+neutro	1438	
+positivo	1439	bom tub 
+positivo	1440	top demais 
+positivo	1441	 saudade 
+positivo	1442	 saudade imens 
+positivo	1443	 saudade nao_vej hor volt bom 
+positivo	1444	ador radic 
+positivo	1445	vou prox me 
+positivo	1446	agu outubr est 
+positivo	1447	lindo 
+neutro	1448	
+neutro	1449	ad 
+neutro	1450	
+positivo	1451	bom med 
+positivo	1452	feliz outubr est coleg aul feliz 
+positivo	1453	nom radic adrenalin sobr nom 
+neutro	1454	
+neutro	1455	b 
+neutro	1456	
+neutro	1457	b feliz 
+neutro	1458	
+positivo	1459	comec setembr famil est nov  nao_vej hor esper 
+neutro	1460	letr c 
+positivo	1461	radic uhu 
+neutro	1462	letr 
+neutro	1463	vam ajud gent vam faz bem dia agost va qualqu mc s compr big mc tod dinh arrecad dia ira ser do instituica canc nac  nao_vam perd temp vam faz bem corr convid amig particip tamb qu informaco procur facebook um vide tud precis sab compartilh tamb form ajud cont voc crianc agradec 
+neutro	1464	amo avent radic 
+neutro	1465	tud tud 
+neutro	1466	gu vopu beach_ir ei tud 
+neutro	1467	b b b 
+neutro	1468	c c 
+positivo	1469	desc insano junt quant diferenc kkk 
+neutro	1470	 nao_aind vou feliz uhuh 
+neutro	1471	sempre 
+neutro	1472	
+neutro	1473	b b silvadougl 
+neutro	1474	m jam bond rapz kkk 
+neutro	1475	c dess nov ganh promoca 
+positivo	1476	tre it lov 
+positivo	1477	c c clar mass melhor parqu aqua tod vid 
+positivo	1478	b c c amo avent 
+positivo	1479	show 
+negativo	1480	b b pior insano 
+positivo	1481	 saudade 
+neutro	1482	
+positivo	1483	quer pass dia aniversari beach park amig 
+positivo	1484	bom morr suadad park alegr 
+positivo	1485	brev adoramos 
+positivo	1486	precis volt 
+positivo	1487	vam 
+neutro	1488	vam ajud gent vam faz bem dia agost va qualqu mc s compr big mc tod dinh arrecad dia ira ser do instituica canc nac  nao_vam perd temp vam faz bem corr convid amig particip tamb qu informaco procur facebook um vide tud precis sab compartilh tamb form ajud cont voc crianc agradec 
+neutro	1489	gal faz pacot beach park dia doming direit almoc propri restaurant parqu prec ingress parqu prec comig informaca inbox 
+positivo	1490	maravilh 
+neutro	1491	atr mo 
+neutro	1492	falt me 
+positivo	1493	terr lug 
+positivo	1494	vera nest epoc 
+positivo	1495	recomendo 
+positivo	1496	volt ser crianc mara 
+positivo	1497	louc pr_ir nov demais 
+neutro	1498	gnt aond car 
+positivo	1499	ame filh divert mto 
+positivo	1500	lug incri deu quiz brev volt 
+positivo	1501	vou 
+positivo	1502	ir amo 
+neutro	1503	bom dia mass  nao_
+positivo	1504	tod felizd 
+positivo	1505	brev est ador park 
+positivo	1506	um melhor dia vid ame 
+positivo	1507	vamos 
+neutro	1508	novembr ter rs 
+positivo	1509	setembr uhu 
+positivo	1510	sonh 
+neutro	1511	
+positivo	1512	setembro est 
+positivo	1513	 bomdemais saudade 
+positivo	1514	mee esper dia set 
+positivo	1515	amu demais desc ness tuboga log est ind nov 
+positivo	1516	precis nov vid beach park progam volt feliz 
+positivo	1517	boor insano milha lek hah 
+positivo	1518	quer volt 
+positivo	1519	concert_ir volt heheheeh 
+positivo	1520	est nov feliz 
+positivo	1521	vou vam 
+positivo	1522	setembr 
+positivo	1523	lindo outobr 
+positivo	1524	orgulh diz trabalh paraiz gent tud bom cuid gent almoc merend transport fest dia laz brinqued segur limp ame tud sair problem saud epoc tav amo tud nunc vou esquec agor volt curt amo amo tud lov 
+positivo	1525	agu 
+positivo	1526	lind 
+positivo	1527	tent lev lembranc cas aind precis olh rs 
+neutro	1528	quer cadast  nao_consig compatilh vera pesso escolh particip 
+positivo	1529	nois cu 
+positivo	1530	eit agor fic aguard esper anci dia tom cert vc inform ach regul complet sit alteraco dat  nao_mostr complet 
+neutro	1531	quer sab val di hosped 
+neutro	1532	isp 
+positivo	1533	tud bom 
+positivo	1534	parais hosped seman pass 
+neutro	1535	
+positivo	1536	pen confer uru bao dimal cont 
+positivo	1537	quer_ir vera 
+positivo	1538	fa vot beach park 
+neutro	1539	sig 
+neutro	1540	cadastr  nao_sei ser seleca sortei curt 
+positivo	1541	parais 
+positivo	1542	 nao_vej hor cheg dia viag compr ansi 
+positivo	1543	quer ganh n consig cadastr trist bibib 
+positivo	1544	ach consegu vou ser sorte imaginanasf hah ser sensaca unica 
+positivo	1545	esper ganh assim vem visit aqu ce 
+positivo	1546	perfect 
+neutro	1547	
+neutro	1548	petrochely 
+neutro	1549	obt sit us coloqu nov sit web godady 
+positivo	1550	ramubrink 
+positivo	1551	 insano  insano incompara 
+positivo	1552	 insano cert diss ramubrink corag_ir insano feliz comp 
+positivo	1553	ramubrink 
+positivo	1554	doi feliz 
+positivo	1555	 nao_encontr nad aind super insano 
+neutro	1556	 insano 
+neutro	1557	 insano o 
+neutro	1558	 insano 
+neutro	1559	 insano o 
+positivo	1560	 insano forev 
+positivo	1561	ramubrink n corag_ir insano nao_ insano sufici 
+neutro	1562	
+neutro	1563	
+positivo	1564	ramubrink 
+positivo	1565	ramubrink 
+neutro	1566	pen pod_ir hah 
+positivo	1567	ramubrinkafeliz fech fic tant tant rod abert carm carreg cim baix boi resum ramubrink  nao_tao horri insano padra guines top 
+positivo	1568	dificil ach insano tod aspect 
+positivo	1569	 insano 
+positivo	1570	ramubrink dispar 
+positivo	1571	ramubrink 
+positivo	1572	ramubrink 
+positivo	1573	 insano 
+neutro	1574	corag rs 
+positivo	1575	ramubrink 
+neutro	1576	
+positivo	1577	 insano 
+positivo	1578	tod doi insano radic kkk 
+positivo	1579	ramubrink 
+positivo	1580	ramubrik cert 
+positivo	1581	ramubrink 
+positivo	1582	 insano verd adrenalin 
+positivo	1583	 insano 
+positivo	1584	 insano duvid 
+positivo	1585	ramubrink 
+positivo	1586	 insano 
+positivo	1587	ramubrink atra 
+positivo	1588	ramubrink 
+positivo	1589	ramubrink apes  nao_ter ido feliz 
+positivo	1590	ramubrink n corag_ir insano felizv kkk 
+neutro	1591	doi 
+positivo	1592	doi mass insano 
+positivo	1593	 insano cert 
+positivo	1594	ramubrink 
+neutro	1595	
+positivo	1596	 insano 
+positivo	1597	 insano 
+positivo	1598	ramubrink 
+positivo	1599	ramobrink 
+ambiguo	1600	 nao_sei porqu nunc insano 
+positivo	1601	 insano fiqu med rs 
+positivo	1602	 insano 
+positivo	1603	ramubrink 
+positivo	1604	 insano 
+positivo	1605	ramubrink 
+positivo	1606	 insano cert 
+neutro	1607	doi 
+positivo	1608	vou demais 
+positivo	1609	ramubrink 
+neutro	1610	arrepi demais 
+positivo	1611	ramubrink 
+positivo	1612	 insano melhor 
+neutro	1613	dois 
+positivo	1614	 insano 
+positivo	1615	corag hauhauh quer ver hein peid 
+positivo	1616	 insano o 
+positivo	1617	ramubrink 
+ambiguo	1618	ramubrink filh lev 
+positivo	1619	 insano o comparaca 
+positivo	1620	 insano 
+positivo	1621	 insano 
+positivo	1622	luizian vam kkk corag 
+positivo	1623	 insano 
+neutro	1624	x 
+positivo	1625	tod ramubrink bom 
+positivo	1626	 insano o 
+positivo	1627	ramubrink 
+positivo	1628	parqu tod legal 
+positivo	1629	ramubrink cert ame 
+positivo	1630	 insano 
+positivo	1631	ramubrink cert 
+positivo	1632	hah insano duvid 
+positivo	1633	nunc doi porqu nunc ach melhor ramubrink 
+positivo	1634	ramubrink vou 
+positivo	1635	 insano 
+positivo	1636	ramubrink 
+positivo	1637	 insano o 
+positivo	1638	ramubrink 
+positivo	1639	 insano o obvi 
+positivo	1640	 insano 
+positivo	1641	lkkk 
+positivo	1642	ramubrink 
+neutro	1643	arrep 
+positivo	1644	ramubrink 
+positivo	1645	anci desfrut parais 
+positivo	1646	 insano o 
+positivo	1647	ramubrink 
+positivo	1648	ramubrink kkk shoow 
+positivo	1649	ramubrink 
+positivo	1650	 insano o 
+positivo	1651	ramubrink bom qu adrenalin pur opca insano 
+positivo	1652	 insano 
+positivo	1653	 insano 
+positivo	1654	ramubrink porqu gent aguent neah 
+ambiguo	1655	dificil hein 
+positivo	1656	 insano 
+neutro	1657	
+neutro	1658	jenyph eai haushsush 
+positivo	1659	doi lov vej hor volt beach park lov 
+positivo	1660	eta fri barrig ramubrink 
+positivo	1661	 insano 
+positivo	1662	 insano 
+positivo	1663	 insano o 
+positivo	1664	 insano o 
+positivo	1665	 insano o 
+positivo	1666	 insano feliz 
+positivo	1667	 insano o 
+positivo	1668	 insano 
+positivo	1669	 insano 
+positivo	1670	 insano 
+positivo	1671	ramubrink 
+positivo	1672	 insano 
+positivo	1673	 insano 
+positivo	1674	ramubrink 
+positivo	1675	 insano u concert 
+positivo	1676	 insano u 
+positivo	1677	ramubrink 
+positivo	1678	 insano 
+positivo	1679	 insano 
+positivo	1680	 insano ctza 
+positivo	1681	ramubrink 
+positivo	1682	melhor ramubrink vou bom ador bom top 
+positivo	1683	med brinked feliz 
+neutro	1684	lembr 
+neutro	1685	lemossuzy souzal 
+positivo	1686	dev ser sensaca show quer mathew vam vam vam feliz 
+neutro	1687	mostr 
+neutro	1688	encar 
+neutro	1689	
+positivo	1690	falt menos dua semanaas 
+neutro	1691	
+positivo	1692	record viv rs 
+neutro	1693	
+positivo	1694	kkkk lembr keneth vontad tev falt corag 
+neutro	1695	
+ambiguo	1696	put merd lembr tr tod vc coraj hah vem precis viag junt 
+positivo	1697	 saudade vamos 
+positivo	1698	bom kkk 
+ambiguo	1699	fiq falt ar imagin 
+positivo	1700	mass 
+positivo	1701	brinqued pes kkk 
+positivo	1702	bom 
+positivo	1703	quer 
+neutro	1704	
+neutro	1705	encar 
+positivo	1706	prim vez complic haehshahaesh 
+positivo	1707	
+neutro	1708	zot 
+neutro	1709	acab post 
+positivo	1710	kkk 
+neutro	1711	cuid am 
+positivo	1712	feliz 
+positivo	1713	moc comec cont jur deu vontad desist kkk 
+neutro	1714	
+positivo	1715	quer_ir 
+positivo	1716	quer ver ind doming feliz 
+positivo	1717	curt 
+neutro	1718	
+positivo	1719	agu 
+positivo	1720	rsr sab pass 
+positivo	1721	bom 
+positivo	1722	eit vontad corp alm 
+neutro	1723	briquez 
+ambiguo	1724	sent sensaca est and descalc parqu sol danc igual barat tont porqu pe esta queim 
+positivo	1725	top julh oh poss imagin pe are hum kkk 
+positivo	1726	ahah music parec tranquil rs experiment kkk 
+neutro	1727	
+positivo	1728	muy buen en insano deberian pon un ascen con lo recaudan con entr cre sea un gran esfuerz 
+ambiguo	1729	pi sensaca mund hahah 
+ambiguo	1730	terr hah 
+neutro	1731	vqv 
+ambiguo	1732	mily car car td feliz asyhasyasyga propagand fals 
+ambiguo	1733	nom fal arrepi 
+negativo	1734	be great if orang one wa actualy working 
+neutro	1735	faltan dia australi magalha 
+positivo	1736	 saudade dest lug 
+positivo	1737	brev volt parais 
+positivo	1738	brev 
+positivo	1739	sonh consum dua mol 
+positivo	1740	 bomdemais  
+positivo	1741	bom recom 
+positivo	1742	quero 
+positivo	1743	parais 
+positivo	1744	lind 
+positivo	1745	melhor lug mund 
+positivo	1746	otim namor 
+neutro	1747	dia podr decirm si tienen algun servici transf desd aeropuert algun telefon dond comunicarm con alguien habl esp ol grac 
+positivo	1748	vou viaj fic dia welnes jan quer sab restaurant dentr parqu hotel aceit alem poss circul carr dentr parqu pap beb lev 
+neutro	1749	fac reserv dest final ano 
+positivo	1750	agu log log cheg 
+positivo	1751	vam brinc feliz 
+neutro	1752	
+neutro	1753	
+positivo	1754	vamos uau 
+positivo	1755	bom 
+positivo	1756	maravilh 
+positivo	1757	demais 
+positivo	1758	sy mue bel atration 
+positivo	1759	vou dezembr diret aguard 
+positivo	1760	 saudade 
+positivo	1761	vou sempr maravilh diversa garant 
+neutro	1762	
+positivo	1763	vou dia denov lov 
+positivo	1764	amo_ir lug 
+ambiguo	1765	lok 
+positivo	1766	parais 
+positivo	1767	cheg uhu 
+neutro	1768	ooop pagin  nao_encontr 
+neutro	1769	
+positivo	1770	merec bi tud top lov 
+positivo	1771	lug maravilh saudade 
+positivo	1772	am 
+positivo	1773	gost recom 
+positivo	1774	hee dest lug 
+positivo	1775	maravilh 
+ambiguo	1776	aond lug 
+positivo	1777	ador  bomdemais  
+positivo	1778	real emoca ador 
+neutro	1779	ramubrink 
+positivo	1780	bel mi piac tantiss meravigli 
+positivo	1781	conhec inesqueci 
+ambiguo	1782	cai leu cant music 
+positivo	1783	simbora 
+neutro	1784	
+positivo	1785	ano therm ano vem vam nesse ach kkk 
+neutro	1786	
+positivo	1787	lug 
+positivo	1788	corag am 
+positivo	1789	desc 
+positivo	1790	cheg kkk 
+neutro	1791	vid 
+positivo	1792	famil planej uma fer ano vem beach park fe 
+ambiguo	1793	vam emb 
+positivo	1794	bom pen fic lembranc vontad desc inss nov feliz 
+positivo	1795	agu fer alegr 
+positivo	1796	beachpark adult volt ser crianc amoodem 
+neutro	1797	ador deu quis jan est arrepi esr 
+neutro	1798	ravanel 
+positivo	1799	aqu dominga beach hotel qui lind lov 
+positivo	1800	gu seman vem famil est quis 
+positivo	1801	verdad diversa 
+positivo	1802	
+positivo	1803	delic 
+positivo	1804	top moo 
+positivo	1805	lug not pass dia inesqueci 
+neutro	1806	
+positivo	1807	clar sim 
+positivo	1808	vam program passei vam 
+positivo	1809	outubr cheg agu beach park famil mirand 
+negativo	1810	quer_ir ach prec salg quer lev famil 
+negativo	1811	quer tar feliz 
+positivo	1812	ador 
+positivo	1813	vam kkk 
+positivo	1814	convit nov 
+neutro	1815	pf nunc tir arrep ramubrink sao melhor 
+positivo	1816	ame bech park 
+positivo	1817	sab vem famil vacation 
+neutro	1818	
+neutro	1819	
+neutro	1820	descubr senh namor func link 
+neutro	1821	descubr senh namor func link 
+neutro	1822	descubr senh namor func link 
+neutro	1823	descubr senh namor func link 
+neutro	1824	descubr senh namor func link 
+positivo	1825	brinq filh feliz 
+positivo	1826	hum vam 
+positivo	1827	recom ador 
+positivo	1828	top facil 
+positivo	1829	
+positivo	1830	tbm plan_ir ano vem lind lug 
+positivo	1831	lindo 
+positivo	1832	maravilh recom princip crianc 
+neutro	1833	
+positivo	1834	cheg 
+positivo	1835	lind 
+positivo	1836	bom maravilh 
+positivo	1837	lind 
+positivo	1838	lind 
+positivo	1839	est dezembro 
+positivo	1840	deu quis 
+neutro	1841	
+negativo	1842	pod faz xix piscin 
+positivo	1843	amanh est desc nov 
+ambiguo	1844	
+neutro	1845	sim 
+neutro	1846	
+positivo	1847	desc emocion 
+positivo	1848	sim mass 
+negativo	1849	 nao_corag 
+positivo	1850	 insano inesqueci adrenalin total gost 
+neutro	1851	desc vezfeliz  nao_corag 
+neutro	1852	sim 
+positivo	1853	bom feliz 
+negativo	1854	eit  nao_corag 
+positivo	1855	
+positivo	1856	desc 
+positivo	1857	lembr u kkk 
+positivo	1858	ano pass desc dua 
+negativo	1859	 nao_corag 
+positivo	1860	dua vez kkk 
+positivo	1861	atest corag ont ano pass 
+positivo	1862	beach park pur diversa 
+positivo	1863	algum insano top euvolt 
+positivo	1864	nest  nao_and porqu revisa agu insano 
+ambiguo	1865	ruim sub desc mass demais 
+positivo	1866	cert atest corag dupl dua vez uhu 
+positivo	1867	amanh vou tent super med altur ahah 
+positivo	1868	desc desc nov ame 
+neutro	1869	parck poss desc ano 
+positivo	1870	hah enc dua vez perd med 
+positivo	1871	sim desc 
+positivo	1872	
+negativo	1873	tod menos insano calafri 
+negativo	1874	huau falt corag 
+positivo	1875	u vou kkk 
+ambiguo	1876	 nao_faz tub metr mund int iri quer ver avent 
+ambiguo	1877	tao alt mor rs 
+positivo	1878	amo beach park 
+positivo	1879	vamo 
+positivo	1880	ame 
+positivo	1881	amo avent n med altur 
+positivo	1882	mol 
+positivo	1883	feliz 
+positivo	1884	pag entr pod brinc tud hotel hosped pert quer sab tod respost sim vou fer 
+positivo	1885	obrigatori_ir insano mae med altur 
+positivo	1886	sim clar vide album comprov 
+neutro	1887	
+ambiguo	1888	parec x pir 
+neutro	1889	gost sab pacot lug vc sao 
+positivo	1890	boa 
+positivo	1891	 saudade park 
+positivo	1892	 saudade es 
+positivo	1893	neuman 
+positivo	1894	vam tent 
+positivo	1895	 nao_oh kkk 
+positivo	1896	eee louco teleeze felizd 
+positivo	1897	corag 
+neutro	1898	
+positivo	1899	sim quer 
+positivo	1900	moret coraj vc 
+negativo	1901	 nao_ nao_
+neutro	1902	io veng anch n c quel giostr 
+positivo	1903	ach acab tud sab cheg bem embaix desc var vez sempr mesm sensaca 
+positivo	1904	
+neutro	1905	voglio fare 
+positivo	1906	refu kkk 
+neutro	1907	un motiv per and brasil masel 
+positivo	1908	uau 
+positivo	1909	
+positivo	1910	kkk 
+positivo	1911	vide youtub 
+positivo	1912	enc hah adoro 
+positivo	1913	kkk 
+positivo	1914	var vez 
+positivo	1915	
+positivo	1916	pod apost sim 
+positivo	1917	clar sim_ir  nao_desc insano nao_grac adrenalin pur 
+positivo	1918	am vam promet vez deix desc 
+positivo	1919	olh rs beij 
+negativo	1920	 nao_corag talv prox 
+positivo	1921	sim bom sensaca total liberdad sempr pod ire nov 
+negativo	1922	brinqued alt  nao_corag desc 
+positivo	1923	sensaca muito boa feliz 
+neutro	1924	
+positivo	1925	part 
+positivo	1926	cheg pert cois doid kkk 
+neutro	1927	
+negativo	1928	 nao_
+negativo	1929	consegu conclu sub kkk 
+positivo	1930	cheg 
+positivo	1931	ver admir 
+neutro	1932	
+positivo	1933	marid desc desc doida kkk 
+positivo	1934	atest sim 
+positivo	1935	bom 
+negativo	1936	unic aind  nao_corag vou 
+negativo	1937	desc morr nunc mais kkk 
+neutro	1938	anim 
+positivo	1939	clar desc cinc vez vou complet seil 
+negativo	1940	n corag med arrepi coraca trem 
+positivo	1941	hem vou nov 
+positivo	1942	corag_ir denov 
+positivo	1943	am tbm ador joa 
+ambiguo	1944	atest vez bom por med tb 
+negativo	1945	sim  nao_vez kkk 
+positivo	1946	am desc bom 
+positivo	1947	desc adrenalin kkk 
+positivo	1948	desc vez me pass degrau sub cans 
+positivo	1949	melhor 
+positivo	1950	sim mass 
+positivo	1951	 insano vez 
+positivo	1952	desc bom 
+positivo	1953	vez vou felizd verdad 
+negativo	1954	 nao_kkk 
+neutro	1955	ser corag 
+positivo	1956	aind sint fri barrig desc nov 
+positivo	1957	vem desc kkk 
+negativo	1958	desc nunc 
+positivo	1959	um 
+neutro	1960	
+positivo	1961	solaz atest neh falt 
+positivo	1962	brinqued pen long kkkk 
+negativo	1963	livr 
+negativo	1964	livr 
+positivo	1965	uril sent firm kkkk 
+positivo	1966	bj esper 
+positivo	1967	vam hein 
+positivo	1968	sim adrenalin 
+positivo	1969	 insano encar 
+positivo	1970	nunc desc kkk 
+positivo	1971	me vem est uh ru 
+positivo	1972	gent desc prih 
+positivo	1973	cad dia pert 
+positivo	1974	prefir x capsul kkkk 
+positivo	1975	var vez 
+positivo	1976	infart ant sub rs 
+positivo	1977	
+neutro	1978	ir nel pes tamanh 
+positivo	1979	
+positivo	1980	vez 
+positivo	1981	quer_ir denov kkk 
+positivo	1982	vez 
+positivo	1983	vez feliz 
+positivo	1984	desc nunc kkk 
+positivo	1985	
+positivo	1986	feliz 
+positivo	1987	rs 
+neutro	1988	
+positivo	1989	ker ver emanuel desc aqu corag 
+positivo	1990	quer kkkk 
+positivo	1991	bora 
+positivo	1992	vari kkk 
+positivo	1993	ach nunc vou desc kkk qm desc curt comentari 
+positivo	1994	setembr agu u u 
+positivo	1995	desc boa ae 
+neutro	1996	
+neutro	1997	op esquec virgul 
+neutro	1998	jan vou us 
+positivo	1999	desc top 
+positivo	2000	maass 
+positivo	2001	quer ve egu desc kkk 
+positivo	2002	sub vi lind vist cim  nao_corag med fal alt kkk saudade 
+negativo	2003	 nao_corag 
+positivo	2004	desc huehuehu felizv 
+positivo	2005	desc 
+positivo	2006	hah lov 
+positivo	2007	hah perfect lov 
+neutro	2008	clar mataraz mataraz 
+positivo	2009	
+neutro	2010	marid  nao_
+positivo	2011	vez 
+positivo	2012	
+positivo	2013	quer desc denov feliz 
+neutro	2014	
+neutro	2015	moment perceb comentari  nao_nenhum importanc continu lend porqu curios  nao_deix par 
+neutro	2016	am 
+neutro	2017	
+neutro	2018	pod 
+neutro	2019	vou faz brinc faz tud aki func amig peso envi aind  nao_acredit acontec dis fez apen faz ped alg acredit ser imposi ver dig nom unic rapaz moc gost est tre vez pens alg que realiz prox seman repit seil vez desej repit nov vez pens alg que acontec pesso espec pens numer repit doz vez feliz agor post comentari hor cas  nao_mand acontec tud contrari 
+positivo	2020	dest lug melhor 
+positivo	2021	vo 
+positivo	2022	lug magic amo lug 
+positivo	2023	lind 
+positivo	2024	atlantil incri 
+positivo	2025	vou sext 
+positivo	2026	rs 
+positivo	2027	 saudade 
+positivo	2028	legal 
+neutro	2029	sit hack qualqu facebook link 
+positivo	2030	comadr imagin pkn lug sonhoofelizfeliz 
+positivo	2031	mto bom 
+positivo	2032	ame 
+positivo	2033	herm lug_ir famil muy buen ond 
+positivo	2034	quier volv 
+neutro	2035	precis numer p contat 
+positivo	2036	agu insano cheg 
+ambiguo	2037	pox viaj ano int af vou dar folg 
+positivo	2038	curt 
+positivo	2039	quer 
+positivo	2040	cheg amanh famil lind 
+positivo	2041	curt pagin outubr curt park cont hor 
+positivo	2042	vir crianc  nao_vej hor volt 
+positivo	2043	quer_ir beachpark 
+positivo	2044	 saudade 
+positivo	2045	ame quer volt curt 
+positivo	2046	cheg sup ansi 
+positivo	2047	vem tbm c deu qz kkkk 
+positivo	2048	verdad 
+positivo	2049	fal pens 
+positivo	2050	quis log log est retorn lug magnif 
+neutro	2051	
+positivo	2052	vc_ir angelel podex vc vao sim 
+positivo	2053	menin 
+positivo	2054	ano voou oh kkk 
+positivo	2055	magin 
+positivo	2056	tbm mai tobog mund equival predi and 
+positivo	2057	vam 
+neutro	2058	
+neutro	2059	grazimartim emanuely 
+positivo	2060	alm sai corp bom 
+positivo	2061	lembr panic saudade 
+ambiguo	2062	duvid ce_ir neen hanah 
+positivo	2063	tal ziegeman 
+negativo	2064	vez nunc kkk 
+ambiguo	2065	feliz 
+neutro	2066	
+positivo	2067	vam nov rs 
+neutro	2068	
+positivo	2069	
+positivo	2070	
+positivo	2071	kkk 
+positivo	2072	 nao_sab kkk 
+positivo	2073	quas desist capsul desc 
+ambiguo	2074	edryen sol cal 
+positivo	2075	vou 
+positivo	2076	capsul fal ont 
+positivo	2077	quer mig 
+neutro	2078	capsul long heheheh n corag gost arrep 
+positivo	2079	arraz 
+positivo	2080	brinqued parqu fortal 
+positivo	2081	kkk 
+positivo	2082	lembr kkkk quer 
+positivo	2083	quer nov 
+positivo	2084	thiagoavelin_ir 
+positivo	2085	melhor hor 
+positivo	2086	ano qui vem noil ae feliz 
+positivo	2087	bom 
+positivo	2088	brinqued sent adrenalin kkk 
+positivo	2089	capsul demais lembr part insano 
+neutro	2090	 nao_arrepi  nao_kkkk 
+positivo	2091	brinqued legal 
+negativo	2092	nunc n 
+neutro	2093	imagin quer ter cert 
+positivo	2094	sim dez feliz 
+positivo	2095	tobog 
+positivo	2096	vam kkk 
+positivo	2097	boa fortal ce 
+neutro	2098	est arrepi tbm rs 
+negativo	2099	panic 
+negativo	2100	quas morr arrepi msm 
+neutro	2101	
+positivo	2102	mass 
+ambiguo	2103	capsul pior melhor tod kkkk 
+positivo	2104	adiant fech olh kkk feliz 
+positivo	2105	filh nov ano amou 
+neutro	2106	arr egu kkk 
+positivo	2107	tens ult dia pur adrenalin rs 
+neutro	2108	naum vi capsul naum 
+positivo	2109	salv vid vam kkkk 
+positivo	2110	 bomdemais  
+positivo	2111	vam am esper 
+positivo	2112	arrepi viu capsul 
+positivo	2113	bom brinqued 
+positivo	2114	sensac 
+positivo	2115	brinqued show melhor atr insano 
+positivo	2116	fri barrig rs 
+positivo	2117	deu temp_ir capsul prox vez vou capsul 
+ambiguo	2118	sinistr 
+positivo	2119	vez ire qualqu outr vez kkk 
+negativo	2120	med 
+positivo	2121	vou 
+ambiguo	2122	nest med 
+positivo	2123	zorzet vam_ir 
+negativo	2124	nunc insano pior feliz 
+negativo	2125	pi insano 
+neutro	2126	
+positivo	2127	loucura adoor 
+negativo	2128	desc pen dia tav funcion apen capsul fal instru ignor 
+positivo	2129	louc insano gal 
+neutro	2130	arrep mais 
+positivo	2131	mass 
+positivo	2132	louc 
+positivo	2133	show bol arrep akkk 
+positivo	2134	
+ambiguo	2135	hor tent sair corr kkk 
+neutro	2136	ravanel 
+positivo	2137	ador 
+positivo	2138	felizp 
+neutro	2139	
+positivo	2140	lembr vix 
+neutro	2141	
+positivo	2142	quer_ir 
+neutro	2143	prepar lanc coraca bat fund morr arredoidu 
+positivo	2144	mass 
+negativo	2145	 nao_enc 
+positivo	2146	beach parck rs 
+neutro	2147	
+positivo	2148	bom 
+neutro	2149	
+neutro	2150	esper 
+positivo	2151	
+neutro	2152	falt capsul isan min tod brinqued menos doi 
+positivo	2153	kkkk msm man 
+ambiguo	2154	agu 
+neutro	2155	
+positivo	2156	kkk dia resenh kkk 
+positivo	2157	unic family encar capsul 
+ambiguo	2158	terri kkk 
+positivo	2159	sext feliz sab inform and temp chov aqu chov tod dia 
+positivo	2160	bom ador srr 
+neutro	2161	
+neutro	2162	
+positivo	2163	capsul legal coraca disp 
+positivo	2164	kkk 
+positivo	2165	hah 
+positivo	2166	lembr doi rs menin fot parec contig kkkk 
+positivo	2167	show ult brinqued 
+positivo	2168	 insano 
+neutro	2169	
+ambiguo	2170	nunc kkk 
+positivo	2171	sd 
+positivo	2172	 nao_corag kkk dev ser bom pur adrenalin 
+negativo	2173	fdp bat vidr distr seg ant qued assust 
+positivo	2174	sair tont rs bom 
+positivo	2175	bom 
+positivo	2176	demais amg pod_ir nov ach kkk 
+positivo	2177	nunc feliz aind feliz 
+positivo	2178	vam rs 
+positivo	2179	cont dia_ir ser experienc fantas 
+neutro	2180	sistem volt 
+positivo	2181	pi escut sab cair kkk 
+negativo	2182	pi insano 
+positivo	2183	kkk lembr 
+positivo	2184	kkkk 
+positivo	2185	neh vei tou saudade quer denovo 
+negativo	2186	quas morr tant med 
+neutro	2187	
+neutro	2188	await us 
+positivo	2189	brinquedo foda ame 
+positivo	2190	bom brinc 
+positivo	2191	
+neutro	2192	capsul bom  nao_ insano quer ter med trav 
+positivo	2193	melhorfeliz 
+negativo	2194	 nao_corag 
+positivo	2195	mto fod 
+positivo	2196	uhul quant adrenalin emoco grand lembranc  nao_vou nov feliz 
+positivo	2197	quer 
+neutro	2198	lembr 
+positivo	2199	ganh prim ganh nenhum kkk 
+positivo	2200	oo saudade 
+neutro	2201	oq ach 
+positivo	2202	var vez prevital kkk 
+neutro	2203	maar 
+positivo	2204	qta vez desc esper gu desc insano rs 
+positivo	2205	top  nao_vej hor_ir nov 
+neutro	2206	lembr 
+positivo	2207	
+neutro	2208	uia 
+positivo	2209	 nao_vi ramp drog pert brinqued ser snif motiv volt rec heh 
+neutro	2210	ganh 
+positivo	2211	bem uma vez brinqued show 
+neutro	2212	tri 
+positivo	2213	naa cois boa reun 
+neutro	2214	walyson ariany kely 
+positivo	2215	delic saudade lug 
+positivo	2216	unic 
+neutro	2217	
+positivo	2218	lembra kkkk perdedore 
+positivo	2219	
+positivo	2220	sant lembr kkk deit deit sent sent 
+positivo	2221	bom 
+positivo	2222	legal vam volt qualqu dia dess 
+positivo	2223	gent divert simpl 
+positivo	2224	queero 
+positivo	2225	ador 
+neutro	2226	ach gent  nao_pai 
+positivo	2227	sab quant bonit ha pais 
+positivo	2228	felizd feliz 
+positivo	2229	felizd 
+neutro	2230	
+positivo	2231	escurec final tard 
+positivo	2232	quer desc insano nao_temp beach park 
+positivo	2233	grac 
+positivo	2234	qu vist maravilh feliz venh jan 
+neutro	2235	
+positivo	2236	prai lind vi chei pesso bonit pov lind educ parec algum cearenc ach 
+positivo	2237	 nao_vej hor cheg novembr est vez nest parais 
+positivo	2238	nasc 
+positivo	2239	lind demais 
+positivo	2240	imagin pert 
+positivo	2241	lind 
+positivo	2242	lind 
+positivo	2243	amo parqu aqua 
+positivo	2244	sonh 
+positivo	2245	imag exuber 
+ambiguo	2246	per alg estranh fot nel sol nasc  nao_
+positivo	2247	lind 
+positivo	2248	
+neutro	2249	
+positivo	2250	lind aind vou ver sol pessoal feliz 
+neutro	2251	butarel 
+positivo	2252	 nao_fic fascin lug feliz 
+neutro	2253	sugesta 
+positivo	2254	uaau imagin tobog 
+positivo	2255	estamoscheg faltams 
+negativo	2256	corr morr med altur kkk barbosa 
+neutro	2257	top 
+neutro	2258	
+neutro	2259	
+positivo	2260	fri barrig caralh rs miniins 
+positivo	2261	vontad 
+positivo	2262	assim quer_ir kkkk 
+positivo	2263	quero 
+negativo	2264	desc min insano livr med olh cim kkkk 
+positivo	2265	esp dia conhec pert pur lind 
+positivo	2266	shoow 
+neutro	2267	aqu 
+positivo	2268	vaisertop 
+neutro	2269	ariany kely 
+positivo	2270	
+neutro	2271	
+positivo	2272	
+positivo	2273	part 
+neutro	2274	gost sab prec direit entr parqu pacot tur poss fal marc cois 
+positivo	2275	recom bom 
+ambiguo	2276	estiling 
+positivo	2277	u dudu cont dia p cheg sab park 
+positivo	2278	agu 
+positivo	2279	fot val real rs volt 
+positivo	2280	amu tud 
+positivo	2281	 bomdemais  
+positivo	2282	arret show bol 
+neutro	2283	sant ana 
+positivo	2284	show lind 
+negativo	2285	fiq med 
+positivo	2286	vontad_ir nov 
+positivo	2287	ir feliz 
+positivo	2288	gost sab quant cust di nest local tao bom 
+positivo	2289	vou amo 
+positivo	2290	log ind 
+neutro	2291	rhaquel olh 
+positivo	2292	
+positivo	2293	feliz fomo queer_ir noovo 
+positivo	2294	amo lug 
+positivo	2295	lov max val apen_ir 
+ambiguo	2296	lembr heim 
+positivo	2297	vao volt kkkk 
+neutro	2298	
+positivo	2299	tal rsr 
+ambiguo	2300	parqu fal 
+positivo	2301	mass 
+positivo	2302	maravilh  nao_vej hor volt novamentefeliz 
+positivo	2303	val pen_ir sensaca maravilh 
+negativo	2304	med insano 
+positivo	2305	quer_ir feliz esper um outr decid wilton  nao_prox vam amig 
+ambiguo	2306	ser corag prepar ment 
+positivo	2307	parais 
+positivo	2308	er top 
+neutro	2309	
+neutro	2310	ker ver desc aky emanuel thamyl 
+ambiguo	2311	corag desc aqu 
+neutro	2312	pens 
+neutro	2313	enc 
+positivo	2314	lembr kkk 
+neutro	2315	inscrit 
+positivo	2316	inscrev claudinhapaul junioral bor 
+positivo	2317	vam rsr 
+neutro	2318	
+ambiguo	2319	vc pag 
+neutro	2320	
+positivo	2321	vam cham tod tod mund aqu cas 
+neutro	2322	renatarocim oliveiravaness 
+positivo	2323	vam lu 
+positivo	2324	vam 
+neutro	2325	
+positivo	2326	
+positivo	2327	
+neutro	2328	coorden 
+positivo	2329	tal  nao_otim ide rs 
+negativo	2330	fod seman en feliz 
+negativo	2331	vou ver pess corr piqu nenhum 
+positivo	2332	vam fiz inscrica faz heheheh 
+positivo	2333	bor 
+neutro	2334	
+positivo	2335	vontad brinc nunc par apes ter brinqued nov sensac parec jog  nao_par esforc merec mont pesso beija tod funcionari est volt prox ano 
+positivo	2336	simb 
+positivo	2337	simb 
+positivo	2338	ame arrep lov feliz tod ali lov 
+positivo	2339	ame coraca 
+positivo	2340	bommmm dmais 
+positivo	2341	prox me tam insano 
+neutro	2342	
+neutro	2343	amanh est 
+positivo	2344	estrel 
+positivo	2345	tud bom heim 
+positivo	2346	vam 
+positivo	2347	 saudade 
+positivo	2348	vam eheh 
+positivo	2349	sol bonit 
+positivo	2350	lug parais bom 
+positivo	2351	lug 
+positivo	2352	quer_ir 
+positivo	2353	vontad 
+positivo	2354	falt pouc fer avent 
+neutro	2355	vm 
+positivo	2356	eee parais 
+positivo	2357	lindo 
+positivo	2358	bom 
+positivo	2359	jan quer repet 
+positivo	2360	promoca 
+neutro	2361	ae 
+positivo	2362	lug lind 
+neutro	2363	
+positivo	2364	lug gost divert 
+positivo	2365	desc vez ont hah 
+positivo	2366	ah atest corag quer dinov 
+positivo	2367	algu corag 
+neutro	2368	ser 
+negativo	2369	maluc rs 
+positivo	2370	tatiel bom 
+neutro	2371	
+positivo	2372	vez heh mto bom quis volt 
+positivo	2373	inesqueci fal kkk 
+ambiguo	2374	sim frius barrig 
+ambiguo	2375	pass validad volt nov beach park atual 
+neutro	2376	dec 
+neutro	2377	
+ambiguo	2378	vou desc 
+negativo	2379	falt corag_ir insano feliz 
+neutro	2380	
+positivo	2381	bom doming rev insano 
+positivo	2382	show 
+positivo	2383	encar 
+ambiguo	2384	esc insano verd atest corag 
+positivo	2385	desc dua vez insano bomdemais  adrenalin pur adoro 
+neutro	2386	doming espera 
+positivo	2387	lembr saudade 
+neutro	2388	
+neutro	2389	prepar ano nov viu 
+positivo	2390	desc  nao_corag  nao_kkkk 
+positivo	2391	desc vez segu feliz lov 
+positivo	2392	 nao_obrig feliz 
+positivo	2393	test am 
+positivo	2394	feliz 
+positivo	2395	guil bor 
+positivo	2396	
+positivo	2397	quer ver vide desc hein heheheh show 
+negativo	2398	vi pert louc total prox encarnaca 
+positivo	2399	 insano desc kkk 
+positivo	2400	x tat 
+positivo	2401	coraj 
+positivo	2402	desc vez 
+positivo	2403	hah sempr agor rach kkkk 
+positivo	2404	bor apost kkk 
+negativo	2405	 nao_corag alt 
+positivo	2406	sonh 
+positivo	2407	
+positivo	2408	kkk lel morr k 
+positivo	2409	vou_ir show 
+positivo	2410	parec otim kkkk 
+positivo	2411	euenc 
+negativo	2412	fiq olh dispens atest corag 
+positivo	2413	filh sobr irm moment curt parqu maravilh enguant aqu trabalh cois boa 
+positivo	2414	esc mat kkk bor nov felizp 
+positivo	2415	desc dua vez 
+positivo	2416	bom 
+positivo	2417	 insano prepar tir atest 
+positivo	2418	sim feliz louc 
+neutro	2419	
+negativo	2420	pag desc med altur b 
+ambiguo	2421	sensaca louc 
+positivo	2422	tre ruim sub tod degrau kkk 
+positivo	2423	
+positivo	2424	vez segu hora  nao_vej hs volt 
+positivo	2425	demais 
+positivo	2426	man val apen_ir 
+positivo	2427	bom hah deu med 
+positivo	2428	atest desc bom valh pen sub esc 
+positivo	2429	 insano capsul adrenalin total 
+positivo	2430	sobreviv tir ond desc vez tod tensa adrenalin faz coraca vir boc 
+positivo	2431	desc mass 
+neutro	2432	
+neutro	2433	desc 
+positivo	2434	corag 
+positivo	2435	esper heh 
+positivo	2436	corag sim kkk 
+neutro	2437	
+positivo	2438	falt corag feliz 
+positivo	2439	opa clar 
+positivo	2440	ter corag 
+positivo	2441	famili pert iri 
+positivo	2442	mass famil tod dec 
+neutro	2443	sim 
+positivo	2444	bom inesqueci falt vc vam 
+positivo	2445	vam 
+positivo	2446	vez adrenalin pur 
+positivo	2447	desc var vez otim 
+positivo	2448	 nao_heh tud show igual 
+positivo	2449	feliz 
+neutro	2450	
+positivo	2451	roched 
+ambiguo	2452	pi 
+neutro	2453	desc 
+positivo	2454	total insano 
+neutro	2455	
+neutro	2456	
+positivo	2457	deesc perfeito feliz 
+positivo	2458	amo 
+positivo	2459	opa kkk 
+positivo	2460	vam 
+positivo	2461	temp sent med kkk 
+positivo	2462	desc vez brinqued show 
+neutro	2463	 nao_marid 
+positivo	2464	 insano 
+ambiguo	2465	pass qm desc insano sab 
+positivo	2466	 nao_kkk 
+neutro	2467	
+positivo	2468	opa grand venc grand vitori desc tod vez insano tod ano vou melhor park aqua beach park 
+positivo	2469	top 
+positivo	2470	sim atest corag 
+neutro	2471	anhan 
+positivo	2472	desc vez feliz ruim sub esc ter elev 
+positivo	2473	feliz vontad desc var vez feliz 
+positivo	2474	sim desc vez top 
+positivo	2475	vam encar kkkk 
+positivo	2476	bom sub esc declaraca corag 
+neutro	2477	ctz 
+neutro	2478	 nao_
+neutro	2479	
+positivo	2480	vam_ir am 
+neutro	2481	
+positivo	2482	parais 
+positivo	2483	am quer conhec prox oportun 
+neutro	2484	
+positivo	2485	ind feliz 
+positivo	2486	tia mae jackeani parais jer 
+neutro	2487	
+positivo	2488	lug plan secret 
+positivo	2489	privilegi est ce cois lind lug 
+positivo	2490	tud hein 
+positivo	2491	var brev est pass fer jer beachpark 
+positivo	2492	me pass apes mor aqu bem pert  nao_conhec ame sup recom jer otim 
+positivo	2493	parais 
+positivo	2494	comec outubr est deu quiz 
+neutro	2495	mae mae 
+neutro	2496	
+positivo	2497	prim otim ped  nao_ach 
+negativo	2498	 nao_convid
+neutro	2499	algu sab diz prai 
+positivo	2500	 nao_ouv tbm desfrut dess parais amojeribeachpark 
+positivo	2501	rot jan 
+neutro	2502	
+positivo	2503	sup indic 
+positivo	2504	feliz 
+neutro	2505	
+positivo	2506	parais ame 
+positivo	2507	lug 
+positivo	2508	feliz 
+positivo	2509	parais tropic lind bel lug noit lind suit resort 
+ambiguo	2510	tunel temp 
+positivo	2511	lug lind 
+positivo	2512	agu sab felizp 
+positivo	2513	lembr ach encant moment pass kkkk 
+neutro	2514	algu pod explic  nao_lembr huly 
+neutro	2515	
+positivo	2516	segund moc ali frent oferec pacot passei tir fot segred fic boa fot fic mei estrel cant rs 
+positivo	2517	noiz lov 
+neutro	2518	vam ter 
+neutro	2519	
+neutro	2520	
+positivo	2521	vej criat reaproveit 
+neutro	2522	
+positivo	2523	perfil respond lug perfeit  nao_cans_ir 
+positivo	2524	ae 
+neutro	2525	
+neutro	2526	
+positivo	2527	tir dia dia esp comemor bod papel 
+positivo	2528	parqu animal dia volt 
+positivo	2529	quer fot 
+positivo	2530	pens felic pis cha rs 
+positivo	2531	agost 
+positivo	2532	agost 
+positivo	2533	agost 
+positivo	2534	
+positivo	2535	agost 
+neutro	2536	
+positivo	2537	nunc 
+positivo	2538	
+neutro	2539	 nao_
+neutro	2540	
+neutro	2541	noil 
+neutro	2542	
+neutro	2543	
+neutro	2544	
+positivo	2545	aiai saudade cha 
+positivo	2546	lind 
+positivo	2547	fal am 
+neutro	2548	mud 
+neutro	2549	
+neutro	2550	
+positivo	2551	deveri ter tir fot 
+positivo	2552	perfeit lov 
+neutro	2553	
+neutro	2554	
+positivo	2555	reveilon perfeit querom 
+positivo	2556	feliz 
+neutro	2557	
+neutro	2558	
+positivo	2559	lind indic tod sonh diversa 
+negativo	2560	gost ter prefir gast dinh entr sao bem salg conhec outr lug dest cidad lind 
+positivo	2561	falt pouc dia 
+neutro	2562	famil 
+neutro	2563	
+neutro	2564	
+positivo	2565	cheg ninguen nunc esques 
+neutro	2566	
+positivo	2567	
+positivo	2568	val nunc rep kkk 
+neutro	2569	
+neutro	2570	
+neutro	2571	
+neutro	2572	
+neutro	2573	filha lindo 
+positivo	2574	me pass lov 
+neutro	2575	ame 
+neutro	2576	
+neutro	2577	
+positivo	2578	fa dest calc 
+positivo	2579	pass lind recom 
+positivo	2580	quer volt 
+neutro	2581	
+positivo	2582	lug lindo 
+neutro	2583	
+neutro	2584	
+positivo	2585	rs 
+neutro	2586	
+positivo	2587	ador 
+neutro	2588	
+positivo	2589	tb saudade dia 
+neutro	2590	
+positivo	2591	hah praz pis cha melhor parqu aqua 
+neutro	2592	
+neutro	2593	
+neutro	2594	
+neutro	2595	
+positivo	2596	huhu 
+neutro	2597	
+neutro	2598	
+positivo	2599	diafeliz show 
+neutro	2600	
+positivo	2601	deliciaaa 
+positivo	2602	espec 
+positivo	2603	 saudade 
+positivo	2604	cha inconfundi 
+neutro	2605	fot dest entr  nao_pod falt 
+positivo	2606	kkk 
+neutro	2607	
+positivo	2608	lug pud est tud final seman 
+positivo	2609	legal fix are curt 
+neutro	2610	lembr 
+neutro	2611	abril 
+positivo	2612	tir entr lind demais 
+neutro	2613	
+positivo	2614	princip 
+positivo	2615	marid sensac 
+neutro	2616	
+positivo	2617	lug maravilh deu saudade 
+positivo	2618	mai feliz 
+neutro	2619	
+neutro	2620	setembr 
+positivo	2621	lug maravilh 
+neutro	2622	
+neutro	2623	
+positivo	2624	
+positivo	2625	sd 
+neutro	2626	var olh 
+neutro	2627	
+neutro	2628	
+neutro	2629	
+positivo	2630	lug lind maravilh ire volt 
+positivo	2631	amo lov 
+neutro	2632	
+neutro	2633	
+neutro	2634	
+neutro	2635	
+neutro	2636	
+neutro	2637	
+positivo	2638	feliz 
+positivo	2639	lug maravilhoso 
+positivo	2640	lembr felizv 
+positivo	2641	
+neutro	2642	quatro 
+positivo	2643	kkk 
+neutro	2644	avis par lend morr noit ano mort agor  nao_amig  nao_public fot morr noit exat feliz  nao_acredit car cham jak ler rir tard naquel noit peg fac co esfaqu mort  nao_qu ser jak  nao_garot cham post apen fot sily tud bem naquel dia viu corr cas avo ped pod us banh ach agor com car intelig cham ler post fot porqu med manh seguint ganh lot namor aceit cas pic com fot algum cois boa acontec 
+positivo	2645	feliz 
+neutro	2646	tenhofeliz 
+positivo	2647	ach bem gir feliz saudade feliz 
+positivo	2648	lind divert 
+positivo	2649	amo 
+neutro	2650	
+neutro	2651	tia 
+neutro	2652	
+positivo	2653	legal quer_ir denov 
+neutro	2654	
+neutro	2655	
+neutro	2656	eu 
+neutro	2657	
+positivo	2658	ano pis parais 
+positivo	2659	adoro 
+positivo	2660	lug perfeit am 
+positivo	2661	lug 
+neutro	2662	
+positivo	2663	uhul 
+neutro	2664	
+positivo	2665	 saudade dess garraf 
+positivo	2666	legal 
+neutro	2667	
+neutro	2668	
+neutro	2669	
+neutro	2670	ont 
+neutro	2671	jan 
+neutro	2672	
+neutro	2673	
+positivo	2674	 saudade 
+neutro	2675	
+neutro	2676	
+positivo	2677	ruinh garraf traz lembranc boa 
+positivo	2678	var fot ent  nao_sei quant garraf calc algu sab respond 
+neutro	2679	
+neutro	2680	
+neutro	2681	
+positivo	2682	dia inesqueci precis fer nov filh ador 
+neutro	2683	tb 
+positivo	2684	ae inesqueci dia ame tud vou volt feliz vari lug lind beach park 
+neutro	2685	
+positivo	2686	eeeu 
+neutro	2687	
+neutro	2688	
+neutro	2689	
+positivo	2690	
+neutro	2691	
+neutro	2692	
+positivo	2693	 saudade ees 
+neutro	2694	
+neutro	2695	
+positivo	2696	lind entr pis 
+positivo	2697	lug 
+positivo	2698	inesqueci 
+neutro	2699	eu 
+ambiguo	2700	penss pis cha 
+neutro	2701	
+neutro	2702	
+neutro	2703	tenho 
+positivo	2704	maravilh 
+neutro	2705	
+neutro	2706	
+positivo	2707	est 
+neutro	2708	
+neutro	2709	
+neutro	2710	fot entr 
+neutro	2711	filhot 
+positivo	2712	lug maravilh 
+neutro	2713	
+neutro	2714	eutenh 
+neutro	2715	
+neutro	2716	
+neutro	2717	tbm diret 
+positivo	2718	lug inesqueci 
+positivo	2719	linda 
+neutro	2720	
+neutro	2721	
+neutro	2722	
+neutro	2723	
+positivo	2724	tbm interess 
+positivo	2725	amig 
+positivo	2726	
+positivo	2727	mass 
+neutro	2728	
+neutro	2729	
+positivo	2730	td bom feliz 
+neutro	2731	
+positivo	2732	bom 
+neutro	2733	
+positivo	2734	rs 
+positivo	2735	fanta 
+neutro	2736	
+neutro	2737	
+neutro	2738	
+neutro	2739	
+neutro	2740	
+positivo	2741	sonh conhec lug 
+neutro	2742	
+neutro	2743	
+neutro	2744	
+positivo	2745	otim lug 
+positivo	2746	adoro lug aquiraz ce 
+neutro	2747	
+positivo	2748	tamb lind lug 
+positivo	2749	sab bom aqu saudade es 
+positivo	2750	maravilh lug 
+positivo	2751	quis jan vo curt junt am 
+positivo	2752	lug cham park hor ser feliz 
+positivo	2753	beb admir cha rr 
+neutro	2754	filh 
+positivo	2755	lug incri lind demais uau 
+positivo	2756	
+neutro	2757	
+neutro	2758	
+positivo	2759	fer julh ano ame tud 
+positivo	2760	lug maravilh 
+neutro	2761	
+neutro	2762	
+positivo	2763	amo tud 
+positivo	2764	edryen simb junt garraf vou faz aqu cas kkk 
+neutro	2765	cha vidr 
+neutro	2766	
+positivo	2767	ame lug 
+neutro	2768	
+neutro	2769	
+neutro	2770	
+positivo	2771	tenho antig vale feliz amo lug aind quer volt var vez feliz felizd 
+positivo	2772	var vez preferenc fer amo 
+neutro	2773	
+neutro	2774	
+positivo	2775	legal 
+neutro	2776	duz z 
+neutro	2777	
+neutro	2778	
+neutro	2779	lug 
+neutro	2780	
+neutro	2781	
+neutro	2782	
+positivo	2783	nunc esquec prim vez olh cha aind crianc fiq maravilh inesqueci volt vez adult prim impressa 
+positivo	2784	tenho 
+positivo	2785	tud lind 
+positivo	2786	rsr lov 
+neutro	2787	
+neutro	2788	
+positivo	2789	demais 
+neutro	2790	
+neutro	2791	
+positivo	2792	inconfundi 
+positivo	2793	marid filh lug lind 
+neutro	2794	
+neutro	2795	
+neutro	2796	
+neutro	2797	
+positivo	2798	lind 
+positivo	2799	lind ador pud vou nov 
+neutro	2800	
+neutro	2801	eeeu 
+neutro	2802	
+neutro	2803	
+positivo	2804	
+positivo	2805	mass 
+neutro	2806	filha lind 
+neutro	2807	
+neutro	2808	
+neutro	2809	
+neutro	2810	
+positivo	2811	 nao_ve hor retorn parais 
+neutro	2812	eeeu 
+neutro	2813	
+neutro	2814	
+positivo	2815	lind lembranc 
+positivo	2816	permit ano vem est nov ame 
+neutro	2817	
+neutro	2818	
+neutro	2819	
+positivo	2820	demais 
+positivo	2821	ame est 
+positivo	2822	ador pis ness garraf hahah 
+neutro	2823	
+positivo	2824	lug lind 
+neutro	2825	
+positivo	2826	feliz 
+neutro	2827	
+positivo	2828	feliz 
+neutro	2829	
+positivo	2830	lind 
+positivo	2831	eeeu feliz morr saudade e 
+neutro	2832	
+positivo	2833	feliz 
+neutro	2834	
+neutro	2835	
+neutro	2836	
+neutro	2837	
+positivo	2838	hih 
+positivo	2839	
+positivo	2840	kkk 
+neutro	2841	
+neutro	2842	
+positivo	2843	tamb feliz 
+neutro	2844	prec day use dia crianc 
+positivo	2845	 saudade es 
+neutro	2846	
+neutro	2847	
+neutro	2848	
+neutro	2849	tenho 
+neutro	2850	
+positivo	2851	 saudade 
+positivo	2852	eeu felizd 
+neutro	2853	
+neutro	2854	eeeu 
+neutro	2855	
+positivo	2856	feliz 
+positivo	2857	lind ador pais 
+positivo	2858	maravilh beach park lind jardim lind 
+neutro	2859	
+neutro	2860	
+neutro	2861	
+neutro	2862	
+neutro	2863	
+neutro	2864	
+neutro	2865	
+neutro	2866	feliz 
+positivo	2867	
+neutro	2868	
+neutro	2869	euy 
+neutro	2870	avis par lend morr noit ano mort agor  nao_amig  nao_public fot morr noit exat feliz  nao_acredit car cham jak ler rir tard naquel noit peg fac co esfaqu mort  nao_qu ser jak  nao_garot cham post apen fot sily tud bem naquel dia viu corr cas avo ped pod us banh ach agor com car intelig cham ler post fot porqu med manh seguint ganh lot namor aceit cas pic com fot algum cois boa acontec 
+positivo	2871	iai am ter corag kkkk km h 
+positivo	2872	lanc desafi kkkk 
+positivo	2873	amo vam kkkk 
+neutro	2874	
+positivo	2875	mass desc insano coraca mil adrelin pur uhru 
+neutro	2876	
+positivo	2877	sho 
+neutro	2878	
+positivo	2879	acredit fiz kkk 
+positivo	2880	cont dia felizd feriasvemlogo 
+neutro	2881	
+positivo	2882	 insano o 
+neutro	2883	
+positivo	2884	mass quer_ir nov 
+positivo	2885	show aind cri corag 
+positivo	2886	buzi tbm rs 
+positivo	2887	quer_ir 
+positivo	2888	lind sup ansi 
+neutro	2889	vej 
+positivo	2890	amo demais 
+neutro	2891	vam am 
+positivo	2892	lind parais 
+positivo	2893	maravilh 
+neutro	2894	
+positivo	2895	
+positivo	2896	cheg log 
+positivo	2897	 saudade resort ocean 
+neutro	2898	mia amiga 
+positivo	2899	otim ansi_ir 
+positivo	2900	delic marc 
+neutro	2901	vontad 
+positivo	2902	
+neutro	2903	eit piscin boa 
+positivo	2904	 saudade parqu bom 
+positivo	2905	chiqu 
+positivo	2906	maravilh 
+negativo	2907	dinh mol quer ver 
+positivo	2908	tom cheg log sab doid mat saudade insano kkk 
+neutro	2909	cheg oba 
+positivo	2910	ador aqua 
+positivo	2911	tod hotel sao otim princip suit noit lind 
+neutro	2912	
+neutro	2913	quant cust 
+positivo	2914	lind ame 
+positivo	2915	mega 
+positivo	2916	falt dia 
+positivo	2917	sim hein lov marc pass uma fer 
+positivo	2918	 saudade lug maravilh 
+positivo	2919	bat saudade es inesqueci 
+positivo	2920	inesqueci 
+positivo	2921	est dia deu permit 
+neutro	2922	vou nov cheg novembr log 
+neutro	2923	vou 
+neutro	2924	falt dia 
+positivo	2925	 saudade 
+neutro	2926	
+positivo	2927	me vem dnv lov 
+positivo	2928	rs 
+positivo	2929	agu kkk 
+neutro	2930	
+neutro	2931	
+positivo	2932	maravilh 
+positivo	2933	amo ioi beach park 
+positivo	2934	ramubrink saudade 
+positivo	2935	bom maravilh 
+neutro	2936	dia aind vou conhec parqu 
+positivo	2937	eit vou ainda 
+positivo	2938	dia delic 
+neutro	2939	
+positivo	2940	amo lug 
+neutro	2941	olhah 
+positivo	2942	sonh consum conhec lug mar 
+positivo	2943	tod fucionari sao alt confianc pricip camar suit sao determin confianc 
+positivo	2944	novembr est aguard 
+positivo	2945	vamos 
+neutro	2946	
+positivo	2947	
+neutro	2948	vou ane 
+positivo	2949	
+positivo	2950	simb 
+neutro	2951	
+positivo	2952	quer_ir 
+positivo	2953	kkkk vam aguard prim corr hah quer ver 
+positivo	2954	top quer_ir junt 
+positivo	2955	vam vam 
+positivo	2956	boa vam tod 
+neutro	2957	
+neutro	2958	bor 
+neutro	2959	
+neutro	2960	
+neutro	2961	
+neutro	2962	
+neutro	2963	invej aqu chov 
+neutro	2964	feliz anoitec 
+neutro	2965	
+positivo	2966	maravilh indescriti 
+positivo	2967	 saudade es 
+positivo	2968	lindo 
+positivo	2969	amo 
+positivo	2970	lind 
+neutro	2971	parais dun 
+positivo	2972	tard  nao_ning pas tard coiss gostoss mund 
+positivo	2973	pass dia gost pret nov  nao_vej hor 
+positivo	2974	eja pass dia maravilh 
+positivo	2975	est brev delicia 
+positivo	2976	maravilh v anoitec assim 
+positivo	2977	am sab predent volt 
+neutro	2978	est am filhot agor vou lev conhec doi ano tamb upi upi 
+positivo	2979	lind 
+positivo	2980	dia crianc lev filh aqu circ otim crianc brinc 
+positivo	2981	mass 
+neutro	2982	
+positivo	2983	part qt quil altur pod desc insano 
+positivo	2984	quant cust 
+positivo	2985	tud bom 
+positivo	2986	 saudade ex melhor brinqued 
+positivo	2987	vez poe esp fit quer conhec 
+positivo	2988	vam comadr cunh 
+positivo	2989	igual car fiz desc trec pavanet kkk 
+neutro	2990	
+positivo	2991	boa igual kkk 
+positivo	2992	melhor 
+positivo	2993	meelho insano kkk 
+neutro	2994	menos me est 
+positivo	2995	est 
+positivo	2996	ame brinqued 
+neutro	2997	hj dia cheg 
+positivo	2998	vou feliz 
+positivo	2999	demais 
+positivo	3000	quer volt feliz 
+positivo	3001	prox fer vou ter corag 
+neutro	3002	setembr 
+positivo	3003	dia 
+positivo	3004	show feliz 
+positivo	3005	novembr nov feliz 
+positivo	3006	 bomdemais  
+positivo	3007	amo bom vsm volt 
+positivo	3008	brinqued melhor beach parck viu 
+positivo	3009	vejo hor cheg bech 
+positivo	3010	td bom vir crianc recom 
+positivo	3011	gent tud bom 
+positivo	3012	caramb sab vam est ser divert 
+positivo	3013	legal 
+positivo	3014	doming maravilh ame 
+positivo	3015	delic val pen_ir 
+positivo	3016	lug tud bom adoro 
+positivo	3017	and mto bom recom 
+neutro	3018	uhu 
+positivo	3019	otim 
+ambiguo	3020	oss pes 
+neutro	3021	metr_ir 
+neutro	3022	altur 
+neutro	3023	vez 
+neutro	3024	
+positivo	3025	show bol 
+positivo	3026	verdad ano pass tod brinqued adrenalin bol ame esper volt brev feliz 
+positivo	3027	rox escur adrenalin pur 
+positivo	3028	ador adrenalin u u 
+positivo	3029	adrenalin total 
+positivo	3030	bom ame 
+positivo	3031	tav feliz 
+positivo	3032	arriegu adrenalin 
+positivo	3033	dev ser zic 
+positivo	3034	lug melhor  nao_ha 
+neutro	3035	
+positivo	3036	fatyl katien part fortal felizd 
+positivo	3037	kkk lind 
+positivo	3038	sim vid saudade 
+positivo	3039	sonh 
+positivo	3040	 saudade 
+positivo	3041	lug bom 
+positivo	3042	br pra lind 
+neutro	3043	
+neutro	3044	nunc encontr vam ver sort encontr ano huahuahu 
+positivo	3045	legal 
+neutro	3046	
+positivo	3047	ri mto mto divert 
+positivo	3048	tod dia algum minut ant mei dia aparec anunci inici insano legal 
+neutro	3049	
+neutro	3050	 nao_vi 
+positivo	3051	aind  nao_epoc  nao_exist log log ire conhec lo filhot 
+positivo	3052	ador 
+positivo	3053	abert insano sao demais 
+positivo	3054	vest medic alegr divert 
+positivo	3055	ded conhec rsr 
+positivo	3056	humild cid ame 
+positivo	3057	acab cheg maravilh lind 
+positivo	3058	dia setembr maravilh ame prai lind 
+positivo	3059	lind 
+neutro	3060	
+positivo	3061	vam 
+positivo	3062	vam 
+positivo	3063	tud bom 
+positivo	3064	bem gent pod_ir neh 
+positivo	3065	ofic jus kkk 
+positivo	3066	nunc cham amig 
+positivo	3067	baro 
+positivo	3068	lind 
+positivo	3069	vez desist hor dia arrum corag desc insano unic aind  nao_desc 
+positivo	3070	feliz kkk coraca vibr 
+neutro	3071	
+positivo	3072	
+positivo	3073	melhor adrenalin sent lembr 
+positivo	3074	coraca quas sai boc lembr rs 
+positivo	3075	vam fortal nov dec insano 
+positivo	3076	emoca 
+positivo	3077	kkk lembr 
+positivo	3078	quer xd 
+neutro	3079	vam 
+positivo	3080	zulivr hor 
+neutro	3081	
+neutro	3082	lei 
+positivo	3083	quas morr desc quer 
+negativo	3084	medr corag  nao_dev 
+positivo	3085	kkkk pens dua vez ant_ir kkk 
+neutro	3086	ravanel 
+positivo	3087	loca kkk jamal 
+neutro	3088	corag 
+neutro	3089	
+positivo	3090	 nao_corag sab dua vez nad kkk 
+ambiguo	3091	pens compr ano real pesso quer 
+ambiguo	3092	toboagu osen ia pass cim ali atr 
+negativo	3093	 nao_corag insano 
+ambiguo	3094	agu 
+positivo	3095	desc abril kkkk 
+positivo	3096	tehdoideh feliz 
+positivo	3097	pre muitobom 
+positivo	3098	
+positivo	3099	 insano beachpark eufu 
+neutro	3100	
+positivo	3101	prox sai mah kkk 
+positivo	3102	olh prepaare 
+neutro	3103	
+positivo	3104	quer kkkk 
+ambiguo	3105	val encar 
+neutro	3106	
+positivo	3107	bom 
+neutro	3108	neh 
+neutro	3109	
+neutro	3110	pot 
+positivo	3111	joaoooooo noil kkkk massadem 
+positivo	3112	prox fer ter desc joaovit 
+positivo	3113	mass demais kis prox ano est pass frent 
+positivo	3114	kkkk vam ver desc vez 
+positivo	3115	ter corag kkk 
+positivo	3116	vam 
+neutro	3117	
+neutro	3118	
+neutro	3119	
+positivo	3120	adrenalin kkk 
+positivo	3121	vez mass 
+positivo	3122	me pass sint saudade 
+positivo	3123	bom 
+positivo	3124	x dec radic 
+positivo	3125	mass demais quas ped arreg consegu venc med desc ufa 
+positivo	3126	desc feliz 
+positivo	3127	 nao_corag feliz kkk 
+neutro	3128	
+negativo	3129	 nao_corag 
+positivo	3130	encar kkk 
+positivo	3131	bom 
+positivo	3132	vao ter corag kkk 
+positivo	3133	
+neutro	3134	
+positivo	3135	demais dec 
+neutro	3136	
+neutro	3137	
+positivo	3138	uau 
+negativo	3139	 nao_corag 
+positivo	3140	desc vez nunc rs 
+neutro	3141	
+positivo	3142	 insano nao_nad igual top msm emocion 
+positivo	3143	emoca pouc sab hist film pass cabec ach morr ment km h segund temp hem 
+positivo	3144	
+positivo	3145	desc vc corag altur bixim metr ver tud 
+positivo	3146	nunc desc kkk vou desc cheg baix desmai kkk 
+neutro	3147	gomesgom abreuabr 
+positivo	3148	vam fortal nov dec insano 
+negativo	3149	 nao_corag admir 
+positivo	3150	amanh est quis 
+positivo	3151	 insano 
+positivo	3152	prox me cert hah 
+positivo	3153	tav fal grup heheheheh 
+positivo	3154	quas morr desc kkkk 
+positivo	3155	show 
+positivo	3156	coraca aguent uhu 
+positivo	3157	tud bom 
+neutro	3158	
+neutro	3159	
+positivo	3160	uuhul bom bol adrenalin feliz feliz 
+positivo	3161	adrenalin bom 
+positivo	3162	ador 
+positivo	3163	perfeito 
+positivo	3164	feliz 
+positivo	3165	adrenalin pur tud bom 
+neutro	3166	anj fim insano 
+neutro	3167	
+neutro	3168	
+positivo	3169	desc med delic 
+neutro	3170	
+positivo	3171	bom 
+positivo	3172	quer ve_ir hauahahauahauh 
+positivo	3173	desc pens ia sair calafri drenalin mass 
+neutro	3174	
+positivo	3175	real sensaciona 
+positivo	3176	show vou nov dia corr 
+neutro	3177	favaret tud 
+neutro	3178	ah 
+positivo	3179	agor  nao_nad devag igual vide  nao_vel max 
+negativo	3180	mol demais pen fil minut sac  nao_
+neutro	3181	
+positivo	3182	felizd 
+positivo	3183	clar sim fantas quer novo 
+negativo	3184	 nao_corag feliz 
+positivo	3185	mto mass quer_ir felizd 
+neutro	3186	
+positivo	3187	melhor brinqued 
+positivo	3188	vontad_ir algum vez 
+positivo	3189	aee zanchet encar enc dinov naum 
+positivo	3190	quant emoca 
+ambiguo	3191	hj n sei desc negoci 
+positivo	3192	melhor sensaca adrenalin pur 
+positivo	3193	 insano vez 
+neutro	3194	
+positivo	3195	palavr corag desc vez kkk 
+positivo	3196	fod 
+positivo	3197	nom diz tud feliz 
+ambiguo	3198	desc tbm 
+ambiguo	3199	desc 
+positivo	3200	melhor program fiz famil 
+negativo	3201	nunc kkkk 
+positivo	3202	rs 
+positivo	3203	desc feliz 
+positivo	3204	
+positivo	3205	kkk juju brig 
+neutro	3206	
+neutro	3207	sei 
+positivo	3208	precis cri corag dia rs 
+positivo	3209	adrenalin total 
+positivo	3210	hah iaiaiaia 
+positivo	3211	zulivr msm kkk sei nad val kkk 
+positivo	3212	coloqu adrenalin 
+negativo	3213	amarel 
+neutro	3214	faix et idad 
+negativo	3215	ave 
+positivo	3216	cois gent insano kkkk 
+negativo	3217	pavorr 
+positivo	3218	am ser consig kkkk figueiredo fer esp hauahaj 
+neutro	3219	
+positivo	3220	mass msm vez legal 
+positivo	3221	corag 
+positivo	3222	destin cabaler 
+positivo	3223	simfeliz adrenalin pur phot  nao_prontafeliz vist panoram 
+negativo	3224	desc vez nunc rsr 
+positivo	3225	labirintit kkk top tod hor kkkk 
+neutro	3226	
+positivo	3227	pur adrenalin dia diversa 
+positivo	3228	cert saudade am pur adrenalin quer nov rs vam 
+positivo	3229	louc insano 
+positivo	3230	ir demais desc 
+positivo	3231	imagin dev ser bom 
+positivo	3232	pront encar kkk 
+neutro	3233	
+neutro	3234	
+positivo	3235	nov hahah 
+positivo	3236	melhor hoj pen aqu  nao_dess 
+positivo	3237	sd 
+neutro	3238	
+positivo	3239	 nao_corag_ir nov 
+negativo	3240	proced seguranc desc sao mao entrelac atr cabec car tir mao corr perig 
+neutro	3241	
+positivo	3242	pens ia morr quandodu desc kkk_ir show nunk vou esquec adrenalin toh pront p outr feliz 
+neutro	3243	
+positivo	3244	mass adrenalin brev est curt nov feliz 
+neutro	3245	am 
+positivo	3246	queer 
+positivo	3247	ame fantas emoca 
+negativo	3248	bom ruim prec entr parqu poh roub kkk 
+positivo	3249	ei legal imagin hein menin 
+positivo	3250	ser insano _ir kkk 
+positivo	3251	uiu adrenalin 
+positivo	3252	feliz adrenalin pura rs 
+positivo	3253	feliz 
+positivo	3254	 insano 
+positivo	3255	desc vz feliz 
+positivo	3256	amanh est ser shoow 
+positivo	3257	desc  nao_consegu grit abr olh 
+positivo	3258	ano mto legal 
+neutro	3259	cham pai 
+neutro	3260	
+positivo	3261	bor 
+positivo	3262	corr nest parais tud bom 
+positivo	3263	 nao_prepar kkk 
+positivo	3264	companh tom sol rs 
+neutro	3265	vam 
+positivo	3266	vam inscrev kkkk 
+neutro	3267	inscrit vam 
+positivo	3268	vou 
+neutro	3269	
+negativo	3270	fiq trist inscrev fiq sab ser dia prov en 
+positivo	3271	pod compr hor amig mesm cois 
+positivo	3272	cheg dia 
+positivo	3273	beb vao am bjo 
+positivo	3274	cheg dia 
+neutro	3275	
+positivo	3276	abril est 
+ambiguo	3277	ha garant 
+positivo	3278	ont otim 
+positivo	3279	hj sonh 
+neutro	3280	
+positivo	3281	lug perfeit recom 
+positivo	3282	top top top 
+neutro	3283	
+ambiguo	3284	any cobert ver 
+positivo	3285	saudaad 
+positivo	3286	tud bom 
+positivo	3287	tud bom 
+positivo	3288	amo tud 
+positivo	3289	 saudade lug perfeit 
+positivo	3290	lind 
+positivo	3291	balda fam adult adult op crianc kkk td brinc cans kkk enorm parqu perfeit encant quer volt 
+positivo	3292	compr passaport dia vantag alem dar aprove td sai barat cans aproveit bem hah desd ano marid filh am  nao_prim vez sim fal volt kkk 
+positivo	3293	lug magic mil 
+positivo	3294	are delicia 
+positivo	3295	lug maravilh val pen conhec curt tant divera 
+neutro	3296	val ingress 
+positivo	3297	melhor enta amig feliz brigada 
+neutro	3298	precis compr ingress antecip hor msm 
+neutro	3299	hotel consult vend carta emailfeliz damascen beachpark br 
+positivo	3300	olhah lind fot lindo mama 
+positivo	3301	best wonderful 
+positivo	3302	felizp 
+positivo	3303	ire terc feliz feliz ador recom 
+positivo	3304	vam 
+positivo	3305	pul fer uhu 
+positivo	3306	quer volt bom 
+positivo	3307	feliz 
+positivo	3308	ire am concert prim vez vam dia anci 
+positivo	3309	
+positivo	3310	heh 
+positivo	3311	quer conhec 
+positivo	3312	terc agu 
+neutro	3313	bald 
+positivo	3314	vou terc deu quiz arrepi ach  nao_corag 
+neutro	3315	cuoz cuoz 
+positivo	3316	boa lembranc kkk lembr corr agu cair kkkk 
+positivo	3317	 bomdemais  
+positivo	3318	amo 
+positivo	3319	legal 
+positivo	3320	jef bor pro bald rs 
+positivo	3321	boor 
+positivo	3322	pouc vou voc venh maravilh 
+positivo	3323	bom menin esta ador 
+positivo	3324	gent hoj vi curt beach park filh coleg joicy 
+neutro	3325	
+positivo	3326	bald amoo lov 
+neutro	3327	lembr bald agu 
+positivo	3328	ador brinqued 
+positivo	3329	ooo 
+positivo	3330	anim gal kkk 
+positivo	3331	rm marc volt maravilh 
+positivo	3332	hj bom 
+positivo	3333	quero 
+neutro	3334	hotel consult vend carta emailfeliz damascen beachpark br 
+positivo	3335	 saudade banh bald 
+positivo	3336	acquashow tud bom 
+positivo	3337	ador 
+neutro	3338	dem um minut 
+positivo	3339	precis volt 
+positivo	3340	terr 
+positivo	3341	adoramos brev balda agu heh 
+positivo	3342	bon ador 
+positivo	3343	deu saudade 
+positivo	3344	delic 
+positivo	3345	recom tud bom 
+positivo	3346	lembr 
+positivo	3347	sho 
+positivo	3348	bom show 
+positivo	3349	fiq dbx bald saudade 
+positivo	3350	agor salv outubr kkk 
+positivo	3351	quer irr 
+positivo	3352	acqu show  bomdemais  
+positivo	3353	est sent forc agu 
+positivo	3354	tud bom bald agu 
+positivo	3355	maravilh 
+neutro	3356	parec 
+positivo	3357	legal 
+positivo	3358	divert 
+positivo	3359	amo fic esper cair kkk log cheg novembr 
+positivo	3360	tud bom lug bald upi upi 
+positivo	3361	bom 
+positivo	3362	legal saudade 
+positivo	3363	tudo bom feliz 
+positivo	3364	mass kkk 
+positivo	3365	voc encar ana pipoc lkkk 
+positivo	3366	demais ba ahah 
+positivo	3367	parais cearenc 
+positivo	3368	esper noil ae felizd 
+positivo	3369	bich hah 
+positivo	3370	aqu insano 
+positivo	3371	prox destin 
+positivo	3372	
+neutro	3373	
+positivo	3374	bom 
+neutro	3375	desc tamb 
+neutro	3376	
+positivo	3377	assim ana kkk 
+positivo	3378	kkkk agor  nao_acredit coragen kkk 
+positivo	3379	lug amo 
+positivo	3380	 insano lov adoro 
+positivo	3381	shuashuashu 
+positivo	3382	agu vou us sext feir kkk 
+positivo	3383	
+positivo	3384	sext voou 
+positivo	3385	feliz feliz feliz 
+positivo	3386	noil vam 
+positivo	3387	desc emoca envolv 
+positivo	3388	gost demais 
+positivo	3389	amo demais 
+positivo	3390	adoro 
+positivo	3391	tud desej 
+positivo	3392	tard lind 
+positivo	3393	terc vou feliz 
+positivo	3394	n desc fiq med hor kkk 
+neutro	3395	
+positivo	3396	bom adrenalin pur shou bol 
+positivo	3397	parais cearens 
+positivo	3398	adoro 
+positivo	3399	bel difer 
+positivo	3400	rib lind morr cidad natal quis sab alg pergunt 
+positivo	3401	melhor companh avent 
+positivo	3402	algum promoca dia outubr 
+positivo	3403	parais ame 
+positivo	3404	filh lind amo 
+positivo	3405	algum promoca 
+positivo	3406	dah 
+positivo	3407	curt lug dua vez  bomdemais  vid 
+positivo	3408	tud bom 
+positivo	3409	aind volt delic 
+positivo	3410	aind est 
+positivo	3411	ano int otim curt beach park 
+positivo	3412	mass 
+positivo	3413	conhec lug maravilho 
+positivo	3414	 saudade 
+positivo	3415	terrajess cheg log ano hah lov 
+neutro	3416	encar 
+positivo	3417	vam vam 
+positivo	3418	esper kkk 
+neutro	3419	
+neutro	3420	tod ca piscin nad 
+positivo	3421	show 
+positivo	3422	oh hein 
+neutro	3423	
+positivo	3424	lindo 
+neutro	3425	ult lot prec antig aigliz log carta 
+positivo	3426	boom 
+positivo	3427	top 
+positivo	3428	vamo 
+positivo	3429	show 
+positivo	3430	cert sim feliz 
+positivo	3431	vam hein 
+positivo	3432	quer denov 
+positivo	3433	uhuhuh show 
+positivo	3434	fod 
+positivo	3435	louc amu 
+positivo	3436	boa 
+positivo	3437	boom sub esc cans hein 
+positivo	3438	lasc sao esc arep lind  nao_vej hor volt 
+neutro	3439	ros 
+positivo	3440	demais 
+positivo	3441	bom val pen conhec 
+neutro	3442	
+positivo	3443	despar 
+neutro	3444	
+positivo	3445	lindo demais 
+positivo	3446	max 
+positivo	3447	
+positivo	3448	brev 
+positivo	3449	vam marc 
+neutro	3450	hoj 
+positivo	3451	lov 
+positivo	3452	ame quis est nov 
+positivo	3453	med rs feliz 
+positivo	3454	bonit 
+neutro	3455	
+positivo	3456	amo 
+positivo	3457	amo paixa lug inesqueci 
+positivo	3458	tud bom 
+positivo	3459	favor mand propost adesa carta beach email emanuel gmail 
+positivo	3460	shoow 
+positivo	3461	volt jan deu permit permit lindo 
+positivo	3462	maravilh feliz 
+positivo	3463	
+positivo	3464	eba 
+ambiguo	3465	doido 
+positivo	3466	 saudade ano vou nov deu quis feliz 
+neutro	3467	
+positivo	3468	ador lug show bol arrepi amo 
+positivo	3469	fil  nao_tao grand rs 
+positivo	3470	quer tant tant 
+positivo	3471	feliz 
+positivo	3472	bris lug brev brev 
+positivo	3473	demais bom 
+neutro	3474	sab 
+positivo	3475	maravilh 
+positivo	3476	maravilh ador 
+neutro	3477	
+negativo	3478	desc arrep coraj  nao_
+positivo	3479	lind lug 
+positivo	3480	lug lind 
+positivo	3481	vam sim amarel 
+neutro	3482	u u 
+neutro	3483	conhec pagin 
+positivo	3484	demais feliz 
+positivo	3485	 nao_cois melhor mund saudade lov dezembr cheg 
+positivo	3486	demais conhec 
+neutro	3487	dia vam 
+positivo	3488	ame 
+negativo	3489	pox pen  nao_abr log hoj tant agend curt fd 
+positivo	3490	lind 
+neutro	3491	assist jog 
+neutro	3492	hoj dia natur ecolog tal curt pagin equip verd 
+positivo	3493	dezembr est feliz feliz cheg logo amo beach park feliz 
+positivo	3494	ind emb hoj sds parais 
+positivo	3495	prox marc presenc feliz 
+positivo	3496	novembr est 
+positivo	3497	 saudade parais 
+positivo	3498	ach lug maravilh 
+positivo	3499	bom 
+positivo	3500	 saudade 
+neutro	3501	email chiod ugart gmail 
+positivo	3502	vontad vout maravilh 
+positivo	3503	quer sab val 
+positivo	3504	vou outubr 
+neutro	3505	
+neutro	3506	
+neutro	3507	
+neutro	3508	fot lind aind  nao_compr bol 
+negativo	3509	absurd prec ingress  nao_vontad conhec 
+positivo	3510	bor combin_ir 
+positivo	3511	ane yaasmin prox destin viag log log felizd 
+neutro	3512	
+positivo	3513	ador passei pud iri tod final seman rs 
+negativo	3514	ter avis ia dar viag perd pens_ir vot 
+positivo	3515	tud bom 
+positivo	3516	 saudade 
+positivo	3517	mass 
+positivo	3518	lug perfeit diversa 
+positivo	3519	
+positivo	3520	rs 
+positivo	3521	show 
+neutro	3522	
+positivo	3523	ador deix fou nov 
+positivo	3524	beach park perfeit 
+positivo	3525	vou conhec vao ser mto lok uhuhu agu 
+positivo	3526	int quant 
+positivo	3527	vam 
+positivo	3528	mass demais 
+positivo	3529	haa quer_ir denov feliz feliz feliz tud muito massa huru felizv felizv felizv 
+positivo	3530	vish kkk 
+neutro	3531	
+positivo	3532	ame lind 
+positivo	3533	dest lug 
+neutro	3534	nunc olvid 
+neutro	3535	
+positivo	3536	cel ooh kkk 
+positivo	3537	heheh lan 
+positivo	3538	felizd 
+positivo	3539	bom ti 
+ambiguo	3540	coom man 
+neutro	3541	posso wil 
+positivo	3542	venhah novembr ui 
+positivo	3543	cunh  nao_exist precis marc jant deus kkk 
+negativo	3544	pox man feliz 
+positivo	3545	uhum agu boc wil rs 
+neutro	3546	wil hm 
+neutro	3547	rs 
+neutro	3548	
+positivo	3549	algu quer lembranc 
+positivo	3550	uum adoor jarin qdo faz noa com bjs 
+neutro	3551	
+positivo	3552	quero 
+positivo	3553	amo 
+ambiguo	3554	hum covard am 
+positivo	3555	hum 
+positivo	3556	maravilh 
+positivo	3557	beachpark perfeit tud feliz  nao_
+positivo	3558	duvid saib faz hah 
+positivo	3559	maravilh 
+neutro	3560	
+positivo	3561	ala ju hah mee 
+positivo	3562	amiga lembr algum lug becks kkk 
+positivo	3563	hum delicia 
+neutro	3564	perd final ano 
+positivo	3565	bom 
+positivo	3566	delic hein 
+negativo	3567	ach serv com pess qual aqu expect doi tre ano atr pen local diferenci 
+positivo	3568	deu agu boc rs 
+positivo	3569	vou prai sempr gost apreci bom camara hum 
+positivo	3570	tamb 
+positivo	3571	hum delic ano vou pass um dia voc cassin 
+neutro	3572	olh 
+positivo	3573	hum delic 
+neutro	3574	dig tal 
+positivo	3575	ador 
+positivo	3576	bom 
+positivo	3577	
+positivo	3578	delic quer 
+positivo	3579	bom 
+positivo	3580	ador kkkk 
+positivo	3581	hum delici 
+positivo	3582	delici com 
+positivo	3583	min  nao_morr vontad 
+positivo	3584	delic 
+positivo	3585	yud bom 
+positivo	3586	hum delic deu agu boc fom tamb kkkk 
+positivo	3587	hum delic 
+positivo	3588	qu mat 
+positivo	3589	
+positivo	3590	uia delic fez orc irm 
+positivo	3591	delic amo 
+positivo	3592	atent pud kkkk 
+positivo	3593	adoro 
+positivo	3594	delicia 
+positivo	3595	cert adoro camara 
+neutro	3596	mi 
+negativo	3597	cabec afz nam 
+neutro	3598	
+positivo	3599	 nao_aind va bom 
+positivo	3600	gost 
+positivo	3601	delic ador 
+positivo	3602	hum amo 
+positivo	3603	delic 
+positivo	3604	amo demais camara alh ole 
+positivo	3605	tud perfeit visual prai inesqueci 
+positivo	3606	maldad delic 
+positivo	3607	delici 
+positivo	3608	boc ench agu 
+positivo	3609	delic deu fom agor 
+neutro	3610	lembr 
+positivo	3611	 nao_curt camara deu vontad 
+positivo	3612	com maravilh naquel prai aind 
+positivo	3613	sim ador 
+positivo	3614	assim barrac cheg cano hun sho 
+positivo	3615	gost 
+positivo	3616	ah devor tud deix casc lima 
+positivo	3617	aa ador camara 
+positivo	3618	deu fom 
+positivo	3619	bom msm 
+positivo	3620	oh 
+positivo	3621	hs maldad deu agu boc 
+neutro	3622	
+positivo	3623	dia quer 
+positivo	3624	bom agor com perfeit 
+positivo	3625	imagin frent prai 
+positivo	3626	mig vam pro pagod lebr 
+positivo	3627	lug incri feliz 
+neutro	3628	emanuel 
+positivo	3629	acredit aind tou esper rs 
+positivo	3630	qm der denov 
+positivo	3631	af cont hor cheg 
+positivo	3632	
+positivo	3633	tud bom 
+positivo	3634	demais 
+positivo	3635	mew vou acab hah 
+positivo	3636	legal 
+positivo	3637	eleica park aqua funcion norm 
+positivo	3638	feliz 
+positivo	3639	gent_ir dia rs 
+positivo	3640	 saudade viu 
+positivo	3641	faci confi ser sorte qdo saim sala funy hair quart feir pergunt estav ind aeroport kkk ama viaj client 
+positivo	3642	faci fal maefeliz vo famil vam mama perguntoufeliz respondeufeliz esper aqu cas kkkk 
+positivo	3643	car marid lug menin  nao_aguent rs 
+neutro	3644	vam 
+positivo	3645	crianc vao am 
+positivo	3646	bom 
+positivo	3647	bom 
+positivo	3648	vou amanh ansi 
+neutro	3649	am 
+positivo	3650	 bomdemais  
+neutro	3651	outumbr me crianc beach park 
+neutro	3652	brasilmarin 
+positivo	3653	cheg 
+neutro	3654	obg faci abrac 
+positivo	3655	heheh fever cheg log 
+positivo	3656	maravilh ador bald legal 
+positivo	3657	quer volt verd parais 
+neutro	3658	cemejep 
+neutro	3659	bol 
+positivo	3660	melhor cois vid divert feri
+positivo	3661	cont regress hurru part 
+positivo	3662	cois maravilh 
+neutro	3663	
+positivo	3664	vou oba 
+positivo	3665	mto bom 
+positivo	3666	bom 
+ambiguo	3667	
+negativo	3668	med n corag ui 
+positivo	3669	lug demais tre dia pouc quer 
+positivo	3670	bom 
+negativo	3671	sai carrapat qu morr morr 
+neutro	3672	prec entr beach park 
+positivo	3673	cheg 
+positivo	3674	 nao_vej hor cheg fer 
+ambiguo	3675	encar 
+positivo	3676	massa 
+neutro	3677	sext feir 
+positivo	3678	parais 
+neutro	3679	
+neutro	3680	
+neutro	3681	
+positivo	3682	duvid arrep 
+ambiguo	3683	arrepius 
+positivo	3684	arrep clar felizd 
+neutro	3685	arrep 
+neutro	3686	arrep 
+neutro	3687	arrep 
+neutro	3688	arrep 
+neutro	3689	arrep 
+neutro	3690	arrep 
+neutro	3691	arrep 
+ambiguo	3692	arrep
+neutro	3693	arrep 
+neutro	3694	arrep 
+neutro	3695	arrep 
+neutro	3696	arrep 
+ambiguo	3697	duvid arrep 
+negativo	3698	arrep logic 
+neutro	3699	arrep 
+neutro	3700	arrep 
+neutro	3701	arrep obvi 
+ambiguo	3702	areep 
+negativo	3703	arrep adrenalin 
+positivo	3704	acqu show 
+neutro	3705	arrep 
+neutro	3706	arrep 
+neutro	3707	arrep 
+positivo	3708	comp arrep x melhor 
+neutro	3709	arrep 
+neutro	3710	arrep 
+positivo	3711	arrep lov 
+negativo	3712	arrepius long 
+neutro	3713	arrep 
+neutro	3714	arrep 
+negativo	3715	cert arrep 
+neutro	3716	arrep 
+neutro	3717	arrep 
+positivo	3718	est abril deu quiz 
+positivo	3719	agost real maravilh 
+positivo	3720	feliz 
+positivo	3721	bom not 
+positivo	3722	lug mass pass dia inesqueci quer volt c cert 
+positivo	3723	fever est pass log rsrr 
+positivo	3724	perfeit 
+positivo	3725	brev est volt 
+positivo	3726	agu vera cheg fortal 
+positivo	3727	tip assim renat hoj quinz est 
+positivo	3728	 nao_vej hor rs 
+positivo	3729	cheg am cont minut 
+positivo	3730	comec cont dia 
+neutro	3731	algu aqu favor pod diz val entr parqu sit 
+neutro	3732	olh 
+positivo	3733	prai perfeit agu morn pouc gent vent clim agrada sab doming band viv 
+positivo	3734	aind melhor amig semfac 
+neutro	3735	descubr ese bug curt ganh curt fot 
+positivo	3736	lug perfeit ow saudade 
+positivo	3737	lind beach park 
+neutro	3738	ei pessoal ajud compartilh curt ginc colegi namor lik lik lik lik lik lik lik lik lik lik lik ajud cumpr ganh prim taref seac favor curt compartilh fot dest link pud divulg amig obrig desd equip ano 
+positivo	3739	 nao_vej hor am 
+negativo	3740	car ingress almoc kil refriger lat cervej amig gast fic hor tud bonit limp organiz segur 
+positivo	3741	melhor prai melhor banh mar 
+positivo	3742	maravilh amo ce 
+positivo	3743	parais 
+positivo	3744	huhuhu 
+positivo	3745	tamb kkk 
+positivo	3746	real tud bom pret volt vez 
+neutro	3747	pod 
+positivo	3748	cheg log fever 
+positivo	3749	tb quer 
+positivo	3750	 saudade 
+positivo	3751	maravilh 
+negativo	3752	set real tud mto car  nao_neg tud maravilh prai mar com local c mta sombr agu fresc 
+neutro	3753	padra 
+positivo	3754	bom 
+positivo	3755	qro fer fortal 
+positivo	3756	sim top saudade 
+positivo	3757	lind demais 
+positivo	3758	amo amo 
+positivo	3759	conv 
+positivo	3760	lug sonh 
+positivo	3761	bom 
+positivo	3762	lug lind 
+positivo	3763	 saudade parais ce 
+positivo	3764	bonit pen_ir ver bel 
+positivo	3765	beliss 
+neutro	3766	tamb 
+positivo	3767	lind 
+positivo	3768	nad mal hein comadr junt tem bom gost 
+positivo	3769	obr cri 
+positivo	3770	ame 
+positivo	3771	 saudade lug 
+positivo	3772	lind 
+positivo	3773	bom 
+positivo	3774	lug lind delic 
+positivo	3775	maravilh prai 
+positivo	3776	ame lug lind 
+positivo	3777	lind viv 
+positivo	3778	deslumbr 
+positivo	3779	ame lug saudade 
+positivo	3780	surre 
+negativo	3781	cariss excel 
+positivo	3782	tud bom 
+positivo	3783	mto lind 
+positivo	3784	mor frent lind 
+positivo	3785	pass dia maravilh nest lug maravilh 
+positivo	3786	bel lug lind 
+neutro	3787	vend passaport val dia real 
+positivo	3788	lind 
+positivo	3789	maravilh 
+neutro	3790	
+positivo	3791	quer est 
+positivo	3792	y 
+positivo	3793	ah 
+positivo	3794	saldad 
+positivo	3795	lind quer ere fim ano 
+positivo	3796	 saudade lug 
+positivo	3797	af saudade parais 
+positivo	3798	bom lug ador 
+positivo	3799	bom an n vou trisd 
+positivo	3800	vc vao funcion dia segund eleica 
+positivo	3801	aqu delic 
+positivo	3802	quer volt logo 
+neutro	3803	vam vot alkmin 
+positivo	3804	 saudade lug 
+ambiguo	3805	tre dia peg vent 
+positivo	3806	 saudade es 
+positivo	3807	sho 
+positivo	3808	lembr vist 
+neutro	3809	
+positivo	3810	oh saudade bom melhor epoc vid beij 
+neutro	3811	
+positivo	3812	vam quis 
+positivo	3813	conhec demais cenari hein 
+positivo	3814	tud bom 
+positivo	3815	opa novembra cheg 
+positivo	3816	maravilh 
+neutro	3817	verdad 
+neutro	3818	cert 
+positivo	3819	precis urgente 
+positivo	3820	filh pequen lug maravilh 
+positivo	3821	ano vid curt beach 
+positivo	3822	 saudade vam 
+positivo	3823	novembr aguard who 
+neutro	3824	
+neutro	3825	opa 
+positivo	3826	ach tamb kkkk 
+neutro	3827	
+positivo	3828	amo tud mass respond quant cust_ir esp filh ano hosped doi dia 
+neutro	3829	
+positivo	3830	boa feliz 
+positivo	3831	bom recom 
+positivo	3832	quant ingress 
+positivo	3833	 saudade e feliz 
+neutro	3834	
+positivo	3835	hah saudade etern lug 
+neutro	3836	moler vend vide lembr crianc grand faz peg dand cald outr eauhaeuhaehuaehuaehuaeuheauh 
+positivo	3837	kkkk oh lembr salv kkk 
+positivo	3838	muito bom lembr sed rs 
+positivo	3839	enta vem vem dezembr cont dia sim amig 
+positivo	3840	cont dia cont hor ver park amig 
+positivo	3841	lembr kkk perd kkk aai saudade feliz quero lov feliz 
+positivo	3842	sonaly niv bor 
+positivo	3843	 saudade 
+neutro	3844	
+positivo	3845	 saudade etern kkk 
+negativo	3846	feliz 
+positivo	3847	fal kkk 
+neutro	3848	lembr 
+positivo	3849	gost vam 
+neutro	3850	
+positivo	3851	vam refresc 
+positivo	3852	lembr noil sachah ach prim vez fic kkk 
+positivo	3853	fortel lug maravilh ano pass ano tbm amo lug 
+neutro	3854	qe lembr amig 
+neutro	3855	
+neutro	3856	am 
+neutro	3857	cont 
+neutro	3858	botin 
+neutro	3859	amg viv hj 
+positivo	3860	oh saudade 
+positivo	3861	y 
+positivo	3862	dia volt 
+positivo	3863	quer vez am feliz 
+positivo	3864	rs muito bom passei perfeit 
+positivo	3865	amo tud 
+positivo	3866	ador ter pass final seman 
+positivo	3867	 saudade lug encant 
+positivo	3868	sd dia hah 
+positivo	3869	kkkk lembr sim mt saudade 
+positivo	3870	quer_ir nov saudade etern 
+positivo	3871	tud bom 
+positivo	3872	tant binqued radic park moment light deleicia saudade 
+positivo	3873	bor feliz 
+positivo	3874	delic privilegi pass demais 
+neutro	3875	
+positivo	3876	lembr nest parais dar saudade 
+positivo	3877	al the way i lik u 
+positivo	3878	bom 
+neutro	3879	legal 
+positivo	3880	est vez quis vez comig lind top vam arraz prim 
+positivo	3881	and gost saudade gost_ir demov 
+positivo	3882	delic 
+positivo	3883	quer volt nov feliz lov vo volt fio feliz 
+positivo	3884	bom relax lug 
+positivo	3885	 bomdemais  
+positivo	3886	ser ma 
+positivo	3887	amg vam rs 
+neutro	3888	
+positivo	3889	gostoso bem relax 
+positivo	3890	 saudade 
+neutro	3891	
+positivo	3892	 saudade lug lind 
+neutro	3893	
+neutro	3894	imagin cal samp faz 
+positivo	3895	lug sup lind 
+positivo	3896	maravilh 
+positivo	3897	vam 
+positivo	3898	gost nad cal 
+positivo	3899	praz curt maravilh dua vz recom 
+positivo	3900	melhor 
+positivo	3901	 saudade agost lov brev retorn rs 
+positivo	3902	vou sab feliz 
+positivo	3903	vix bom vej hor volt beach park 
+neutro	3904	
+positivo	3905	mor bem pert 
+neutro	3906	
+positivo	3907	quer fic boa 
+neutro	3908	
+positivo	3909	delic 
+positivo	3910	record viv rs 
+neutro	3911	
+positivo	3912	vam kkk 
+neutro	3913	
+positivo	3914	quer tant feliz 
+neutro	3915	
+positivo	3916	dia hj hein kkk 
+neutro	3917	
+positivo	3918	filhot vao am log est ulul b 
+neutro	3919	
+positivo	3920	dia dess cheg famil feliz 
+positivo	3921	rio pregu maravilh  nao_vej hor_ir denov 
+positivo	3922	amorr 
+positivo	3923	 saudade 
+positivo	3924	recom vam nov 
+positivo	3925	delic 
+positivo	3926	ame 
+positivo	3927	oh melhor fortal 
+positivo	3928	maravilh lug 
+neutro	3929	brev est 
+positivo	3930	bom bom rs 
+positivo	3931	
+positivo	3932	bom 
+positivo	3933	ame 
+positivo	3934	show 
+positivo	3935	bom recom 
+positivo	3936	amo corrent 
+neutro	3937	
+positivo	3938	maravilh 
+positivo	3939	voou chega 
+positivo	3940	quant cust ingress me novembr algu sab 
+positivo	3941	wow look great fun xx 
+neutro	3942	
+neutro	3943	ingress compr 
+neutro	3944	
+positivo	3945	bom 
+positivo	3946	bom 
+positivo	3947	mass bom 
+positivo	3948	gost bom 
+positivo	3949	ow saudade _ir 
+positivo	3950	martinel vam excursa famili 
+positivo	3951	 saudade e 
+positivo	3952	kely saudade 
+positivo	3953	boom demais 
+positivo	3954	quer 
+positivo	3955	ador 
+positivo	3956	amo corrent legal ame demais tod ano vo_ir feliz 
+positivo	3957	ir  nao_visit  nao_passei complet volt ser crianc 
+neutro	3958	
+positivo	3959	kkk melhor 
+positivo	3960	vam 
+positivo	3961	hor volt 
+ambiguo	3962	ce brasil 
+positivo	3963	amor vam 
+neutro	3964	sr lig 
+positivo	3965	menin paiz lind 
+positivo	3966	parais 
+positivo	3967	lug encri 
+positivo	3968	 saudade 
+positivo	3969	sonh 
+positivo	3970	novembr cheg 
+positivo	3971	dem 
+positivo	3972	vam final ano comadr 
+neutro	3973	vam 
+neutro	3974	
+positivo	3975	quer quer 
+positivo	3976	feliz 
+positivo	3977	lind laa 
+positivo	3978	imperdi 
+positivo	3979	falt pouc est nov quis 
+positivo	3980	peach tud bom 
+positivo	3981	lug lind 
+positivo	3982	cert volt 
+negativo	3983	melhor prec sinc  nao_lug tod pen 
+positivo	3984	lind demais 
+positivo	3985	maravilh vou corr dia ganh entr 
+positivo	3986	ver quant direit 
+positivo	3987	aproveit conhec bom 
+positivo	3988	amo td 
+positivo	3989	necessit uau 
+positivo	3990	amo tud conhec demais 
+positivo	3991	 saudade 
+positivo	3992	ont saudade 
+neutro	3993	
+positivo	3994	tud acab volt quer volt lug tud bom 
+neutro	3995	legal pro vera 
+positivo	3996	 saudade dest lug 
+positivo	3997	 saudade dest lug 
+positivo	3998	show amig 
+positivo	3999	 saudade amo lug 
+positivo	4000	parais quer mor 
+positivo	4001	hoj melhor local 
+neutro	4002	
+positivo	4003	vam 
+positivo	4004	piscin ond maravilh 
+positivo	4005	chegando 
+positivo	4006	 saudade lug maravilh 
+positivo	4007	vou prim vez doming  nao_vej hor 
+neutro	4008	
+positivo	4009	maravilh amo lug 
+neutro	4010	quant ingress 
+positivo	4011	quer volt log amo lug 
+neutro	4012	
+positivo	4013	quer irr 
+positivo	4014	otim 
+neutro	4015	
+positivo	4016	vamos 
+positivo	4017	quero 
+neutro	4018	
+positivo	4019	bor
+positivo	4020	bom feliz
+positivo	4021	sd lug
+positivo	4022	lug maravilh
+positivo	4023	ansi
+neutro	4024	
+positivo	4025	ah saudade
+ambiguo	4026	destin
+ambiguo	4027	projet otim direit lanch tort aniversari
+ambiguo	4028	
+positivo	4029	gost air beachpark aniversar fever
+positivo	4030	park quer_ir  nao_dar
+positivo	4031	kkkk tao bom melhor aind desc cost kkk
+ambiguo	4032	ramobrink bich
+neutro	4033	fic arrepi kkk lembr
+positivo	4034	precis_ir feliz
+positivo	4035	irado adoro
+positivo	4036	top feliz
+negativo	4037	desc azul
+ambiguo	4038	merec
+positivo	4039	er bom desc cost
+positivo	4040	amo curv
+positivo	4041	denov
+ambiguo	4042	hahah
+positivo	4043	brinqued dimal
+neutro	4044	
+positivo	4045	ansiosa kkk
+positivo	4046	mass ador
+positivo	4047	 saudade es amo beach park
+positivo	4048	ont passei escol prox ano vou nov kkk quer_ir min insano
+positivo	4049	ador
+positivo	4050	amanh uhu insano vei
+positivo	4051	dezembr
+positivo	4052	confirm dia nov
+positivo	4053	 bomdemais  ador lug
+ambiguo	4054	ver deu fri barrig kkk
+positivo	4055	bom
+positivo	4056	vej logo ant fiqu bem gorda kkk
+ambiguo	4057	diaboeiss
+positivo	4058	vej
+negativo	4059	solang quat cust cad ingress
+ambiguo	4060	mal entend jaj jaj
+positivo	4061	ramubrink desc verd feliz
+positivo	4062	cont dia p cheg viag
+ambiguo	4063	ctz
+positivo	4064	vam
+positivo	4065	vam sim
+neutro	4066	
+positivo	4067	imagin feliz
+positivo	4068	log log ker net brinc maravilh ouv bochech ros rs
+positivo	4069	 saudade bomdemais 
+neutro	4070	hotel consult vend carta card tim emailfeliz damascen beachpark br interess adquir carta card mai esclarec algum duvid disposica lig favor contat comig atrav email abaixofeliz damascen beachpark br envi propost compromiss abc tod sucess
+negativo	4071	prai
+ambiguo	4072	amarr
+positivo	4073	cheg hor
+negativo	4074	cois ruim kkk
+positivo	4075	am quer sabada
+positivo	4076	hh delic park caranguej boom
+positivo	4077	delic hum
+positivo	4078	bom adoor
+positivo	4079	hum adoro
+positivo	4080	hum tud bom
+ambiguo	4081	hum
+ambiguo	4082	 nao_gom
+positivo	4083	vam
+positivo	4084	ki delic
+positivo	4085	delic
+positivo	4086	vam
+positivo	4087	amo
+positivo	4088	aind dev denilton kkk
+positivo	4089	aguardefeliz bom uma gel rs
+positivo	4090	show pen ano va
+positivo	4091	gost
+positivo	4092	quer
+positivo	4093	aqu
+ambiguo	4094	hum
+positivo	4095	hum amo
+positivo	4096	amanh agu comemor niv oia
+positivo	4097	lug perfeit degust delic combinaca perfeit
+positivo	4098	adoro
+positivo	4099	maravilh
+neutro	4100	bom com
+ambiguo	4101	hum delicia
+neutro	4102	
+neutro	4103	
+positivo	4104	delic
+positivo	4105	hum delic
+positivo	4106	delic
+positivo	4107	espos kkk
+positivo	4108	delic
+neutro	4109	amig
+ambiguo	4110	hum
+negativo	4111	falt pouco
+ambiguo	4112	man
+positivo	4113	quant vej mai quer_ir
+positivo	4114	delic
+positivo	4115	sant s p brev ador insano m com otim hum
+negativo	4116	delic quepen long
+positivo	4117	amo amo amo
+positivo	4118	inesqueci
+positivo	4119	kkkk boa
+neutro	4120	pen precis vend rim compr
+ambiguo	4121	hdr
+ambiguo	4122	gost  nao_patol corp int
+positivo	4123	val pen delic
+positivo	4124	delic
+positivo	4125	bom
+positivo	4126	tentaca quer est nest sabada degust maravilh
+neutro	4127	
+neutro	4128	
+neutro	4129	sit vej result corr
+ambiguo	4130	
+ambiguo	4131	nubl
+positivo	4132	amig tart  nao_deix tir fot vom vou
+ambiguo	4133	tart fof
+ambiguo	4134	 nao_chov sol real deu tregu dur corr aind bem porqu lad sub
+positivo	4135	 saudade
+ambiguo	4136	ah ia am corr tart
+positivo	4137	chov fortal mei complic ced pod est nubl temp
+positivo	4138	jkkk sab show
+negativo	4139	temp nubl
+positivo	4140	sd ult vez ano
+ambiguo	4141	chov
+positivo	4142	 saudade mil fofur tart
+neutro	4143	
+neutro	4144	
+positivo	4145	top
+positivo	4146	mass quer_ir
+positivo	4147	sd demais
+positivo	4148	simb
+ambiguo	4149	man
+positivo	4150	fot incri quant gent
+neutro	4151	sai result ofic fot
+positivo	4152	vej result prov
+ambiguo	4153	aproxim
+neutro	4154	pod_ir tod brinqued ingress
+positivo	4155	ind emb amanh feliz
+negativo	4156	fever abert
+positivo	4157	parais tropic mai park aqua amer latin cidad est
+ambiguo	4158	lev
+positivo	4159	kkkk inoc esquec nad kkk
+positivo	4160	misericord kkk lembro
+positivo	4161	venh dia
+neutro	4162	cont regrass beach qe agu feliz
+neutro	4163	
+ambiguo	4164	af quer_ir logo
+positivo	4165	brinqued show
+positivo	4166	dia cheg nov top bom
+positivo	4167	muito bom sab est curt emoca
+positivo	4168	bom divert curt famil
+positivo	4169	vou amnh
+positivo	4170	show vou nov
+positivo	4171	bom
+neutro	4172	
+positivo	4173	tav seman pass td maravilh
+positivo	4174	ese tubog top ali tod brinqued sao show doming top cm amig dia uau
+positivo	4175	embarq ond hoj perfeit lov
+neutro	4176	snif snif ont
+neutro	4177	outubr  nao_vi brinqued
+neutro	4178	
+positivo	4179	lembr kkk gent ia morr kkkk
+negativo	4180	piscin mesm altur
+positivo	4181	show
+neutro	4182	kkkk lembr hah engan direit simpl
+positivo	4183	piscin maluc ame
+negativo	4184	ia min afog
+ambiguo	4185	emosa sen limit
+neutro	4186	hotel consult vend carta card tim emailfeliz damascen beachpark br interess adquir carta card mai esclarec algum duvid disposica lig favor contat comig atrav email abaixofeliz damascen beachpark br envi propost compromiss abc tod sucess
+positivo	4187	menin cham paul vir ca nord  bomdemais  coraca
+positivo	4188	vam tir retrat assim rayany
+ambiguo	4189	uhu prefer ei amig cont agu tao fort cai biquin kkk  nao_vej hor mereec
+positivo	4190	bald inesqueci kkkk
+negativo	4191	car rsr
+positivo	4192	gent saudade es
+positivo	4193	compromiss marc dezembr viu feliz
+positivo	4194	 bomdemais 
+positivo	4195	maravilh
+neutro	4196	lembr algu
+positivo	4197	verdad vam program outr viag feliz
+positivo	4198	vam volt
+positivo	4199	privilegi ame
+positivo	4200	mass park agu
+positivo	4201	 saudade bald rs
+positivo	4202	nossa mto bom hauhau demais feliz
+positivo	4203	bom mae kkk ris
+positivo	4204	dia inesqueci
+neutro	4205	fech am
+positivo	4206	parqu aqua fortal prim avent ser rs
+neutro	4207	
+positivo	4208	 bomdemais 
+neutro	4209	
+neutro	4210	
+ambiguo	4211	certo
+positivo	4212	eit porra feliz
+ambiguo	4213	lor balda fal
+positivo	4214	 saudade fic esper bald ench
+ambiguo	4215	encar
+positivo	4216	beach park conhec mor soh brend  nao_conhec
+positivo	4217	muito bom i insano fal
+positivo	4218	aa ser show
+positivo	4219	eeita prox seman nois
+ambiguo	4220	corr toc siren
+positivo	4221	muito bom adult vir crianc felizd
+neutro	4222	
+positivo	4223	quant serta ce pov qu agu  nao_ach feliz vez top corag desc insano vez md med sei  nao_cheg baix mov corp kkk aconselh_ir melhor parqu aqua xd
+positivo	4224	kkk
+neutro	4225	vam proc viu
+neutro	4226	dia quant par
+positivo	4227	 saudade divert
+neutro	4228	
+positivo	4229	mass ker bi kkklk
+positivo	4230	quer_ir nov
+positivo	4231	ame melhor
+positivo	4232	amo
+positivo	4233	prox fer volt saudade
+positivo	4234	delic
+positivo	4235	amo
+positivo	4236	tom banh balda delic
+positivo	4237	est
+positivo	4238	show
+positivo	4239	divert nest lug tud bom
+positivo	4240	maravilh
+neutro	4241	gal pira
+positivo	4242	 bomdemais 
+positivo	4243	bom boa ame dia
+positivo	4244	mass
+positivo	4245	 bomdemais 
+positivo	4246	ame dia vou volt
+positivo	4247	bom curt k
+positivo	4248	 saudade beach park
+positivo	4249	 bomdemais 
+positivo	4250	bom corr fik baix rs
+positivo	4251	bom inesquevci
+positivo	4252	inesqueci delic qdo bald vir tod fic cuid ench corr baix tom meg banh
+negativo	4253	olh bora
+neutro	4254	lembr algu hahah
+positivo	4255	 bomdemais 
+positivo	4256	maravilh
+positivo	4257	bom gost lembr
+neutro	4258	vou faz
+neutro	4259	fiz pacot dua entr
+positivo	4260	mai farr saudade
+positivo	4261	moment tudobom
+ambiguo	4262	bald td
+positivo	4263	 bomdemais  aqu
+neutro	4264	mass tamb
+positivo	4265	mesm ft dia maravilh
+positivo	4266	ador
+neutro	4267	verdad
+positivo	4268	ame sup recom_ir beach park
+negativo	4269	seman vem
+positivo	4270	maravilh
+positivo	4271	melhor ador
+positivo	4272	 bomdemais  ador crianc pir ama monta
+positivo	4273	bald tud bom
+positivo	4274	bom
+positivo	4275	gost
+positivo	4276	muito shoow
+positivo	4277	 bomdemais 
+positivo	4278	 saudade bald
+positivo	4279	delic
+positivo	4280	 saudade
+positivo	4281	sho
+positivo	4282	dia maravilh saudade jah
+positivo	4283	 bomdemais  bald agu cabec
+positivo	4284	ador divert
+positivo	4285	mass show
+positivo	4286	bom msm saudade
+positivo	4287	famil experiment sensaca bom
+positivo	4288	sao paul fau tamd agu
+positivo	4289	 saudade
+positivo	4290	demais bald feliz
+positivo	4291	adogo frio barrig feliz
+positivo	4292	amo sup mass
+positivo	4293	ador
+neutro	4294	
+positivo	4295	delic quer volt
+positivo	4296	bom saudade
+positivo	4297	show bol
+positivo	4298	maravilh
+positivo	4299	 saudade lug maravilh
+ambiguo	4300	der
+positivo	4301	otim banh
+positivo	4302	diversa pur
+positivo	4303	bom
+positivo	4304	pens lug am
+positivo	4305	delic bald
+positivo	4306	maravilh
+positivo	4307	show
+positivo	4308	enquant aqu campin perif sofr racion agu
+positivo	4309	cen vi legal saudade
+positivo	4310	ador
+neutro	4311	gat esper bald abr  nao_perd nad vi
+positivo	4312	rs balda
+positivo	4313	terc fei chega felizd
+positivo	4314	oo bald melhor
+positivo	4315	quit legal es beach park
+positivo	4316	maravilh
+positivo	4317	bom
+positivo	4318	bom curt demais
+positivo	4319	vam hah
+positivo	4320	legal bald agu divert
+positivo	4321	heim pov lembr vc kkk
+positivo	4322	brev est
+positivo	4323	 saudade dest lug sup meg maravilh
+neutro	4324	lembr camil
+positivo	4325	divirt boc bald show
+positivo	4326	show bald
+positivo	4327	quer_ir famil junh julh faz reserv antecip quant cust dia
+positivo	4328	 saudade bom inesqueci
+positivo	4329	chuaachua vou
+positivo	4330	bald show
+negativo	4331	viag inesqueci
+neutro	4332	
+positivo	4333	u u
+positivo	4334	 bomdemais 
+positivo	4335	gal casca pr saudade esfeliz
+positivo	4336	tao bom saudade
+positivo	4337	ador
+neutro	4338	
+positivo	4339	demais
+ambiguo	4340	gen
+positivo	4341	show crianc grand vao gost rs
+positivo	4342	filh ador acqu show  bomdemais 
+positivo	4343	 bomdemais 
+positivo	4344	shoow
+positivo	4345	bald saudade lug show bol
+positivo	4346	rsrr ow refresc
+positivo	4347	ame
+positivo	4348	tao bom  nao_vej hor_ir dinov
+negativo	4349	 saudade perd siren toc amig
+positivo	4350	 saudade
+positivo	4351	amanh
+positivo	4352	delic sd
+positivo	4353	bom quer
+positivo	4354	adoro
+positivo	4355	ador agu gel caind
+positivo	4356	filh ador
+positivo	4357	bom
+neutro	4358	
+neutro	4359	
+positivo	4360	comprov real tud bom feliz
+negativo	4361	ador cai bem fort bom
+positivo	4362	hum bom bald agu ui
+positivo	4363	mass demais gent fik n esper bald ench
+positivo	4364	delic muito bom
+positivo	4365	td quer agor  bomdemais 
+positivo	4366	vam aprove muito cad litr kkk
+positivo	4367	mass ame
+positivo	4368	mass
+positivo	4369	part
+positivo	4370	carl dic mil vez bald vir tav baix
+positivo	4371	 bomdemais  dud curt
+ambiguo	4372	amr
+positivo	4373	vam
+positivo	4374	precis hoj kkk
+positivo	4375	firm bald rs
+ambiguo	4376	agu l despej olhaodesperdici
+positivo	4377	lug maravilh amo demais
+positivo	4378	pens banh gost
+positivo	4379	precis min um dia
+positivo	4380	ador est debaix mto legal
+positivo	4381	gost doi ris saudade lug
+positivo	4382	 saudade
+positivo	4383	bald tud bom
+positivo	4384	muito mass bald hein
+positivo	4385	adooro
+positivo	4386	bom
+neutro	4387	
+positivo	4388	show
+positivo	4389	 saudade neh filh
+neutro	4390	tom banh nest bald
+negativo	4391	olh
+positivo	4392	ia vir estav embaix outr men crianc fic
+ambiguo	4393	arras
+ambiguo	4394	chuv prat
+positivo	4395	dezembr
+positivo	4396	estoy cheg nov
+positivo	4397	 bomdemais  cont rs
+neutro	4398	kkkk lembr gent corr peg bald kkk
+positivo	4399	show
+positivo	4400	oh cois boa hein
+positivo	4401	gost mto kkk
+positivo	4402	vam
+positivo	4403	wow
+positivo	4404	show
+positivo	4405	legal
+positivo	4406	band show
+neutro	4407	cois gent grand
+positivo	4408	cont dia minut curt music lug abenco
+positivo	4409	tao bom est lug ouv music viv
+positivo	4410	me est parqu y
+positivo	4411	lug magic
+positivo	4412	cheg
+positivo	4413	legal
+neutro	4414	
+positivo	4415	vam combin
+positivo	4416	dia chegando eba
+positivo	4417	famil
+positivo	4418	indic maravilh
+positivo	4419	bom lug ame montaao
+positivo	4420	top
+neutro	4421	
+positivo	4422	est ae dia novembr conhec tao fam park aqua beach park guard aquiraz
+neutro	4423	val pesso
+positivo	4424	bom
+ambiguo	4425	pass val
+positivo	4426	ame hoj famil
+positivo	4427	 nao_vej hor conhec solh
+negativo	4428	 nao_corag desc rs
+neutro	4429	
+neutro	4430	agu
+neutro	4431	
+positivo	4432	agent feliz
+positivo	4433	venh logo hah
+positivo	4434	mass
+neutro	4435	
+positivo	4436	dia
+neutro	4437	lembr gent cheg cost k
+positivo	4438	deu saudade feliz
+negativo	4439	falt pouc
+neutro	4440	
+positivo	4441	 bomdemais 
+positivo	4442	maravilh
+positivo	4443	muito bom
+positivo	4444	sai cost verd kkk demais
+positivo	4445	 saudade
+positivo	4446	melhor brinqued
+positivo	4447	emocion
+neutro	4448	pens pesso grit kkk
+positivo	4449	legal uma vez
+positivo	4450	eit vc vao rs
+positivo	4451	vej max
+positivo	4452	 bomdemais 
+positivo	4453	show
+positivo	4454	famil divert imens parqu am bom
+positivo	4455	hah mto bom
+neutro	4456	
+negativo	4457	coraca quas sai
+ambiguo	4458	nunc vou troco kkk
+positivo	4459	quer_ir
+positivo	4460	inesqueci qdo cheg parqu bom
+ambiguo	4461	brit
+neutro	4462	bom quas morr  nao_sei nad kkk
+positivo	4463	pens  nao_aproveit med kkk
+positivo	4464	mergulh cost gent ness
+positivo	4465	kkkk
+positivo	4466	show
+neutro	4467	nossa ilb bom filh esbald
+ambiguo	4468	sd viag comemor niv nel
+neutro	4469	sei grit
+positivo	4470	pur emoca
+ambiguo	4471	qdo  nao_
+neutro	4472	fic par naquil deix depressi
+positivo	4473	ame
+positivo	4474	emoca show bol ame esper volt
+positivo	4475	perfeit
+positivo	4476	bom
+neutro	4477	eta doid_ir pro bach parq
+positivo	4478	 nao_vej hor am
+positivo	4479	aproveit show beij
+negativo	4480	verd qual morr med kkk
+positivo	4481	 saudade
+positivo	4482	quas dess cost legal
+positivo	4483	show tbm tod feliz
+neutro	4484	jeit gent kkk
+positivo	4485	lembr kkkk gent volt cost
+neutro	4486	
+positivo	4487	ador grit bast
+positivo	4488	 bomdemais 
+positivo	4489	quero irr
+positivo	4490	amo demais
+ambiguo	4491	hahah bor arrisc
+positivo	4492	sonh
+positivo	4493	dia cheg log
+positivo	4494	quer_ir ir
+neutro	4495	tod arrepi
+ambiguo	4496	necessit_ir
+ambiguo	4497	fuih
+ambiguo	4498	vidot
+positivo	4499	delic maravilh
+neutro	4500	v born skluzavk pro zah ivac kol posledn je pak insano
+positivo	4501	mass
+positivo	4502	ame nov est
+positivo	4503	bor
+positivo	4504	doi feliz oo verd mto lgl
+ambiguo	4505	
+ambiguo	4506	bor 
+positivo	4507	bom feliz 
+positivo	4508	sd lug 
+positivo	4509	lug maravilh 
+positivo	4510	ansi
+ambiguo	4511	
+positivo	4512	ah saudade 
+ambiguo	4513	destin 
+negativo	4514	projet otim direit lanch tort aniversari 
+ambiguo	4515	
+positivo	4516	gost air beachpark aniversar fever 
+positivo	4517	park quer_ir  nao_dar 
+positivo	4518	kkkk tao bom melhor aind desc cost kkk 
+ambiguo	4519	ramobrink bich 
+neutro	4520	fic arrepi kkk lembr 
+positivo	4521	precis_ir feliz 
+positivo	4522	irado adoro 
+positivo	4523	top feliz 
+negativo	4524	desc azul 
+ambiguo	4525	merec 
+positivo	4526	er bom desc cost 
+positivo	4527	amo curv 
+positivo	4528	denov 
+ambiguo	4529	hahah 
+positivo	4530	brinqued dimal 
+ambiguo	4531	
+positivo	4532	ansiosa kkk 
+positivo	4533	mass ador 
+positivo	4534	 saudade es amo beach park 
+positivo	4535	ont passei escol prox ano vou nov kkk quer_ir min insano 
+positivo	4536	ador 
+positivo	4537	amanh uhu insano vei 
+positivo	4538	dezembr 
+positivo	4539	confirm dia nov 
+positivo	4540	 bomdemais  ador lug 
+ambiguo	4541	ver deu fri barrig kkk 
+positivo	4542	bom 
+negativo	4543	vej logo ant fiqu bem gorda kkk 
+ambiguo	4544	diaboeiss 
+positivo	4545	vej 
+negativo	4546	solang quat cust cad ingress 
+ambiguo	4547	mal entend jaj jaj 
+positivo	4548	ramubrink desc verd feliz 
+positivo	4549	cont dia p cheg viag 
+ambiguo	4550	ctz 
+positivo	4551	vam 
+positivo	4552	vam sim 
+ambiguo	4553	
+positivo	4554	imagin feliz 
+positivo	4555	log log ker net brinc maravilh ouv bochech ros rs 
+positivo	4556	 saudade bomdemais  
+ambiguo	4557	hotel consult vend carta card tim emailfeliz damascen beachpark br interess adquir carta card mai esclarec algum duvid disposica lig favor contat comig atrav email abaixofeliz damascen beachpark br envi propost compromiss abc tod sucess 
+negativo	4558	prai 
+ambiguo	4559	amarr 
+positivo	4560	cheg hor 
+negativo	4561	cois ruim kkk 
+positivo	4562	am quer sabada 
+positivo	4563	hh delic park caranguej boom 
+positivo	4564	delic hum 
+positivo	4565	bom adoor 
+positivo	4566	hum adoro 
+positivo	4567	hum tud bom 
+ambiguo	4568	hum 
+ambiguo	4569	 nao_gom 
+positivo	4570	vam 
+positivo	4571	ki delic 
+positivo	4572	delic 
+positivo	4573	vam 
+positivo	4574	amo 
+positivo	4575	aind dev denilton kkk 
+positivo	4576	aguardefeliz bom uma gel rs 
+positivo	4577	show pen ano va 
+positivo	4578	gost 
+positivo	4579	quer 
+ambiguo	4580	aqu 
+ambiguo	4581	hum 
+positivo	4582	hum amo 
+positivo	4583	amanh agu comemor niv oia 
+positivo	4584	lug perfeit degust delic combinaca perfeit 
+positivo	4585	adoro 
+positivo	4586	maravilh 
+negativo	4587	bom com 
+ambiguo	4588	hum delicia 
+ambiguo	4589	
+ambiguo	4590	
+positivo	4591	delic 
+positivo	4592	hum delic 
+positivo	4593	delic 
+positivo	4594	espos kkk 
+positivo	4595	delic 
+neutro	4596	amig 
+ambiguo	4597	hum 
+negativo	4598	falt pouco 
+ambiguo	4599	man 
+positivo	4600	quant vej mai quer_ir 
+positivo	4601	delic 
+positivo	4602	sant s p brev ador insano m com otim hum 
+negativo	4603	delic quepen long 
+positivo	4604	amo amo amo 
+positivo	4605	inesqueci 
+positivo	4606	kkkk boa 
+neutro	4607	pen precis vend rim compr 
+ambiguo	4608	hdr 
+ambiguo	4609	gost  nao_patol corp int 
+positivo	4610	val pen delic 
+positivo	4611	delic 
+positivo	4612	bom 
+positivo	4613	tentaca quer est nest sabada degust maravilh 
+ambiguo	4614	
+ambiguo	4615	
+neutro	4616	sit vej result corr 
+ambiguo	4617	
+ambiguo	4618	nubl 
+ambiguo	4619	amig tart  nao_deix tir fot vom vou 
+ambiguo	4620	tart fof 
+ambiguo	4621	 nao_chov sol real deu tregu dur corr aind bem porqu lad sub 
+positivo	4622	 saudade 
+ambiguo	4623	ah ia am corr tart 
+ambiguo	4624	chov fortal mei complic ced pod est nubl temp 
+positivo	4625	jkkk sab show 
+ambiguo	4626	temp nubl 
+positivo	4627	sd ult vez ano 
+ambiguo	4628	chov 
+positivo	4629	 saudade mil fofur tart 
+ambiguo	4630	
+neutro	4631	nossa 
+ambiguo	4632	
+positivo	4633	top 
+positivo	4634	y 
+positivo	4635	mass quer_ir 
+positivo	4636	sd demal 
+positivo	4637	simb 
+ambiguo	4638	man 
+positivo	4639	fot incri quant gent 
+neutro	4640	sai result ofic fot 
+negativo	4641	vej result prov 
+ambiguo	4642	aproxim 
+neutro	4643	pod_ir tod brinqued ingress 
+positivo	4644	ind emb amanh feliz 
+negativo	4645	fever abert 
+positivo	4646	parais tropic mai park aqua amer latin cidad est 
+ambiguo	4647	lev 
+positivo	4648	kkkk inoc esquec nad kkk 
+positivo	4649	misericord kkk lembro 
+positivo	4650	venh dia 
+neutro	4651	cont regrass beach qe agu feliz 
+ambiguo	4652	
+positivo	4653	af quer_ir logo 
+positivo	4654	brinqued show 
+positivo	4655	dia cheg nov top bom 
+positivo	4656	muito bom sab est curt emoca 
+positivo	4657	bom divert curt famil 
+positivo	4658	vou amnh 
+positivo	4659	show vou nov 
+positivo	4660	bom 
+ambiguo	4661	
+positivo	4662	tav seman pass td maravilh 
+positivo	4663	ese tubog top ali tod brinqued sao show doming top cm amig dia uau 
+positivo	4664	embarq ond hoj perfeit lov 
+ambiguo	4665	snif snif ont 
+neutro	4666	outubr  nao_vi brinqued 
+ambiguo	4667	
+positivo	4668	lembr kkk gent ia morr kkkk 
+neutro	4669	piscin mesm altur 
+positivo	4670	show 
+neutro	4671	kkkk lembr hah engan direit simpl 
+positivo	4672	piscin maluc ame 
+negativo	4673	ia min afog 
+ambiguo	4674	emosa sen limit 
+ambiguo	4675	hotel consult vend carta card tim emailfeliz damascen beachpark br interess adquir carta card mai esclarec algum duvid disposica lig favor contat comig atrav email abaixofeliz damascen beachpark br envi propost compromiss abc tod sucess 
+positivo	4676	menin cham paul vir ca nord  bomdemais  coraca 
+positivo	4677	vam tir retrat assim rayany 
+negativo	4678	uhu prefer ei amig cont agu tao fort cai biquin kkk  nao_vej hor mereec 
+positivo	4679	bald inesqueci kkkk 
+negativo	4680	car rsr 
+positivo	4681	gent saudade es 
+positivo	4682	compromiss marc dezembr viu feliz 
+positivo	4683	 bomdemais  
+positivo	4684	maravilh 
+neutro	4685	lembr algu 
+positivo	4686	verdad vam program outr viag feliz 
+positivo	4687	vam volt 
+positivo	4688	privilegi ame 
+positivo	4689	mass park agu 
+positivo	4690	 saudade bald rs 
+positivo	4691	nossa mto bom hauhau demal feliz 
+positivo	4692	bom mae kkk ris 
+positivo	4693	dia inesqueci 
+neutro	4694	fech am 
+positivo	4695	parqu aqua fortal prim avent ser rs 
+ambiguo	4696	
+positivo	4697	 bomdemais  
+ambiguo	4698	
+ambiguo	4699	
+ambiguo	4700	certo 
+negativo	4701	eit porra feliz 
+positivo	4702	lor balda fal 
+positivo	4703	 saudade fic esper bald ench 
+ambiguo	4704	encar 
+positivo	4705	beach park conhec mor soh brend  nao_conhec 
+positivo	4706	muito bom i insano fal 
+positivo	4707	aa ser show 
+positivo	4708	eeita prox seman nois 
+ambiguo	4709	corr toc siren 
+positivo	4710	muito bom adult vir crianc felizd 
+ambiguo	4711	
+positivo	4712	quant serta ce pov qu agu  nao_ach feliz vez top corag desc insano vez md med sei  nao_cheg baix mov corp kkk aconselh_ir melhor parqu aqua xd 
+positivo	4713	kkk 
+neutro	4714	vam proc viu 
+neutro	4715	dia quant par 
+positivo	4716	 saudade divert 
+ambiguo	4717	
+positivo	4718	mass ker bi kkklk 
+positivo	4719	quer_ir nov 
+positivo	4720	ame melhor 
+positivo	4721	amo 
+positivo	4722	prox fer volt saudade 
+positivo	4723	delic 
+positivo	4724	amo 
+positivo	4725	tom banh balda delic 
+positivo	4726	est 
+positivo	4727	show 
+positivo	4728	divert nest lug tud bom 
+positivo	4729	maravilh 
+neutro	4730	gal pira 
+positivo	4731	 bomdemais  
+positivo	4732	bom boa ame dia 
+positivo	4733	mass 
+positivo	4734	 bomdemais  
+positivo	4735	ame dia vou volt 
+positivo	4736	bom curt k 
+positivo	4737	 saudade beach park 
+positivo	4738	 bomdemais  
+positivo	4739	bom corr fik baix rs 
+positivo	4740	bom inesquevci 
+positivo	4741	inesqueci delic qdo bald vir tod fic cuid ench corr baix tom meg banh 
+negativo	4742	olh bora 
+neutro	4743	lembr algu hahah 
+positivo	4744	 bomdemais  
+positivo	4745	maravilh 
+positivo	4746	bom gost lembr 
+neutro	4747	vou faz 
+positivo	4748	fiz pacot dua entr 
+positivo	4749	mai farr saudade 
+negativo	4750	moment tudibom 
+positivo	4751	bald td 
+positivo	4752	 bomdemais  aqu 
+positivo	4753	mass tamb 
+positivo	4754	mesm ft dia maravilh 
+positivo	4755	ador 
+neutro	4756	verdad 
+positivo	4757	ame sup recom_ir beach park 
+neutro	4758	seman vem 
+ambiguo	4759	emaravilh 
+positivo	4760	melhor ador 
+positivo	4761	 bomdemais  ador crianc pir ama monta 
+positivo	4762	bald tud bom 
+positivo	4763	bom 
+positivo	4764	gost 
+positivo	4765	muito shoow 
+positivo	4766	 bomdemais  
+positivo	4767	 saudade bald 
+positivo	4768	delic 
+positivo	4769	 saudade 
+positivo	4770	sho 
+positivo	4771	dia maravilh saudade jah 
+positivo	4772	 bomdemais  bald agu cabec 
+positivo	4773	ador divert 
+positivo	4774	mass show 
+positivo	4775	bom msm saudade 
+positivo	4776	famil experiment sensaca bom 
+positivo	4777	sao paul fau tamd agu 
+positivo	4778	 saudade 
+positivo	4779	demal bald feliz 
+positivo	4780	adogo frio barrig feliz 
+positivo	4781	amo sup mass 
+positivo	4782	ador 
+ambiguo	4783	
+positivo	4784	delic quer volt 
+positivo	4785	bom saudade 
+positivo	4786	show bol 
+positivo	4787	maravilh 
+positivo	4788	 saudade lug maravilh 
+ambiguo	4789	der 
+positivo	4790	otim banh 
+positivo	4791	diversa pur 
+positivo	4792	bom 
+positivo	4793	pens lug am 
+positivo	4794	delic bald 
+positivo	4795	maravilh 
+positivo	4796	show 
+positivo	4797	enquant aqu campin perif sofr racion agu 
+positivo	4798	cen vi legal saudade 
+positivo	4799	adoor 
+neutro	4800	gat esper bald abr  nao_perd nad vi 
+positivo	4801	rs balda 
+positivo	4802	terc fei chega feliz
+positivo	4803	oo bald melhor 
+positivo	4804	quit legal es beach park 
+positivo	4805	maravilh 
+positivo	4806	bom 
+positivo	4807	bom curt demal 
+positivo	4808	vam hah 
+positivo	4809	legal bald agu divert 
+ambiguo	4810	heim pov lembr vc kkk 
+positivo	4811	brev est 
+positivo	4812	 saudade dest lug sup meg maravilh 
+neutro	4813	lembr camil 
+positivo	4814	divirt boc bald show 
+positivo	4815	show bald 
+positivo	4816	quer_ir famil junh julh faz reserv antecip quant cust dia 
+positivo	4817	 saudade bom inesqueci 
+positivo	4818	chuaachua vou 
+positivo	4819	bald show 
+negativo	4820	viag inesqueci 
+ambiguo	4821	
+positivo	4822	u u 
+positivo	4823	 bomdemais  
+positivo	4824	gal casca pr saudade esfeliz 
+positivo	4825	tao bom saudade 
+positivo	4826	ador 
+ambiguo	4827	
+ambiguo	4828	demal 
+ambiguo	4829	gen 
+positivo	4830	show crianc grand vao gost rs 
+positivo	4831	filh ador acqu show  bomdemais  
+positivo	4832	 bomdemais  
+positivo	4833	shoow 
+positivo	4834	bald saudade lug show bol 
+ambiguo	4835	rsrr ow refresc 
+positivo	4836	ame 
+positivo	4837	tao bom  nao_vej hor_ir dinov 
+ambiguo	4838	 saudade perd siren toc amig 
+positivo	4839	 saudade 
+positivo	4840	amanh 
+positivo	4841	delic sd 
+positivo	4842	bom quer 
+positivo	4843	adoro 
+positivo	4844	ador agu gel caind 
+positivo	4845	filh ador 
+positivo	4846	bom 
+ambiguo	4847	
+ambiguo	4848	
+positivo	4849	comprov real tud bom feliz 
+negativo	4850	ador cai bem fort bom 
+positivo	4851	hum bom bald agu ui 
+positivo	4852	mass demal gent fik n esper bald ench 
+positivo	4853	delic muito bom 
+positivo	4854	td quer agor  bomdemais  
+positivo	4855	vam aprove muito cad litr kkk 
+positivo	4856	mass ame 
+positivo	4857	mass 
+positivo	4858	part 
+positivo	4859	carl dic mil vez bald vir tav baix 
+positivo	4860	 bomdemais  dud curt 
+ambiguo	4861	amr 
+positivo	4862	vam 
+positivo	4863	precis hoj kkk 
+positivo	4864	firm bald rs 
+positivo	4865	agu l despej olhaodesperdici 
+positivo	4866	lug maravilh amo demal 
+positivo	4867	pens banh gost 
+neutro	4868	precis min um dia 
+positivo	4869	ador est debaix mto legal 
+positivo	4870	gost doi ris saudade lug 
+positivo	4871	 saudade 
+positivo	4872	bald tud bom 
+positivo	4873	muito mass bald hein 
+ambiguo	4874	adooro 
+positivo	4875	bom 
+ambiguo	4876	
+positivo	4877	show 
+positivo	4878	 saudade neh filh 
+positivo	4879	tom banh nest bald 
+negativo	4880	olh 
+positivo	4881	ia vir estav embaix outr men crianc fic 
+ambiguo	4882	arras 
+ambiguo	4883	chuv prat 
+positivo	4884	dezembr 
+positivo	4885	estoy cheg nov 
+positivo	4886	 bomdemais  cont rs 
+ambiguo	4887	kkkk lembr gent corr peg bald kkk 
+positivo	4888	show 
+positivo	4889	oh cois boa hein 
+positivo	4890	gost mto kkk 
+positivo	4891	vam 
+ambiguo	4892	woow 
+positivo	4893	show 
+positivo	4894	legal 
+positivo	4895	band show 
+neutro	4896	cois gent grand 
+positivo	4897	cont dia minut curt music lug abenco 
+positivo	4898	tao bom est lug ouv music viv 
+positivo	4899	me est parqu y 
+positivo	4900	lug magic 
+positivo	4901	cheg 
+positivo	4902	legal 
+ambiguo	4903	
+positivo	4904	vam combin 
+positivo	4905	dia chegando eba 
+positivo	4906	famil 
+positivo	4907	indic maravilh 
+positivo	4908	bom lug ame montaao 
+positivo	4909	top 
+ambiguo	4910	
+positivo	4911	est ae dia novembr conhec tao fam park aqua beach park guard aquiraz 
+ambiguo	4912	val pesso 
+positivo	4913	bom 
+ambiguo	4914	pass val 
+positivo	4915	ame hoj famil 
+positivo	4916	 nao_vej hor conhec solh 
+negativo	4917	 nao_corag desc rs 
+ambiguo	4918	
+positivo	4919	agu 
+ambiguo	4920	
+positivo	4921	agent feliz 
+positivo	4922	venh logo hah 
+positivo	4923	mass 
+ambiguo	4924	
+positivo	4925	dia 
+neutro	4926	lembr gent cheg cost k 
+positivo	4927	deu saudade feliz 
+negativo	4928	falt pouc 
+ambiguo	4929	
+positivo	4930	 bomdemais  
+ambiguo	4931	maaravilh 
+positivo	4932	muito bom 
+negativo	4933	sai cost verd kkk demal 
+positivo	4934	 saudade 
+positivo	4935	melhor brinqued 
+positivo	4936	emocion 
+neutro	4937	pens pesso grit kkk 
+positivo	4938	legal uma vez 
+positivo	4939	eit vc vao rs 
+positivo	4940	vej max 
+positivo	4941	 bomdemais  
+positivo	4942	show 
+positivo	4943	famil divert imens parqu am bom 
+positivo	4944	hah mto bom 
+ambiguo	4945	
+negativo	4946	coraca quas sai 
+negativo	4947	nunc vou trocokkk 
+positivo	4948	quer_ir 
+positivo	4949	inesqueci qdo cheg parqu bom 
+ambiguo	4950	brit 
+neutro	4951	bom quas morr  nao_sei nad kkk 
+ambiguo	4952	pens  nao_aproveit med kkk 
+positivo	4953	mergulh cost gent ness 
+positivo	4954	kkkk 
+positivo	4955	show 
+neutro	4956	nossa ilb bom filh esbald 
+ambiguo	4957	sd viag comemor niv nel 
+neutro	4958	sei grit 
+positivo	4959	pur emoca 
+ambiguo	4960	qdo  nao_
+neutro	4961	fic par naquil deix depressi 
+positivo	4962	ame 
+positivo	4963	emoca show bol ame esper volt 
+positivo	4964	perfeit 
+positivo	4965	bom 
+neutro	4966	eta doid_ir pro bach parq 
+positivo	4967	 nao_vej hor am 
+positivo	4968	aproveit show beij 
+negativo	4969	verd qual morr med kkk 
+positivo	4970	 saudade 
+positivo	4971	quas dess cost legal 
+positivo	4972	show tbm tod feliz 
+neutro	4973	jeit gent kkk 
+positivo	4974	lembr kkkk gent volt cost 
+ambiguo	4975	
+positivo	4976	ador grit bast 
+positivo	4977	 bomdemais  
+positivo	4978	quero irr 
+positivo	4979	amo demal 
+ambiguo	4980	hahah bor arrisc 
+positivo	4981	sonh 
+positivo	4982	dia cheg log 
+positivo	4983	quer_ir ir 
+neutro	4984	tod arrepi 
+ambiguo	4985	necessit_ir 
+ambiguo	4986	fuih 
+ambiguo	4987	vidot 
+positivo	4988	delic maravilh 
+ambiguo	4989	v born skluzavk pro zah ivac kol posledn je pak insano 
+positivo	4990	mass 
+positivo	4991	ame nov est 
+ambiguo	4992	bor 
+positivo	4993	doi feliz o verd mto lgl 

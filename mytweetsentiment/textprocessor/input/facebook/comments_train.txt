@@ -1,0 +1,291 @@
+sentiment	id	text
+positivo	665729320200951	Pri Santos Karine Gomes Debora Patrocinio Jhuru Casusa não vejo a hora rsrs
+positivo	10204981598969919	Está chegando amor, contando os minutos !! Luiz Fernando Araújo
+positivo	10204350986289255	Ja  comecei contar os dias Patricia Botan
+neutro	4773783358154	Alguém aqui que ja foi, por favor pode me dizer se o valor da entrada no parque lá é o mesmo que no site?
+neutro	290719484470311	Pamela Menosso e Jessica Hack olhem isso
+positivo	954224187937781	Essa praia e perfeita Marina Magro Fogarin Belone ! Água morna , pouca gente , vento , clima agradável e de sáb e domingo uma banda ao vivo !!!!!!!!!!
+positivo	4297457010613	Ainda melhor com os amigos.. Né Franciele Scherer Burke Huber Patricia Medina Thiemes Ceribola Rodrigo Luis Ceribola Ceribola Claúdia Pedroso Rodrigo Pereira Martins e Ana #semface
+neutro	300591313466202	DESCUBRIR ESSE BUG DE CURTIDAS GANHEI 1000 CURTIDAS NA MINHA FOTO         https://www.facebook.com/1516314928616104
+positivo	719277341467077	Lugar perfeito, ow saudades!!!
+positivo	655479661216932	Lindo beach park...
+neutro	349983618508173	ei pessoal ajuda ....é pra compartilhar e curtir, é uma gincana  do colégio da minha namorada!!!!! Likes!Likes!Likes!Likes!Likes!Likes!Likes!Likes!Likes!Likes!Likes!  Ajude-nos a cumprir e ganhar na primeira tarefa da SEAC 2014! Por favor, curta e compartilhe a foto deste link e, se puder, divulgue para seus amigos! Obrigado desde Já!                                                     Equipe 1º ano https://www.facebook.com/123905507709993/photos/a.350943688339506.1073741827.123905507709993/563355680431638/?type=1&theater
+positivo	805639632831769	Nao vejo a hora meu amor Thamires Haenohoen
+negativo	10202336381791264	Muiiito caro mesmo. Com ingressos, almoço no kilo, refrigerante e 3 latinhas de cerveja eu e mais 3 amigas gastamos 1.100,00 ficamos 5 horas lá. Mas é tudo bonito, limpo, organizado, seguro.
+positivo	733992869970731	A melhor praia do Brasil!!!! O melhor banho de mar!!!!
+positivo	10203154775018349	Ja estive la maravilhoso amo ceara
+positivo	1708592642699383	E  mesmo  um  paraiso!
+positivo	564635497002187	Já fui huhuhu
+positivo	1515550635368623	Eu também kkkkk
+positivo	10203908173336083	Realmente é Tudo de Bom Pretendo voltar + uma vez!!
+neutro	4773783358154	E pode Alex Xandre?
+positivo	510600415708379	Chega logo Fevereiro...
+positivo	893014897383688	Eu tb quero!
+positivo	386588101494077	Tô com saudades de lá...
+positivo	583788648419700	O maravilha
+negativo	700540536704574	Estive em set la, realmente tudo mto caro!! Mas nao nego...tudo maravilhoso...a praia, o mar, a comida e o local c mta sombra e agua fresca!!
+neutro	663725370393202	olha o padrão Karen Gabriel Pinheiro...
+positivo	692721637491281	É muito bom mesmo
+positivo	788113024585212	Naldo Marques qro esse nas suas férias!  #fortaleza
+positivo	654494101330442	isso sim e top, o saudades.
+positivo	365922010232178	Lindo demais
+positivo	698966220187746	Amo amo
+positivo	363011540532907	Me convida
+positivo	1507248706190338	Esse lugar é um sonho!!!!!??
+positivo	1565541877010392	Muito bom
+positivo	511140372322880	Lugar lindo
+positivo	1541532366062513	Só saudades desse paraíso que é o CE
+positivo	592447667548349	Muito bonito!  Vale a pena ir para ver a beleza!
+positivo	719744148100971	Belissimo.
+neutro	1551101778437443	Eu tambem !!!!!
+positivo	1458250194399857	Lindo
+positivo	333857900125294	Nada mal hein comadre to junto. Tens bom gosto!
+positivo	1569636256591891	Linda a  obra do criador.
+positivo	725082214249483	Amei!
+positivo	541239176006380	Saudade desse lugar...
+positivo	1482180288726863	Lindo!
+positivo	744055102331196	Muito bom.
+positivo	939777392703313	Lugar muito lindo e que delícia!
+positivo	1535111013391740	Maravilhosa essa praia.
+positivo	395898780567930	Amei esse lugar,é lindo D +
+positivo	649382298512699	Lindo de viver
+positivo	396918500461598	Deslumbrante!!!!!!
+positivo	519798518149467	Amei esse lugar .saudades
+positivo	1477344802553244	Surreal!!!
+negativo	10202516082293565	Caríssimo!  Mas excelente!
+positivo	281548632042226	Eu ja estive ai nossa e tudo de bom
+positivo	1473621519590196	mto lindo
+positivo	604770259627860	Moro em frente e lindo
+positivo	981923558499999	Já passei dias maravilhosos neste lugar maravilhoso
+positivo	364479837053698	Beleza lugar lindo
+neutro	382592785224821	Vendo passaporte valido 7 dia por 220 reais
+positivo	585788764877679	lindo.
+positivo	672839899481977	Maravilha
+neutro	722171767870405	http://www.youtube.com/watch?v=8tvoATwPq8s
+positivo	763695207016756	ai meu Deus... queria estar ai
+positivo	530667677038413	(y)
+positivo	551461934981809	Ah eu ai!
+positivo	1498311563757795	Que saldade já fui
+positivo	651710054941931	lindo quero ere fim de ano la
+positivo	565448606934671	Que saudade desse lugar
+positivo	710623159015385	aff saudades do paraíso
+positivo	851203141591758	muito bom esse lugar adorei
+positivo	1513091828909091	E muito bom esse anor eu n vou ja esta trisde...
+positivo	677324252374767	Vcs vão funcionar dia 27/10 na segunda depois da eleição?
+positivo	832676063423250	Aqui é uma DELÍCIA.
+positivo	10152740849176897	Quero voltar logoooooo! ??
+neutro	838223436190679	Vamos votar no alkmin
+positivo	775554519181236	Q saudade desse lugar....
+ambiguo	703611529725843	Três dias só pegando esse vento. Odilon Cardoso
+positivo	800446826666823	saudadesssssssssssss
+positivo	792868200776822	Showwwww!!!!
+positivo	10152531984223818	Damiana  Maria Helena Calheiros James Oliveira Lembra dessa vista? ??
+neutro	717820758312077	Juliana Provinciato
+positivo	10152680151269560	Oh saudade !!!! Bom de mais !!! Uma das melhores epocas da minha vida !!!!beijos
+neutro	10201758876173472	Samuel Jose Lima Borgaço
+positivo	1483470558605071	E vamos lá se Deus quiser!!!!!
+positivo	912408675440461	Conheço demais esse cenário,hein!!!!
+positivo	830064220391184	Tudo de bom!
+positivo	10204831501497187	Opa novembrao estou chegando por ai!!!!
+positivo	346907158819289	Que maravilha!
+neutro	10205136572236833	É verdade
+neutro	871522072860625	Com certeza!
+positivo	869035583121451	Preciso urgenteeeee
+positivo	352282094934048	Ja estive ai com meus filhos quando pequenos e um lugar maravilhoso
+positivo	877589028918868	100 anos de vida pra quem já curtiu o beach Park!!
+positivo	748603825211306	Saudade!  Filipe Oliveira Gonçalves vamos?
+positivo	4391619405216	Novembro .... Me aguardem !!!! Whoooo
+neutro	730307247004797	Edvaldo Ferreira Elizabete Cavalcante
+neutro	818743251480626	opa, to nessa
+positivo	558120584289491	Acho q também to nessa. Kkkk
+neutro	557398217716158	Jadson Braga
+positivo	523329647768555	Amo tudo isso, é muito massa, me respondam, quanto custa pra ir eu meu esposo e meu filho de 10 anos, com a hospedagem de dois dias em,?
+neutro	697003077020310	https://www.youtube.com/watch?v=Rm3ezxnssIU
+positivo	10204397713373673	"Só de boa!  ;)"
+positivo	446613928809665	Muito bom, recomendo!!!
+positivo	738021239568802	Quanto ingressos
+positivo	587072324730793	Caroline Laura Bárbara Gabriela saudadeeeeeeee :'(
+neutro	716749535069870	Milena Barrachi Patricia Gouveia Appollonio Renato Mandacari
+positivo	705970532826213	Naty Hikari e Silvana Vieira haha saudades eternas desse lugar !
+neutro	871900619500221	Luiz Henrique Molleri  Clinton Cliver Cipriano  vendo essa video lembro das 3 crianças grandes fazendo pega e dando caldo um no outro.. eauhaeuhaehuaehuaehuaeuheauh...
+positivo	933354563346425	"Kkkkk ohh e como lembro ""Me salve"" kkkkk Tatiana"
+positivo	893711733979121	Muitooo bom! Se lembra Jana to com sede rsrsrs
+positivo	628418443924020	Então vem.... ?? Vem dezembro,  contando os dias sim amiga Keyla Almeida
+positivo	791555924208677	Eu conto os dias , conto horas pra te ver ... Beach park?   né Amiga Fatima Almeida
+positivo	475049425968991	Gloria lembra  ? kkkkkkk  #perdidas ai kkkkkkk #aai sdds :'( #querooo maiis <3 :*
+positivo	717888521629802	Sonnally Nascimento teu niver, bora?
+positivo	713711198722481	que saudade Ana Paula Nogueira
+neutro	700155520071556	Nanny Cavalcante
+positivo	623872771067515	Luiza Cavalcante fomos muito nisso ai! saudades eternas kkkk
+negativo	730978043643334	Carlos Grant Ana Izabel ://
+positivo	748994971832439	Olha ai Luiza Beatriz o que eu to falando... kkkkkkkkkkkkkkk
+neutro	620175751424114	Renata Costa e Jacqueline Souza lembram?
+positivo	856697967694256	Gosti  Shirley Sodré!!!!! Quando vamos????
+neutro	671594542905735	Thiago Cartoni
+positivo	708939265864215	Olha Walker Teixeira vamos nos refrescar? ????
+positivo	366162103542325	lembro de nois la Irlanda Sachah....acho que na primeira vez que fomos ficamos so ai kkkk
+positivo	323334981163781	Forteleza, lugar maravilhoso, fui ano passado e este ano tbm. Amo este lugar.
+neutro	852241598143974	Qe tu lembra amiga? Karla Brena
+neutro	551494414981000	Lena Lima
+neutro	608714189246386	Paulo Jesse olha ai amor
+neutro	10153482953856393	Michel Garcia Contando...
+neutro	564307520345498	Patricia Bottini
+neutro	658249140919137	Amg vivemos isso hj...  Raíssa Barbosa
+positivo	724012854350438	Ohhhh saudade Josemar Silva
+positivo	530667677038413	(y)
+positivo	365899636902740	Um dia volto
+positivo	893711733979121	Quero mais mas dessa vez com meus amores Milena e Joao Pedro :)
+positivo	893711733979121	rsrsrsrs muitooo bom passeio perfeito
+positivo	379053375575441	amo tudo isso aiii
+positivo	462758323865978	adorei ter passado um final de semana ai
+positivo	10201401168990527	Saudade desse lugar encantador.
+positivo	1475178236097902	Sdd do dia  em que fui ai haha ??
+positivo	558377357627868	Kkkkkk , lembro sim ???? mtts sdds ?
+positivo	606215856154292	Quero ir de novo...  Saudades eterna
+positivo	1461967854053144	Olha ai Adriana Gomes e tudo de bom
+positivo	946735728676848	com tantos binquedos radicais do park..esse é o momento light ...Deleiciaaaaa saudades
+positivo	677904478983379	bora mesmo :)
+positivo	696400163748650	Delicia!! Tive o privilegio de passar... Demaisssss..
+neutro	876128502414613	Ricardo Kakà
+positivo	543025182507630	só de lembrar que estive neste paraíso me dar uma saudade!!!!!
+positivo	1485979161677647	All the way  I like u
+positivo	815531128467742	Muito bom....!!!
+neutro	641593575959998	Olha que legal Júnior Mansur
+positivo	728830710518096	Estarei lá pela 3 vez se Deus quiser ! E dessa vez ela vai comigo linda e top Taynara Santos* Vamos arrazar lá né prima *
+positivo	268789119993517	Andei e foi muito gostoso q saudades gostaria de ir demovo
+positivo	685792174802370	Delícia!
+positivo	377167115793195	quero voltar ai de novo :( <3 eu vo voltar meu fio :*  
+positivo	605727466214679	Muito bom relaxar nesse lugar???
+positivo	1516794255236133	e bom demais
+positivo	1498006493780913	Vai ser maaara !
+positivo	604066106369576	Olha amg  Maruse de Souza nessa vamos rsrs'
+neutro	700155520071556	Nanny Cavalcante
+positivo	906118336066714	Tainná Ferreira esse é gostosoo , bem relaxante !
+positivo	298832726977924	Saudade!
+neutro	557067451061586	Thais Cândida Vieira
+positivo	1498311563757795	Estou com saudades o lugar e lindo
+neutro	557241454386131	Sandy Furtado
+neutro	533615616767102	Me imaginando ai com esse calor que sampa está fazendo!!!
+positivo	527270684068655	Lugar super lindo!
+positivo	507150352746383	Maravilhoso
+positivo	553196234810775	Vamos Bruno Duarte e Juliano Lima?
+positivo	368295500002389	que gostoso pra.nadar nesse calor
+positivo	742748112462146	Ja tive o prazer de curtir essa maravilha por duas vzs, recomendo!!!
+positivo	756192714425366	esse é o melhor.
+positivo	691368050918696	Saudades de Agosto <3 , mas em breve retornarei rs
+positivo	523903644377650	Vou sabado! :)
+positivo	583210211805368	Vixe é mt bom! Num vejo a hora de voltar ao beach park
+neutro	816034091770345	Nós Marcelo Costa e Adriana Bonates
+positivo	633378840092468	Eu moro bem pertinho do Beach Park...
+neutro	927454183933787	Deo Azevedo
+positivo	730952713650109	Mauro Fontes só quero ficar de boa nesse
+neutro	1438824629724084	Ja fui
+positivo	662313440515329	Márcio José olha que delicia
+positivo	571929779602448	Olha ai Netinha Sant'Ana recordar é viver rsrsrs
+neutro	766437973414643	Aline Araujo, Alexandre Araújo!
+positivo	722576217823547	Vamos Tatiana Menezes?kkkkkk
+neutro	721353287942351	Sara Hipólito
+positivo	10205273199612952	queria tanto Perla Fernández  :/
+neutro	794143807308963	Davi Araújo
+positivo	810976488935083	Cleber Belizario Num dia de hj hein kkkkkk
+neutro	574082792721051	Olha Silvia Leal e Sérgio Ricardo
+positivo	299689923559003	meus filhotes vão amar!  logo estaremos lá ulul! B|
+neutro	1950734168399675	Maria Doceu Almeida Pereira
+positivo	699695440137685	"Um dia desses chego por ai com a família ;)"
+positivo	1533537143534850	Nossa , esse Rio Preguiça é maravilhoso , não vejo a hora de ir ai denovo
+positivo	1497938830460802	Jurandir Lima amorrr
+positivo	10204332781310072	saudades disso
+positivo	714248725336364	Recomendo Vamos de novo Iarley Ribeiro Elma Santiago!!!
+positivo	591701370950331	E uma delicia mesmo
+positivo	463357453801003	Amei...
+positivo	1483957735211592	oh melhor de fortaleza
+positivo	864591750221218	Maravilho lugar!!
+neutro	650282118425206	Em breve estarei aí !
+positivo	1487164251559548	Bom , muito bom! Este eu já fui rsrs
+positivo	425023670969626	Bela ^^
+positivo	545024045630872	Muito bom.
+positivo	668654833256791	Eu fui amei...
+positivo	718565864902852	show¡
+positivo	751994168206771	Muito bom!!! Recomendo...
+positivo	680536042022528	Amo a correnteza...
+neutro	598094136970282	Marcilio Braga
+positivo	600013133454597	maravilhoso
+positivo	305641069624125	eu vooooooou!!!! ta chegaaando!!!
+positivo	831490230205788	Quanto esta custando o ingresso nesse mes de novembro?  Alguém sabe  ???
+positivo	10152439415168652	Wow looks great fun. Xx
+neutro	10204623971616449	Harleyde Costa Arauújo
+neutro	562172047248627	Ingressos comprados
+neutro	767762996615460	 Jessica Carcereri de Andrade
+positivo	1440407399555949	Esse é bom.
+positivo	478294818973204	Muuuuuuito bom
+positivo	275564469306279	Massa! Bom D+!!!!!!
+positivo	660096980776452	gostei muito quando estive ai muito bom 
+positivo	10204484332972121	Ow saudade de ir ai
+positivo	552063344924342	Rosangela Soares e Emanuel Martinelli vamos em excursão familiar?
+positivo	10204505949194605	Gustavo Henrique Costa!!! O saudadeeee..
+positivo	298286100379977	Kelly Larrama,  sauuuuuudades.
+positivo	630856960361121	Booooooooom demais!!!
+positivo	838301426214748	Ja quero
+positivo	646805118751526	Adoro!!
+positivo	1451616758436197	Amo a correnteza e muito legal ! Amei demais ... todo ano eu vo pra iir :*
+positivo	336813259807438	Ir à Fortaleza e não visitar o Beach Park não é um passeio completo. Eu fui e voltei a ser criança.
+neutro	709691552444475	Douglas Seifert Ovitzko ??
+positivo	643541962432240	Bruna Larissa kkkk Fortaleza Ceará a melhor
+positivo	559769250821895	Vamos Melk HQ ?
+positivo	1584279561713077	Mariana Ruas, Beatriz Ruas, Mauricio Ruas, já está na hora de voltarmos!
+ambiguo	347126798745315	e esse  e o ceará dos brasileiro
+positivo	552177024883572	Ai amore Gilson Souza vamos
+neutro	735701809812547	Sr liga ai Ueudo Germano 
+positivo	280957602103206	Menina que  paizagem linda .
+positivo	1548793378683878	Um paraíso !
+positivo	1558105091088948	Um lugar encrivel
+positivo	1498311563757795	Tenho muita saudades
+positivo	1703441579881728	Um sonho
+positivo	668574773220251	1° de novembro eu chego ai Beach Park
+positivo	648539545264287	A demora é sua Thamires Naiara
+positivo	10203870532216863	vamos no final do ano Comadre Claudia Souza?
+neutro	559769250821895	Vamos Melk HQ ?
+neutro	681684435252494	Gabriela Maia
+positivo	359615757538512	eu quero eu quero ..
+positivo	630730037024941	Jonas Lopes Jú Lopes Rafael Dezordi  *-*
+positivo	287858474757440	Lindddo ja  laaaa
+positivo	872980506045385	Imperdivel
+positivo	727378880664171	Falta pouco para estar lá de novo, se Deus quiser.....
+positivo	833863436653311	Peach Park é tudo de bommmmmm!!!
+positivo	351386798361200	Que lugar lindo
+positivo	290318857838864	Fui e com certeza voltarei.??????
+negativo	702063386541918	Melhorem os preços, sinceramente não é um lugar para todos!! Que pena!!
+positivo	1473621519590196	lindo demais
+positivo	1565780700315837	E maravilhoso . Vou correr dia 09/11 e ganhar minha entrada
+positivo	1491589961102416	È mais tem que ver quanto ta direitinho ?
+positivo	1504791019757399	Jorge Pinheiro aproveita pra conhece.?? Muito bom.??
+positivo	683552818393360	Amoooo muito td isso !
+positivo	656332431146806	Necessito !! =)
+positivo	1482177325395850	Amo muito tudo isso eu já conheço e demais
+positivo	520193401449106	saudades de lá !!!!
+positivo	336130506561840	Fui ontem mais já tô com saudades
+neutro	10152364575431759	Marcia Takita Girlene Dias
+positivo	10201839966920906	que tudo !! acabamos de voltar daí e já quero voltar...esse lugar é tudo de bom
+neutro	1491589961102416	Né, mais seria legal pro verão né? Thainá Camargo
+positivo	1498311563757795	Que saudade deste lugar
+positivo	712363032166315	que saudades deste lugar
+positivo	1491589961102416	Thainá Camargo olha que show amiga !
+positivo	868178083211122	Saudades.. Amo esse lugar!!??????
+positivo	693225357430164	Paraíso ,queria morar ai
+positivo	703893993021584	Hoje, estivemos lá... E o melhor local de Fortaleza...
+neutro	723087041086292	Tarcila Ignácio Schulze
+positivo	10204677880168667	Vamos la!!!!
+positivo	388593551293922	Essa piscina de ondas é uma maravilha!!!!
+positivo	717213065039741	Silvia Lourenco Bianca Albuquerque Osvaldo Cure ta chegandooooooo
+positivo	842190939159480	Que sdds ,lugar maravilhoso ??????
+positivo	1473041129638224	Vou a pela  primeira vez domingo nao vejo a hora
+neutro	1477605952513590	Eu já fui pra la
+positivo	654961217944618	Maravilha !Amo esse lugar.
+neutro	1440629849533402	Ta de quanto o Ingresso?
+positivo	320590541434211	Quero voltar logo  amo esse lugar
+neutro	693478134058272	Ai Jorge Luiz Monteiro
+positivo	10204112728690481	Queria irrr
+positivo	536019846541993	Ótimo !
+neutro	718969318187528	Maria Izabel Bianca Figueredo Cacau Lelis
+positivo	677807295660470	vamossss
+positivo	820065881348926	Eu queroooo

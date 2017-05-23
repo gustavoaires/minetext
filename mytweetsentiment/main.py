@@ -1,7 +1,5 @@
-import datacollect
-from twitterscraper import query_tweets
-from twitterscraper import main
-import json
+from collecting import datacollect
+
 
 # test file
 
@@ -11,8 +9,8 @@ def main():
     OAUTH_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
     OAUTH_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
 
-    twitter_api = datacollect.TwitterAccess().connect(CONSUMER_KEY,CONSUMER_SECRET,
-                                           OAUTH_TOKEN,OAUTH_TOKEN_SECRET)
+    twitter_api = datacollect.TwitterAccess().connect(CONSUMER_KEY, CONSUMER_SECRET,
+                                                      OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
     print twitter_api
 
