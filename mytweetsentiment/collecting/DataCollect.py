@@ -22,7 +22,7 @@ class DataCollect(object):
 
         return tw.API(auth, wait_on_rate_limit=True)
 
-    def getTweetsByScraping(self, query, limit=None):
+    def scrapeTweets(self, query, limit=None):
         """
         all the results obtained with this method 
         has just id, user, text and timestamp metadata
@@ -35,18 +35,18 @@ class DataCollect(object):
         :return: tweets: a list of all tweets obtained after the request
         """
         tweets = []
-        if query:
-            for tweet in query_tweets(query, limit=limit):
-                dict = {}
-                dict['id'] = tweet.id
-                dict['text'] = tweet.text
-                dict['screen_name'] = tweet.user
-                dict['created_at'] = str(tweet.timestamp)
-                tweets.append(dict)
+
+        for tweet in query_tweets(query, limit=limit):
+            dict = {}
+            dict['id'] = tweet.id
+            dict['text'] = tweet.text
+            dict['screen_name'] = tweet.user
+            dict['created_at'] = str(tweet.timestamp)
+            tweets.append(dict)
 
         return tweets
 
-    def getTweetsFromREST(self, query, lang="pt", limit=None):
+    def restTweets(self, query, lang="pt", limit=None):
         """
         returns all the tweets within 7 days top according to the query received by this method
         returns the complete tweet
