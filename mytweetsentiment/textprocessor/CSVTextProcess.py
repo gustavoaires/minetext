@@ -6,8 +6,7 @@
 import csv
 import sys
 import os
-import re
-import random 
+import random
 from os import system
 from CoordinateFormater import*
 from PortugueseProcess import*
@@ -43,6 +42,7 @@ class TextProcess():
                     text = self.clean.normalizeDigraph(text)
                     text = self.named.removePersonName(text)
                     text = text.lower()
+                    text = self.clean.removeSymbols(text)
                     text = self.clean.removeStopwords(text)
                     text = self.clean.removeOneCharacter(text)
                     text = self.clean.removeSufPort(text)
@@ -70,6 +70,7 @@ class TextProcess():
                         text = self.clean.normalizeDigraph(text)
                         text = self.named.removePersonName(text)
                         text = text.lower()
+                        text = self.clean.removeSymbols(text)
                         text = self.clean.removeStopwords(text)
                         text = self.clean.removeOneCharacter(text)
                         text = self.clean.removeSufPort(text)

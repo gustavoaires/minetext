@@ -1,167 +1,186 @@
 # -*- coding: latin-1 -*-
 import re
+
 import nltk
-from nltk.stem import *
-from nltk.tag import UnigramTagger
-from nltk.corpus.reader import TaggedCorpusReader
 from nltk import RegexpParser
 from nltk.corpus import stopwords
 from nltk.tokenize.regexp import WhitespaceTokenizer
+
 global corpus, sent_tags, tagger
 
 # corpus = TaggedCorpusReader('/root/adail/python/names',r'.*\.txt',word_tokenizer=PunktWordTokenizer(),sep="_") PATH no linux
-corpus = TaggedCorpusReader('C:/Users/jose.adail/workspace/TextProcessor/names', r'.*\.txt', word_tokenizer=WhitespaceTokenizer(), sep="_")
-name_tags = corpus.tagged_sents()  # Recebe as sentenças marcadas com POS_Tags.
-tagger = UnigramTagger(name_tags)  # UnigramTagger é treinado com essas sentenças marcadas que o são repassadas.
+# corpus = TaggedCorpusReader('C:/Users/jose.adail/workspace/TextProcessor/names', r'.*\.txt', word_tokenizer=WhitespaceTokenizer(), sep="_")
+# name_tags = corpus.tagged_sents()  # Recebe as sentenças marcadas com POS_Tags.
+# tagger = UnigramTagger(name_tags)  # UnigramTagger é treinado com essas sentenças marcadas que o são repassadas.
+
 
 class RegexpReplacer(object):
-   def __init__(self):
-      self.replacement_patterns = [(r'rs[rs]+', 'rs'), (r'ha[ha]+', 'haha'), (r's[s]+', 'sxs'), (r'r[r]+', 'rxr'), (r'k[k]+', 'kxkxk'), (r'a[a]+', 'aqa'), (r'e[e]+', 'eqe'),
-                        (r'o[o]+', 'oqo'), (r'sdds', 'saudade'), (r'sdd', 'saudade'), (r':d', 'feliz'), (r'<3', 'love'), (r':3', 'feliz'), (r';d', 'feliz'),
-                        (r':p', 'feliz'), (r':\)*', 'feliz'), (r'o\/', 'feliz'), (r'\\o\/', 'feliz'), (r'\\o', 'feliz'), (r'\*\_*\*', 'feliz'),
-                        (r'\*-*\*', 'feliz'), (r'\*o*\*', 'feliz'), (r'\>.\<', 'feliz'), (r":'\(*", 'triste'),
-                        (r':\(*', 'triste'), (r':o*', 'uau'), (r'=o*', 'uau'), (r':v', 'feliz'), (r';\)*', 'feliz'), (r'd\+', 'demais'), (r'[\W\d\_]', ' ')]
-   # Para cada emoticon e outras expressões mapeadas nas regex encontradas em replacement_patterns, realizar substituição.
-   def replaceEmoticon(self, text):
-      for r, s in self.replacement_patterns:
-         text = re.sub(r, s, text)
-      return text
+    def __init__(self):
+        self.replacement_patterns = [(r'rs[rs]+', 'rs'), (r'ha[ha]+', 'haha'), (r's[s]+', 'sxs'), (r'r[r]+', 'rxr'), (r'k[k]+', 'kxkxk'), (r'a[a]+', 'aqa'), (r'e[e]+', 'eqe'),
+                                     (r'o[o]+', 'oqo'), (r'sdds', 'saudade'), (r'sdd', 'saudade'), (r':d', 'feliz'), (r'<3', 'love'), (r':3', 'feliz'), (r';d', 'feliz'),
+                                     (r':p', 'feliz'), (r':\)*', 'feliz'), (r'o\/', 'feliz'), (r'\\o\/', 'feliz'), (r'\\o', 'feliz'), (r'\*\_*\*', 'feliz'),
+                                     (r'\*-*\*', 'feliz'), (r'\*o*\*', 'feliz'), (r'\>.\<', 'feliz'), (r":'\(*", 'triste'),
+                                     (r':\(*', 'triste'), (r':o*', 'uau'), (r'=o*', 'uau'), (r':v', 'feliz'), (r';\)*', 'feliz'), (r'd\+', 'demais'), (r'[\W\d\_]', ' ')]
+    # Para cada emoticon e outras expressões mapeadas nas regex encontradas em replacement_patterns,
+    # realizar substituição.
+    def replaceEmoticon(self, text):
+        for r, s in self.replacement_patterns:
+            text = re.sub(r, s, text)
+            return text
+
 
 class TextCleaner(object):
-   def __init__(self):
-      self.repeat_regexp = re.compile(r'(\w*)(\w)\2(\w*)')
-      self.repl = r'\1\2\3'
-      self.pt_stemmer = nltk.stem.RSLPStemmer()
-      self.tokenizer = WhitespaceTokenizer()
-      self.cached_stopwords = stopwords.words('portuguese')
-      self.more_stopwords = ['ja', 'q', 'd', 'ai', 'desse', 'dessa', 'disso', 'nesse', 'nessa', 'nisso', 'esse', 'essa', 'isso', 'so', 'mt', 'vc', 'voce', 'ne', 'ta', 'to', 'pq',
-                 'cade', 'kd', 'la', 'e', 'eh', 'dai', 'pra', 'vai', 'olha', 'pois',
-                 'fica', 'muito', 'muita', 'muitos', 'muitas', 'onde', 'mim', 'oi', 'ola', 'ate']
-      self.ascii_replace = [('á', 'a'), ('à', 'a'), ('ã', 'a'), ('â', 'a'), ('é', 'e'), ('è', 'e'), ('ê', 'e'), ('í', 'i'), ('ó', 'o'), ('ò', 'o'), ('ô', 'o'), ('õ', 'o'), ('ú', 'u'),
-                 ('ç', 'c'), ('ä', 'a'), ('ë', 'e'), ('ï', 'i'), ('ö', 'o'), ('ü', 'u'), ('Á', 'a'), ('À', 'a'), ('Ã', 'a'), ('Â', 'a'), ('É', 'e'), ('È', 'e'), ('Ê', 'e'),
-                 ('Í', 'i'), ('Ó', 'o'), ('Ò', 'o'), ('Ô', 'o'), ('Õ', 'o'), ('Ú', 'u'), ('Ç', 'c')]
-      self.link_patterns = [('http'), ('www'), ('w3c')]
-      self.normal = [(r'kxkxk', 'kkk'), (r'nao ', ' nao_'), (r' ir ', '_ir '), (r'bom demal', ' bomdemais '), (r'\s*insan\s*', ' insano '), (r'\s*saudad\s*', ' saudade ')]
-      self.digraph = [(r'rxr', 'rr'), (r'sxs', 'ss'), (r'aqa', 'aa'), (r'eqe', 'ee'), (r'oqo', 'oo')]
-      
-   # Remover caracteres repetidos seguidamente, para que o modelo não seja prejudicado por falta de padrão na escrita.
-   def removeRepChar(self, word):
-      repl_word = self.repeat_regexp.sub(self.repl, word)
-      if repl_word != word:
-         return self.removeRepChar(repl_word)
-      else:
-         return repl_word
+    def __init__(self):
+        self.repeat_regexp = re.compile(r'(\w*)(\w)\2(\w*)')
+        self.repl = r'\1\2\3'
+        self.pt_stemmer = nltk.stem.RSLPStemmer()
+        self.tokenizer = WhitespaceTokenizer()
+        self.cached_stopwords = stopwords.words('portuguese')
+        self.symbols = ["\"", "\'", "!", "?", ".", "," , ";", ">", "_", "<", "-", "[",
+                        "]", "{", "}", "'s", "\/", "\\", "^", "~", "'", "`", "``",
+                        ":", "(", ")", "#", "$", "%", "&", "*", "=", "+"]
+        self.more_stopwords = ['ja', 'q', 'd', 'ai', 'desse', 'dessa', 'disso', 'nesse', 'nessa', 'nisso', 'esse', 'essa', 'isso', 'so', 'mt', 'vc', 'voce', 'ne', 'ta', 'to', 'pq',
+                               'cade', 'kd', 'la', 'e', 'eh', 'dai', 'pra', 'vai', 'olha', 'pois', 'rt',
+                               'fica', 'muito', 'muita', 'muitos', 'muitas', 'onde', 'mim', 'oi', 'ola', 'ate']
+        self.unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
+                                (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
+                                (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
+                                (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
+                                (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
+                                (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c')]
+        self.link_patterns = [('http'), ('www'), ('w3c')]
+        self.normal = [(r'kxkxk', 'kkk'), (r'nao ', ' nao_'), (r' ir ', '_ir '), (r'bom demal', ' bomdemais '), (r'\s*insan\s*', ' insano '), (r'\s*saudad\s*', ' saudade ')]
+        self.digraph = [(r'rxr', 'rr'), (r'sxs', 'ss'), (r'aqa', 'aa'), (r'eqe', 'ee'), (r'oqo', 'oo')]
 
-   # Remover sufixo das palavras da lingua portuguesa.
-   def removeSufPort(self, para):
-      para = para.split()
-      text = ''
-      for w in para:
-         text = text + self.pt_stemmer.stem(w) + ' '     
-      return text
+    # Remover caracteres repetidos seguidamente, para que o modelo não seja prejudicado
+    # por falta de padrão na escrita.
+    def removeRepChar(self, word):
+        repl_word = self.repeat_regexp.sub(self.repl, word)
+        if repl_word != word:
+            return self.removeRepChar(repl_word)
+        else:
+            return repl_word
 
-   # Substituir caracateres acentuados por caracteres sem acentos.
-   def removeAccent(self, text):
-      para = text
-      for (lat, asc) in self.ascii_replace:
-         para = para.replace(lat, asc)
-      return para
+    # Remover caracteres especiais (Ex: ?, /, " ...).
+    def removeSymbols(self, text):
+        for symbol in self.symbols:
+            text = text.replace(symbol, '')
+        return text
 
-   # Remover stopwords dos textos.
-   def removeStopwords(self, text):
-      text = ' '.join([word for word in text.split() if word not in self.cached_stopwords])
-      text = ' '.join([word for word in text.split() if word not in self.more_stopwords])
-      return text
+    # Remover sufixo das palavras da lingua portuguesa.
+    def removeSufPort(self, para):
+        para = para.split()
+        text = ''
+        for w in para:
+            text = text + self.pt_stemmer.stem(w) + ' '
+        return text
 
-   # Remover links dos textos.
-   def removeLinks(self, text):
-      for l in self.link_patterns:
-         text = text.split(l, 1)[0]
-      return text
+    # Substituir caracateres acentuados por caracteres sem acentos.
+    def removeAccent(self, text):
+        para = text
+        for (lat, asc) in self.unicode_replace:
+            para = para.replace(lat, asc)
+        return para
 
-   # Reescrever os digrafos na sua forma original. Exemplo: rxr -> rr
-   def normalizeDigraph(self, text):
-      for a, d in self.digraph:
-         text = re.sub(a, d, text)
-      return text
+    # Remover stopwords dos textos.
+    def removeStopwords(self, text):
+        text = ' '.join([word for word in text.split() if word not in self.cached_stopwords])
+        text = ' '.join([word for word in text.split() if word not in self.more_stopwords])
+        return text
 
-   # Reescrever algumas palavras para dar melhor semântica e legibilidade aos resultados do modelo.
-   def normalizeText(self, text):
-      for a, b in self.normal:
-         text = re.sub(a, b, text)
-      return text
-   
-   def removeOneCharacter(self, text):
-      text = self.tokenizeWords(text)
-      for i in range(len(text)):
-         if len(text[i]) <= 2:
-            text[i] = ''
-      return ' '.join(text)
+    # Remover links dos textos.
+    def removeLinks(self, text):
+        for l in self.link_patterns:
+            text = text.split(l, 1)[0]
+        return text
 
-   def tokenizeWords(self, text):
-      text = self.tokenizer.tokenize(text)
-      return text
-      
+    # Reescrever os digrafos na sua forma original. Exemplo: rxr -> rr
+    def normalizeDigraph(self, text):
+        for a, d in self.digraph:
+            text = re.sub(a, d, text)
+        return text
+
+    # Reescrever algumas palavras para dar melhor semântica e legibilidade aos resultados do modelo.
+    def normalizeText(self, text):
+        for a, b in self.normal:
+            text = re.sub(a, b, text)
+        return text
+
+    def removeOneCharacter(self, text):
+        text = self.tokenizeWords(text)
+        for i in range(len(text)):
+            if len(text[i]) <= 2:
+                text[i] = ''
+        return ' '.join(text)
+
+    def tokenizeWords(self, text):
+        text = self.tokenizer.tokenize(text)
+        return text
+
+
 class NamedEntity(object):
-   def __init__(self):
-      self.tokenizer = WhitespaceTokenizer()
-        
-   # Remover do texto duas ou mais palavras próprias em sequência.
-   def removeName(self, text):
-      i = 0
-      j = 1
-      words = text.split()
-      lim = len(words) - 1
-      while j <= lim:
-         if not words[i].isupper() and not words[i].islower():
-            if not words[j].isupper() and not words[j].islower():
-               words[i] = words[i].replace(words[i], "")
-               words[j] = words[j].replace(words[j], "")
-         i += 1
-         j += 1
-      words = ' '.join(words)
-      return words
+    def __init__(self):
+        self.tokenizer = WhitespaceTokenizer()
 
-   # Remover nomes próprios dos textos. Para isso, recebe o texto, que em seguida é dividido em palavras, que posteriormente recebem POS_Tags.
-   # Para cada palavra/tag, é verificado se a tag nao corresponde a de nome proprio 'NPROP'. Ao final, forma-se um texto sem palavras com tags
-   # 'NPROP', sendo assim retornado pelo método.
-   def removePersonName(self, text):
-      final_text = ''
-      tokenized_text = self.tokenizeWords(text)
-      tagged_text = self.tagWords(tokenized_text)
-      for w, t in tagged_text:
-         if t != "NPROP":
-            final_text = final_text + ''.join(w) + ' '
-      return final_text
+    # Remover do texto duas ou mais palavras próprias em sequência.
+    def removeName(self, text):
+        i = 0
+        j = 1
+        words = text.split()
+        lim = len(words) - 1
+        while j <= lim:
+            if not words[i].isupper() and not words[i].islower():
+                if not words[j].isupper() and not words[j].islower():
+                    words[i] = words[i].replace(words[i], "")
+                    words[j] = words[j].replace(words[j], "")
+                    i += 1
+                    j += 1
+            words = ' '.join(words)
+        return words
 
-   # Remover menções de usuários de tweets. Os mesmos são identificados pelo caractere '@'. O texto original é repassado ao método e divido em palavras,
-   # em seguida. Após isso, é verificado para cada palavra do texto se a mesma se inicia com o caractere '@'. Caso sim, essa palavra é removida do texto.
-   # Ao final, o texto é retornado, sem os nomes de usuários.
-   def removeTwitterUsername(self, text):
-      text = text.split()
-      for w in text:
-         if w[0] == '@':
-            text.remove(w)
-      return ' '.join(text)
+    # Remover nomes próprios dos textos. Para isso, recebe o texto, que em seguida é dividido em palavras,
+    #  que posteriormente recebem POS_Tags.
+    # Para cada palavra/tag, é verificado se a tag nao corresponde a de nome proprio 'NPROP'.
+    # Ao final, forma-se um texto sem palavras com tags
+    # 'NPROP', sendo assim retornado pelo método.
+    def removePersonName(self, text):
+        final_text = ''
+        tokenized_text = self.tokenizeWords(text)
+        tagged_text = self.tagWords(tokenized_text)
+        for w, t in tagged_text:
+            if t != "NPROP":
+                final_text = final_text + ''.join(w) + ' '
+        return final_text
 
-   # Marcar as palavras de uma sentença tokenizada com POS_Tags. O texto é repassado ao método tag da classe UnigramTagger, que marca as palavras do texto com
-   # POS_Tags. Retorna uma lista com palavras/tags. 
-   def tagWords(self, tokenized_text):
-      tagged_words = tagger.tag(tokenized_text)
-      return tagged_words
+    # Remover menções de usuários de tweets. Os mesmos são identificados pelo caractere '@'.
+    # O texto original é repassado ao método e divido em palavras,
+    # em seguida. Após isso, é verificado para cada palavra do texto se a mesma se inicia com o caractere '@'.
+    # Caso sim, essa palavra é removida do texto.
+    # Ao final, o texto é retornado, sem os nomes de usuários.
+    def removeTwitterUsername(self, text):
+        text = text.split()
+        for w in text:
+            if w[0] == '@':
+                text.remove(w)
+        return ' '.join(text)
 
-   # Desenhar arvore que destaca um determinado padrão gramatical do texto. 
-   def drawNamedEntityTree(self, text):
-      tokenized_text = self.tokenizer.tokenize(text)
-      tagged_text = self.tagWords(tokenized_text)
-      grammar = "ENT: {<PESSOA>*}"
-      cp = RegexpParser(grammar)
-      res = cp.parse(tagged_text)
-      res.draw()
+    # Marcar as palavras de uma sentença tokenizada com POS_Tags.
+    # O texto é repassado ao método tag da classe UnigramTagger, que marca as palavras do texto com
+    # POS_Tags. Retorna uma lista com palavras/tags.
+    def tagWords(self, tokenized_text):
+        tagged_words = tagger.tag(tokenized_text)
+        return tagged_words
 
-   # Tokenizar sentenças em palavras. Retorna uma lista com as palavras que formam o texto.
-   def tokenizeWords(self, text):
-      text = self.tokenizer.tokenize(text)
-      return text
+    # Desenhar arvore que destaca um determinado padrão gramatical do texto.
+    def drawNamedEntityTree(self, text):
+        tokenized_text = self.tokenizer.tokenize(text)
+        tagged_text = self.tagWords(tokenized_text)
+        grammar = "ENT: {<PESSOA>*}"
+        cp = RegexpParser(grammar)
+        res = cp.parse(tagged_text)
+        res.draw()
 
-
+    # Tokenizar sentenças em palavras. Retorna uma lista com as palavras que formam o texto.
+    def tokenizeWords(self, text):
+        text = self.tokenizer.tokenize(text)
+        return text
