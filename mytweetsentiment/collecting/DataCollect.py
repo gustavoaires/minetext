@@ -5,7 +5,6 @@ class DataCollect(object):
     def __init__(self, consumer_key, consumer_secret, access_token, access_token_secret):
         self.api = self.connect(consumer_key, consumer_secret, access_token, access_token_secret)
 
-
     def connect(self, consumer_key, consumer_secret,
                 access_token, access_token_secret):
         """
@@ -22,7 +21,7 @@ class DataCollect(object):
 
         return tw.API(auth, wait_on_rate_limit=True)
 
-    def scrapeTweets(self, query, limit=None):
+    def scrape_tweets(self, query, limit=None):
         """
         all the results obtained with this method 
         has just id, user, text and timestamp metadata
@@ -37,16 +36,16 @@ class DataCollect(object):
         tweets = []
 
         for tweet in query_tweets(query, limit=limit):
-            dict = {}
-            dict['id'] = tweet.id
-            dict['text'] = tweet.text
-            dict['screen_name'] = tweet.user
-            dict['created_at'] = str(tweet.timestamp)
-            tweets.append(dict)
+            new_tweet = {}
+            new_tweet['id'] = tweet.id
+            new_tweet['text'] = tweet.text
+            new_tweet['screen_name'] = tweet.user
+            new_tweet['created_at'] = str(tweet.timestamp)
+            tweets.append(new_tweet)
 
         return tweets
 
-    def restTweets(self, query, lang="pt", limit=None):
+    def rest_tweets(self, query, lang="pt", limit=None):
         """
         returns all the tweets within 7 days top according to the query received by this method
         returns the complete tweet
@@ -64,3 +63,6 @@ class DataCollect(object):
             tweets.append(tweet._json)
 
         return tweets
+
+    def streamTweets(self, query, lang="pt", limit=None):
+        pass

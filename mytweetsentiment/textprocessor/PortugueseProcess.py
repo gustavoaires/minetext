@@ -4,7 +4,6 @@ import nltk
 from nltk.stem import *
 from nltk.tag import UnigramTagger
 from nltk.corpus.reader import TaggedCorpusReader
-from nltk.tokenize import PunktWordTokenizer
 from nltk import RegexpParser
 from nltk.corpus import stopwords
 from nltk.tokenize.regexp import WhitespaceTokenizer
@@ -153,7 +152,7 @@ class NamedEntity(object):
 
    # Desenhar arvore que destaca um determinado padrão gramatical do texto. 
    def drawNamedEntityTree(self, text):
-      tokenized_text = tokenizer.tokenize(text)
+      tokenized_text = self.tokenizer.tokenize(text)
       tagged_text = self.tagWords(tokenized_text)
       grammar = "ENT: {<PESSOA>*}"
       cp = RegexpParser(grammar)
