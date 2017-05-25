@@ -1,2 +1,2 @@
-# mytweetsentiment
+# senttext
 
