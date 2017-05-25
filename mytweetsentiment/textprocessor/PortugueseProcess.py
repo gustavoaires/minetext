@@ -36,11 +36,11 @@ class TextCleaner(object):
         self.pt_stemmer = nltk.stem.RSLPStemmer()
         self.tokenizer = WhitespaceTokenizer()
         self.cached_stopwords = stopwords.words('portuguese')
-        self.symbols = ["\"", "\'", "!", "?", ".", "," , ";", ">", "_", "<", "-", "[",
-                        "]", "{", "}", "'s", "\/", "\\", "^", "~", "'", "`", "``",
+        self.symbols = ["\"", "'", "!", "?", ".", "," , ";", ">", "_", "<", "-", "[",
+                        "]", "{", "}", "\/", "\\", "^", "~", u"´",  "`", "``",
                         ":", "(", ")", "#", "$", "%", "&", "*", "=", "+"]
         self.more_stopwords = ['ja', 'q', 'd', 'ai', 'desse', 'dessa', 'disso', 'nesse', 'nessa', 'nisso', 'esse', 'essa', 'isso', 'so', 'mt', 'vc', 'voce', 'ne', 'ta', 'to', 'pq',
-                               'cade', 'kd', 'la', 'e', 'eh', 'dai', 'pra', 'vai', 'olha', 'pois', 'rt',
+                               'cade', 'kd', 'la', 'e', 'eh', 'dai', 'pra', 'vai', 'olha', 'pois', 'rt', 'retweeted',
                                'fica', 'muito', 'muita', 'muitos', 'muitas', 'onde', 'mim', 'oi', 'ola', 'ate']
         self.unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
                                 (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
@@ -61,10 +61,10 @@ class TextCleaner(object):
         else:
             return repl_word
 
-    # Remover caracteres especiais (Ex: ?, /, " ...).
+    # Remover caracteres especiais (Ex: ?, !, " ...).
     def removeSymbols(self, text):
         for symbol in self.symbols:
-            text = text.replace(symbol, '')
+            text = text.replace(symbol, ' ')
         return text
 
     # Remover sufixo das palavras da lingua portuguesa.
