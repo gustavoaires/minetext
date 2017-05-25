@@ -5,6 +5,7 @@ import nltk
 from nltk import RegexpParser
 from nltk.corpus import stopwords
 from nltk.tokenize.regexp import WhitespaceTokenizer
+from unidecode import unidecode
 
 global corpus, sent_tags, tagger
 
@@ -36,18 +37,22 @@ class TextCleaner(object):
         self.pt_stemmer = nltk.stem.RSLPStemmer()
         self.tokenizer = WhitespaceTokenizer()
         self.cached_stopwords = stopwords.words('portuguese')
-        self.symbols = ["\"", "'", "!", "?", ".", "," , ";", ">", "_", "<", "-", "[",
-                        "]", "{", "}", "\/", "\\", "^", "~", u"´",  "`", "``",
-                        ":", "(", ")", "#", "$", "%", "&", "*", "=", "+"]
+        self.symbols = [u"\"", u"'", u"!", u"?", u".", u",", u";", u">", u"_", u"<", u"-", u"[",
+                        u"]", u"{", u"}", u"/", u"\\", u"^", u"~", u"´",  u"`", u"``", u"\u2026",
+                        u":", u"(", u")", u"|", u"#", u"$", u"%", u"&", u"*", u"=", u"+", u"\u2013",
+                        u"\u201c", u"\u201d", u"\u300b\u300b", u"\u2019", u"\u2018", u"\u00b0",
+                        u"\u00ba", u"\u200b", u"\u00b7", u"\u2014", u"\u00bb", u"\u221a", u"\u00aa",
+                        u"\ufe0f", u"\u2794", u"\u2192", u"\u00a8", u"\u2022", u"\u300a", u"\u00bf",
+                        u"\u25a0", u"\u00af", u"\u22b3", u"\u2060", u"\u261b", u"\u00ad", u"\u00ab"]
         self.more_stopwords = ['ja', 'q', 'd', 'ai', 'desse', 'dessa', 'disso', 'nesse', 'nessa', 'nisso', 'esse', 'essa', 'isso', 'so', 'mt', 'vc', 'voce', 'ne', 'ta', 'to', 'pq',
                                'cade', 'kd', 'la', 'e', 'eh', 'dai', 'pra', 'vai', 'olha', 'pois', 'rt', 'retweeted',
                                'fica', 'muito', 'muita', 'muitos', 'muitas', 'onde', 'mim', 'oi', 'ola', 'ate']
         self.unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
                                 (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
-                                (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
+                                (u'ú', u'u'), (u'ù', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'),
                                 (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
                                 (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
-                                (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c')]
+                                (u'Õ', u'o'), (u'ö', u'o'), (u'Ö', u'o'), (u'Ú', u'u'), (u'Ç', u'c'), (u'ñ', u'n'), (u'Ñ', u'n')]
         self.link_patterns = [('http'), ('www'), ('w3c')]
         self.normal = [(r'kxkxk', 'kkk'), (r'nao ', ' nao_'), (r' ir ', '_ir '), (r'bom demal', ' bomdemais '), (r'\s*insan\s*', ' insano '), (r'\s*saudad\s*', ' saudade ')]
         self.digraph = [(r'rxr', 'rr'), (r'sxs', 'ss'), (r'aqa', 'aa'), (r'eqe', 'ee'), (r'oqo', 'oo')]

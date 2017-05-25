@@ -65,7 +65,7 @@ class TextProcess():
         for line in file:
             try:
                 self.json_data.append(json.loads(line))
-            except(UnicodeDecodeError, UnicodeEncodeError, TypeError,AttributeError,KeyError, ValueError) as e:
+            except(UnicodeDecodeError, UnicodeEncodeError, TypeError, AttributeError, KeyError, ValueError) as e:
                 print e, "\n"
 
         for d in self.json_data:
@@ -87,7 +87,7 @@ class TextProcess():
                 row = str(id) + "\t"+(text).encode('latin-1','ignore')+"\n"
                 self.output_file.write(row)
 
-            except(UnicodeDecodeError, UnicodeEncodeError, TypeError,AttributeError,KeyError, ValueError) as e:
+            except(UnicodeDecodeError, UnicodeEncodeError, TypeError, AttributeError, KeyError, ValueError) as e:
                     print e, "\n"
         self.output_file.close()
 

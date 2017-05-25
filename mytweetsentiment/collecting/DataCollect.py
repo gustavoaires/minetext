@@ -1,6 +1,7 @@
 import tweepy as tw
 from twitterscraper import query_tweets
 
+
 class APICollect(object):
     def __init__(self, consumer_key, consumer_secret, access_token, access_token_secret):
         self.api = self.connect(consumer_key, consumer_secret, access_token, access_token_secret)
@@ -13,7 +14,7 @@ class APICollect(object):
         :param oauth_token: 
         :param oauth_token_secret: 
         :return: object to access the twitter api
-        all the request can be done using this object
+        all the request can be done by using this object
         """
         auth = tw.OAuthHandler(consumer_key, consumer_secret)
         auth.access_token = access_token
@@ -40,8 +41,9 @@ class APICollect(object):
 
         return tweets
 
-    def streamTweets(self, query, lang="pt", limit=None):
+    def stream_tweets(self, query, lang="pt", limit=None):
         pass
+
 
 class ScrapeCollect(object):
     def __init__(self):
