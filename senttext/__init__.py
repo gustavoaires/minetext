@@ -1,14 +1,14 @@
+# -*- coding: latin-1 -*-
 from collecting.datacollect import APICollect
 from textprocessor import portugueseprocessor as pln
 import json
 
-# test file
 
 def main():
-    CONSUMER_KEY = '4jtRRPl3WvYyzPvRnNKRaaLGr'
-    CONSUMER_SECRET = 'dFr8l0HDQ2RA3sQhiTjkMvJs9ML38BLkEoofDNr50tBEOCmZNA'
-    OAUTH_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
-    OAUTH_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
+    # CONSUMER_KEY = '4jtRRPl3WvYyzPvRnNKRaaLGr'
+    # CONSUMER_SECRET = 'dFr8l0HDQ2RA3sQhiTjkMvJs9ML38BLkEoofDNr50tBEOCmZNA'
+    # OAUTH_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
+    # OAUTH_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
 
     tweets = []
     input_file = open('dataset_until_22_05.json', 'r')
@@ -34,7 +34,7 @@ def main():
         tweets.append(json.loads(line))
 
     print 'writing'
-    for tweet in tweets:
+    for tweet in tweets[:10]:
         d = tweet['text']
         text = d.lower()
         d = named.removeTwitterUsername(text)

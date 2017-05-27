@@ -13,19 +13,22 @@ global corpus, sent_tags, tagger, ascii_replace, unicode_replace
 # corpus = TaggedCorpusReader('C:/Users/jose.adail/workspace/TextProcessor/names', r'.*\.txt', word_tokenizer=WhitespaceTokenizer(), sep="_")
 # name_tags = corpus.tagged_sents()  # Recebe as sentenзas marcadas com POS_Tags.
 # tagger = UnigramTagger(name_tags)  # UnigramTagger й treinado com essas sentenзas marcadas que o sгo repassadas.
-ascii_replace = [('б', 'a'), ('а', 'a'), ('г', 'a'), ('в', 'a'), ('й', 'e'), ('и', 'e'), ('к', 'e'), ('н', 'i'), ('у', 'o'), ('т', 'o'), ('ф', 'o'), ('х', 'o'), ('ъ', 'u'),
-                 ('з', 'c'), ('д', 'a'), ('л', 'e'), ('п', 'i'), ('ц', 'o'), ('ь', 'u'), ('Б', 'a'), ('А', 'a'), ('Г', 'a'), ('В', 'a'), ('Й', 'e'), ('И', 'e'), ('К', 'e'),
-                 ('Н', 'i'), ('У', 'o'), ('Т', 'o'), ('Ф', 'o'), ('Х', 'o'), ('Ъ', 'u'), ('З', 'c')]
+ascii_replace = [('б', 'a'), ('а', 'a'), ('г', 'a'), ('в', 'a'), ('й', 'e'), ('и', 'e'), ('к', 'e'),
+                 ('н', 'i'), ('у', 'o'), ('т', 'o'), ('ф', 'o'), ('х', 'o'), ('ъ', 'u'), ('з', 'c'),
+                 ('д', 'a'), ('л', 'e'), ('п', 'i'), ('ц', 'o'), ('ь', 'u'), ('Б', 'a'), ('А', 'a'),
+                 ('Г', 'a'), ('В', 'a'), ('Й', 'e'), ('И', 'e'), ('К', 'e'), ('Н', 'i'), ('У', 'o'),
+                 ('Т', 'o'), ('Ф', 'o'), ('Х', 'o'), ('Ъ', 'u'), ('З', 'c'), ('С', 'nao'), ('с', 'nao')]
 unicode_replace = [(u'б', u'a'), (u'а', u'a'), (u'г', u'a'), (u'в', u'a'), (u'й', u'e'), (u'и', u'e'),
                     (u'к', u'e'), (u'н', u'i'), (u'у', u'o'), (u'т', u'o'), (u'ф', u'o'), (u'х', u'o'),
                     (u'ъ', u'u'), (u'з', u'c'), (u'д', u'a'), (u'л', u'e'), (u'п', u'i'), (u'ц', u'o'),
                     (u'ь', u'u'), (u'Б', u'a'), (u'А', u'a'), (u'Г', u'a'), (u'В', u'a'), (u'Й', u'e'),
                     (u'И', u'e'), (u'К', u'e'), (u'Н', u'i'), (u'У', u'o'), (u'Т', u'o'), (u'Ф', u'o'),
-                    (u'Х', u'o'), (u'Ъ', u'u'), (u'З', u'c')]
+                    (u'Х', u'o'), (u'Ъ', u'u'), (u'З', u'c'), (u'С', u'nao'), (u'с', u'nao')]
+
 
 class RegexpReplacer(object):
     def __init__(self):
-        self.replacement_patterns = [(r'rs[rs]+', 'rs'), (r'ha[ha]+', 'haha'), (r's[s]+', 'sxs'), (r'r[r]+', 'rxr'), (r'k[k]+', 'kxkxk'), (r'a[a]+', 'aqa'), (r'e[e]+', 'eqe'),
+        self.patterns_replacement = [(r'rs[rs]+', 'rs'), (r'ha[ha]+', 'haha'), (r's[s]+', 'sxs'), (r'r[r]+', 'rxr'), (r'k[k]+', 'kxkxk'), (r'a[a]+', 'aqa'), (r'e[e]+', 'eqe'),
                                      (r'o[o]+', 'oqo'), (r'sdds', 'saudade'), (r'sdd', 'saudade'), (r':d', 'feliz'), (r'<3', 'love'), (r':3', 'feliz'), (r';d', 'feliz'),
                                      (r':p', 'feliz'), (r':\)*', 'feliz'), (r'o\/', 'feliz'), (r'\\o\/', 'feliz'), (r'\\o', 'feliz'), (r'\*\_*\*', 'feliz'),
                                      (r'\*-*\*', 'feliz'), (r'\*o*\*', 'feliz'), (r'\>.\<', 'feliz'), (r":'\(*", 'triste'),
@@ -33,13 +36,13 @@ class RegexpReplacer(object):
     # Para cada emoticon e outras expressхes mapeadas nas regex encontradas em replacement_patterns,
     # realizar substituiзгo.
     def replaceEmoticon(self, text):
-        for r, s in self.replacement_patterns:
+        for r, s in self.patterns_replacement:
             text = re.sub(r, s, text)
             return text
 
 
 class TextCleaner(object):
-    def __init__(self, use_unicode):
+    def __init__(self, use_unicode=True):
         self.repeat_regexp = re.compile(r'(\w*)(\w)\2(\w*)')
         self.repl = r'\1\2\3'
         self.pt_stemmer = nltk.stem.RSLPStemmer()

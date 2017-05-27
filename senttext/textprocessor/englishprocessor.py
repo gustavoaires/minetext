@@ -24,13 +24,13 @@ unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é'
 
 class RegexpReplacer(object):
     def __init__(self):
-        self.replacement_patterns = [(r"'",''),(r'#','hash'),(r'no','no_'),(r'not','not_'),(r'RT ',''),(r'rs[rs]+','rs'),(r'ha[ha]+','haha'),(r's[s]+','sxs'),(r'r[r]+','rxr'),(r'a[a]+','aqa'),(r'e[e]+','eqe'),
-                                     (r'o[o]+','oqo'),(r'tt','tqt'),(r'ff','fqf'),(r'dd','dqd'),(r'mm','mqm'),(r'nn','nqn'),(r'pp','pqp'),(r'gg','gqg'),(r'ff','fqf'),(r'll','lql'),
-                                     (r'cc','cqc'),(r'[\W\d\_]',' ')]
+        self.patterns_replacement = [(r"'", ''), (r'#', 'hash'), (r'no', 'no_'), (r'not', 'not_'), (r'RT ', ''), (r'rs[rs]+', 'rs'), (r'ha[ha]+', 'haha'), (r's[s]+', 'sxs'), (r'r[r]+', 'rxr'), (r'a[a]+', 'aqa'), (r'e[e]+', 'eqe'),
+                                     (r'o[o]+','oqo'), (r'tt','tqt'), (r'ff','fqf'), (r'dd','dqd'), (r'mm','mqm'), (r'nn','nqn'), (r'pp','pqp'), (r'gg','gqg'), (r'ff','fqf'), (r'll','lql'),
+                                     (r'cc','cqc'), (r'[\W\d\_]',' ')]
     # Para cada emoticon e outras expressões mapeadas nas regex encontradas em replacement_patterns,
     # realizar substituição.
     def replaceEmoticon(self, text):
-        for r, s in self.replacement_patterns:
+        for r, s in self.patterns_replacement:
             text = re.sub(r, s, text)
         return text
 
