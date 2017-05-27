@@ -5,12 +5,21 @@ from nltk.corpus.reader import TaggedCorpusReader
 from nltk import RegexpParser
 from nltk.corpus import stopwords
 from nltk.tokenize.regexp import WhitespaceTokenizer
-global corpus, sent_tags, tagger
+global corpus, sent_tags, tagger, ascii_replace, unicode_replace
 
 # corpus = TaggedCorpusReader('/root/adail/python/names',r'.*\.txt',word_tokenizer=PunktWordTokenizer(),sep="_") PATH no linux
 # corpus = TaggedCorpusReader('C:/Users/jose.adail/workspace/TextProcessor/names', r'.*\.txt', word_tokenizer=WhitespaceTokenizer(), sep="_")
 # name_tags = corpus.tagged_sents()  # Recebe as sentenças marcadas com POS_Tags.
 # tagger = UnigramTagger(name_tags)  # UnigramTagger é treinado com essas sentenças marcadas que o são repassadas.
+ascii_replace = [('á', 'a'), ('à', 'a'), ('ã', 'a'), ('â', 'a'), ('é', 'e'), ('è', 'e'), ('ê', 'e'), ('í', 'i'), ('ó', 'o'), ('ò', 'o'), ('ô', 'o'), ('õ', 'o'), ('ú', 'u'),
+                 ('ç', 'c'), ('ä', 'a'), ('ë', 'e'), ('ï', 'i'), ('ö', 'o'), ('ü', 'u'), ('Á', 'a'), ('À', 'a'), ('Ã', 'a'), ('Â', 'a'), ('É', 'e'), ('È', 'e'), ('Ê', 'e'),
+                 ('Í', 'i'), ('Ó', 'o'), ('Ò', 'o'), ('Ô', 'o'), ('Õ', 'o'), ('Ú', 'u'), ('Ç', 'c')]
+unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
+                    (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
+                    (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
+                    (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
+                    (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
+                    (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c')]
 
 
 class RegexpReplacer(object):
@@ -27,7 +36,7 @@ class RegexpReplacer(object):
 
 
 class TextCleaner(object):
-    def __init__(self):
+    def __init__(self, use_unicode):
         self.repeat_regexp = re.compile(r'(\w*)(\w)\2(\w*)')
         self.repl = r'\1\2\3'
         self.tokenizer = WhitespaceTokenizer()
@@ -39,12 +48,10 @@ class TextCleaner(object):
                         u"\u00ba", u"\u200b", u"\u00b7", u"\u2014", u"\u00bb", u"\u221a", u"\u00aa",
                         u"\ufe0f", u"\u2794", u"\u2192", u"\u00a8", u"\u2022", u"\u300a", u"\u00bf",
                         u"\u25a0", u"\u00af", u"\u22b3", u"\u2060", u"\u261b", u"\u00ad", u"\u00ab"]
-        self.unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
-                                (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
-                                (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
-                                (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
-                                (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
-                                (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c')]
+        if use_unicode:
+            self.accents = unicode_replace
+        else:
+            self.accents = ascii_replace
         self.link_patterns = [('http'), ('www'), ('w3c')]
         self.digraph = [(r'hash','#'),(r'rxr','rr'),(r'sxs','ss'),(r'aqa','aa'),(r'eqe','ee'),(r'oqo','oo'),(r'fqf','ff'),(r'gqg','gg'),(r'cqc','cc'),(r'dqd','dd'),
                         (r'mqm','mm'),(r'nqn','nn'),(r'pqp','pp'),(r'dqd','dd'),(r'tqt','tt'),(r'fqf','ff'),(r'lql','ll')]
@@ -67,7 +74,7 @@ class TextCleaner(object):
     # Substituir caracateres acentuados por caracteres sem acentos.
     def removeAccent(self, text):
         para = text
-        for (lat, asc) in self.unicode_replace:
+        for (lat, asc) in self.accents:
             para = para.replace(lat, asc)
         return para
 
