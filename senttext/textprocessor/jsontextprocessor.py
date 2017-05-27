@@ -8,8 +8,8 @@ import os
 import re 
 import json
 from os import system
-from CoordinateFormater import*
-from PortugueseProcess import*
+from coordinateformater import*
+from portugueseprocessor import*
 from datetime import date
 
 class TextProcess():

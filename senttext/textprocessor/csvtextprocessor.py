@@ -8,8 +8,8 @@ import sys
 import os
 import random
 from os import system
-from CoordinateFormater import*
-from PortugueseProcess import*
+from coordinateformater import*
+from portugueseprocessor import*
 from datetime import date
 
 class TextProcess():

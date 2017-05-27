@@ -2,6 +2,7 @@ from collections import defaultdict
 from datetime import datetime
 from datetime import timedelta
 import math
+from math import sqrt
 
 progress = 0
 

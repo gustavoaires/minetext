@@ -1,5 +1,5 @@
-from collecting.DataCollect import APICollect
-from textprocessor import PortugueseProcess as pln
+from collecting.datacollect import APICollect
+from textprocessor import portugueseprocessor as pln
 import json
 
 # test file

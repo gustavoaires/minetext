@@ -32,9 +32,13 @@ class TextCleaner(object):
         self.repl = r'\1\2\3'
         self.tokenizer = WhitespaceTokenizer()
         self.cached_stopwords = stopwords.words('english')
-        self.symbols = ["\"", "\'", "!", "?", ".", ",", ";", ">", "_", "<", "-", "[",
-                        "]", "{", "}", "'s", "\/", "\\", "^", "~", "'", "`", "``",
-                        ":", "(", ")", "#", "$", "%", "&", "*", "=", "+"]
+        self.symbols = [u"\"", u"'", u"!", u"?", u".", u",", u";", u">", u"_", u"<", u"-", u"[",
+                        u"]", u"{", u"}", u"/", u"\\", u"^", u"~", u"´", u"`", u"``", u"\u2026",
+                        u":", u"(", u")", u"|", u"#", u"$", u"%", u"&", u"*", u"=", u"+", u"\u2013",
+                        u"\u201c", u"\u201d", u"\u300b\u300b", u"\u2019", u"\u2018", u"\u00b0",
+                        u"\u00ba", u"\u200b", u"\u00b7", u"\u2014", u"\u00bb", u"\u221a", u"\u00aa",
+                        u"\ufe0f", u"\u2794", u"\u2192", u"\u00a8", u"\u2022", u"\u300a", u"\u00bf",
+                        u"\u25a0", u"\u00af", u"\u22b3", u"\u2060", u"\u261b", u"\u00ad", u"\u00ab"]
         self.unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
                                 (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
                                 (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
@@ -57,7 +61,7 @@ class TextCleaner(object):
     # Remover caracteres especiais (Ex: ?, /, " ...).
     def removeSymbols(self, text):
         for symbol in self.symbols:
-            text = text.replace(symbol, '')
+            text = text.replace(symbol, ' ')
         return text
 
     # Substituir caracateres acentuados por caracteres sem acentos.
