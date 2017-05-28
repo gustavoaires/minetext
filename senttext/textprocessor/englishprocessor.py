@@ -11,15 +11,17 @@ global corpus, sent_tags, tagger, ascii_replace, unicode_replace
 # corpus = TaggedCorpusReader('C:/Users/jose.adail/workspace/TextProcessor/names', r'.*\.txt', word_tokenizer=WhitespaceTokenizer(), sep="_")
 # name_tags = corpus.tagged_sents()  # Recebe as sentenças marcadas com POS_Tags.
 # tagger = UnigramTagger(name_tags)  # UnigramTagger é treinado com essas sentenças marcadas que o são repassadas.
-ascii_replace = [('á', 'a'), ('à', 'a'), ('ã', 'a'), ('â', 'a'), ('é', 'e'), ('è', 'e'), ('ê', 'e'), ('í', 'i'), ('ó', 'o'), ('ò', 'o'), ('ô', 'o'), ('õ', 'o'), ('ú', 'u'),
-                 ('ç', 'c'), ('ä', 'a'), ('ë', 'e'), ('ï', 'i'), ('ö', 'o'), ('ü', 'u'), ('Á', 'a'), ('À', 'a'), ('Ã', 'a'), ('Â', 'a'), ('É', 'e'), ('È', 'e'), ('Ê', 'e'),
-                 ('Í', 'i'), ('Ó', 'o'), ('Ò', 'o'), ('Ô', 'o'), ('Õ', 'o'), ('Ú', 'u'), ('Ç', 'c')]
+ascii_replace = [('á', 'a'), ('à', 'a'), ('ã', 'a'), ('â', 'a'), ('é', 'e'), ('è', 'e'), ('ê', 'e'),
+                 ('í', 'i'), ('ó', 'o'), ('ò', 'o'), ('ô', 'o'), ('õ', 'o'), ('ú', 'u'),
+                 ('ç', 'c'), ('ä', 'a'), ('ë', 'e'), ('ï', 'i'), ('ö', 'o'), ('ü', 'u'), ('Á', 'a'),
+                 ('À', 'a'), ('Ã', 'a'), ('Â', 'a'), ('É', 'e'), ('È', 'e'), ('Ê', 'e'),
+                 ('Í', 'i'), ('Ó', 'o'), ('Ò', 'o'), ('Ô', 'o'), ('Õ', 'o'), ('Ú', 'u'), ('Ç', 'c'), ('Ö', 'o')]
 unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é', u'e'), (u'è', u'e'),
                     (u'ê', u'e'), (u'í', u'i'), (u'ó', u'o'), (u'ò', u'o'), (u'ô', u'o'), (u'õ', u'o'),
                     (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
                     (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
                     (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
-                    (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c')]
+                    (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c'), (u'Ö', u'o')]
 
 
 class RegexpReplacer(object):

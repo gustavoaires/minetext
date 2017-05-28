@@ -111,7 +111,7 @@ class TextProcess():
         print "December, 2014"
         print "__________________________________________"
 
-    def JSONParser(self,json_file):
+    def JSONParser(self, json_file):
         if os.path.exists(json_file):
             with open(json_file) as file:
                 opt = ''
@@ -143,7 +143,7 @@ class TextProcess():
                 print "Arguments: [JSON File]"
 
 tp = TextProcess()
-json_file =sys.argv[1]
+json_file = sys.argv[1]
 if __name__ == "__main__":
     system('cls')
     tp.JSONParser(json_file)

@@ -35,14 +35,14 @@ def main():
 
     print 'writing'
     for tweet in tweets[:10]:
-        d = tweet['text']
-        text = d.lower()
-        d = named.removeTwitterUsername(text)
-        text = cleaner.removeStopwords(d)
-        d = cleaner.removeSymbols(text)
-        text = cleaner.removeLinks(d)
-        d = cleaner.removeSufPort(text)
-        text = cleaner.removeAccent(d)
+        text = tweet['text']
+        text = text.lower()
+        text = named.removeTwitterUsername(text)
+        text = cleaner.removeStopwords(text)
+        text = cleaner.removeSymbols(text)
+        text = cleaner.removeLinks(text)
+        text = cleaner.removeSufPort(text)
+        text = cleaner.removeAccent(text)
         tweet['text'] = text
         json.dump(tweet, output_file)
         output_file.write("\n")

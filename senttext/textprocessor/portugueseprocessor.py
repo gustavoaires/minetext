@@ -23,7 +23,8 @@ unicode_replace = [(u'á', u'a'), (u'à', u'a'), (u'ã', u'a'), (u'â', u'a'), (u'é'
                     (u'ú', u'u'), (u'ç', u'c'), (u'ä', u'a'), (u'ë', u'e'), (u'ï', u'i'), (u'ö', u'o'),
                     (u'ü', u'u'), (u'Á', u'a'), (u'À', u'a'), (u'Ã', u'a'), (u'Â', u'a'), (u'É', u'e'),
                     (u'È', u'e'), (u'Ê', u'e'), (u'Í', u'i'), (u'Ó', u'o'), (u'Ò', u'o'), (u'Ô', u'o'),
-                    (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c'), (u'Ñ', u'nao'), (u'ñ', u'nao')]
+                    (u'Õ', u'o'), (u'Ú', u'u'), (u'Ç', u'c'), (u'Ñ', u'nao'), (u'ñ', u'nao'),
+                    (u'Ö', u'o')]
 
 
 class RegexpReplacer(object):

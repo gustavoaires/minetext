@@ -22,7 +22,7 @@ class TextProcess():
             self.points = CoordinateFormater()
             self.reader = 0
    
-        def processTwitterText(self,file):
+        def processTwitterText(self, file):
             self.reader = csv.DictReader(file, delimiter = '\t')
             self.day = date.today()
             self.output_file = open('C:/Users/jose.adail/workspace/TextProcessor/output/tweets_%s.tsv' %self.day,'a')
@@ -50,7 +50,7 @@ class TextProcess():
                     row = line["id"]+"\t"+(text).encode('latin-1','ignore')+"\t"+(lat)+"\t"+(lon)+"\n"
                     self.output_file.write(row)
 
-                except (UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
+                except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                         print e, "\n"
                         print "Header label: id    text    coordinates"
             self.output_file.close()
@@ -78,7 +78,7 @@ class TextProcess():
                         row = line["sentiment"]+"\t"+line["id"]+"\t"+(text).encode('latin-1','ignore')+"\n"
                         self.output_file.write(row)
                     
-                    except(UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
+                    except(UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                             print e, "\n"
                             print "Header label: id    text"
                 self.output_file.close()
@@ -99,7 +99,7 @@ class TextProcess():
                                                 print line["id"]+"\t",
                                                 print (text).encode('latin-1','ignore')
                                                 break
-                        except (UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
+                        except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                                 print e, "\n"
                                 print "Header label: id    text"
                         count+=1
@@ -117,7 +117,7 @@ class TextProcess():
                                         if n != "":
                                                 n = (n).encode('latin-1','ignore')
                                                 self.output_file.write(n+"_NPROP\n")
-                        except (UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
+                        except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                                 print e, "\n"
                                 print "Header label: name    name_tag"
 
