@@ -12,8 +12,10 @@ class JSONFileManagement(object):
         """
         tweets = []
         input_file = open(path, 'r')
+
         for line in input_file:
             tweets.append(json.loads(line))
+
         input_file.close()
         return tweets
 
@@ -25,9 +27,11 @@ class JSONFileManagement(object):
         :return: void 
         """
         output_file = open(path, mode)
+
         for tweet in tweets:
             json.dump(tweet, output_file)
             output_file.write('\n')
+
         output_file.close()
 
 
@@ -53,13 +57,14 @@ class CSVTSVFileManagement(object):
         for line in reader:
             tweets.append(line)
 
+        input_file.close()
         return tweets
 
     def write_file(self, path, tweets, mode='w', delimiter=','):
         """
         :param path: just the string conatining the file path
         :param tweets: list of tweets to save
-        :param mode: how to write to the file 
+        :param mode: how to write (w: write, a:append, etc)
         :param delimiter: value delimiter inside the file
         :return: void
         """

@@ -2,6 +2,7 @@
 from collecting.datacollect import APICollect
 from textprocessor import portugueseprocessor as pln
 import json
+from filemanagement import filemanagement
 
 
 def main():
@@ -11,8 +12,8 @@ def main():
     # OAUTH_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
 
     tweets = []
-    input_file = open('dataset_until_22_05.json', 'r')
-    output_file = open('dataset_until_22_05_pln.json', 'w')
+    input_file = 'dataset_until_22_05.json'
+    output_file = 'dataset_until_22_05_pln.json'
 
     # query = "previdencia social OR reforma da previdencia OR reforma da presidencia ' \
     #         'OR previdencia since:2017-05-23 until:2017-05-24"
@@ -28,10 +29,10 @@ def main():
 
     cleaner = pln.TextCleaner()
     named = pln.NamedEntity()
+    json_management = filemanagement.JSONFileManagement()
 
     print 'reading'
-    for line in input_file:
-        tweets.append(json.loads(line))
+    json_management.read_file(input_file)
 
     print 'writing'
     for tweet in tweets[:10]:
@@ -44,7 +45,7 @@ def main():
         text = cleaner.removeSufPort(text)
         text = cleaner.removeAccent(text)
         tweet['text'] = text
-        json.dump(tweet, output_file)
-        output_file.write("\n")
+
+    json_management.write_file(output_file, tweets)
 
 main()
