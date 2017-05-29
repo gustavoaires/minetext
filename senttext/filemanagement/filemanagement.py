@@ -1,8 +1,7 @@
 # -*- coding: latin-1 -*-
 import json
 import csv
-from ..textprocessor import coordinateformater
-
+from senttext.textprocessor.coordinateformater import CoordinateFormater
 
 class JSONFileManagement(object):
     def read_file(self, path):
@@ -41,8 +40,9 @@ class CSVTSVFileManagement(object):
         :header: used to print the first line of the csv or tsv file
         :points: used to format the coordinates value into latitude and longitude
         """
-        self.header = 'id|text|lat|lon'
-        self.points = coordinateformater.CoordinateFormater()
+        self.header_coord = 'id|text|lat|lon'
+        self.header_no_coord = 'id|text'
+        self.points = CoordinateFormater()
 
     def read_file(self, path, delimiter=','):
         """
@@ -60,28 +60,34 @@ class CSVTSVFileManagement(object):
         input_file.close()
         return tweets
 
-    def write_file(self, path, tweets, mode='w', delimiter=','):
+    def write_file(self, path, tweets, mode='w', delimiter=',', hasCoordinates=False):
         """
         :param path: just the string conatining the file path
         :param tweets: list of tweets to save
         :param mode: how to write (w: write, a:append, etc)
         :param delimiter: value delimiter inside the file
+        :param hasCoordinates: define if tweets have coordinates value or not
         :return: void
         """
+        if hasCoordinates:
+            header = self.header_coord.replace('|', delimiter)
+        else:
+            header = self.header_no_coord.replace('|', delimiter)
         output_file = open(path, mode)
-        self.header.replace('|', delimiter)
-        output_file.write(self.header)
-
+        output_file.write(header + '\n')
         for tweet in tweets:
             try:
-                lat_lon = tweet["coordinates"]
-                lat_lon = self.points.formatCoordinate(lat_lon)
-                lat = lat_lon[0]
-                lon = lat_lon[1]
-                row = tweet["id"] + delimiter + tweet['text'] + delimiter + lat + delimiter + lon + "\n"
-                output_file.write(row)
-            except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
+                row = unicode(tweet['id']) + delimiter + tweet['text'].encode('ascii', 'ignore')
+                if hasCoordinates:
+                    lat_lon = tweet['coordinates']
+                    lat_lon = self.points.formatCoordinate(lat_lon)
+                    lat = lat_lon[0]
+                    lon = lat_lon[1]
+                    row += delimiter + unicode(lat) + delimiter + unicode(lon)
+                output_file.write(row + '\n')
+            except (UnicodeEncodeError, UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                 print e, "\n"
                 print "Tweet should contain id, text and coordinates"
+                print row
 
         output_file.close()

@@ -1,8 +1,7 @@
 # -*- coding: latin-1 -*-
 from collecting.datacollect import APICollect
-from textprocessor import portugueseprocessor as pln
-import json
-from filemanagement import filemanagement
+from textprocessor.portugueseprocessor import TextCleaner, NamedEntity
+from filemanagement.filemanagement import JSONFileManagement, CSVTSVFileManagement
 
 
 def main():
@@ -11,9 +10,8 @@ def main():
     # OAUTH_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
     # OAUTH_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
 
-    tweets = []
-    input_file = 'dataset_until_22_05.json'
-    output_file = 'dataset_until_22_05_pln.json'
+    input_file = 'dataset_until_22_05_pln.json'
+    output_file = 'dataset_until_22_05_pln.csv'
 
     # query = "previdencia social OR reforma da previdencia OR reforma da presidencia ' \
     #         'OR previdencia since:2017-05-23 until:2017-05-24"
@@ -27,25 +25,31 @@ def main():
     #     json.dump(tweet, output_file)
     #     output_file.write("\n")
 
-    cleaner = pln.TextCleaner()
-    named = pln.NamedEntity()
-    json_management = filemanagement.JSONFileManagement()
+    # cleaner = TextCleaner()
+    # named = NamedEntity()
+    # json_management = JSONFileManagement()
+    csv_management = CSVTSVFileManagement()
 
-    print 'reading'
-    json_management.read_file(input_file)
+    print 'reading1'
+    tweets = csv_management.read_file(output_file)
+    print len(tweets)
+    # tweets = json_management.read_file(input_file)
 
-    print 'writing'
-    for tweet in tweets[:10]:
-        text = tweet['text']
-        text = text.lower()
-        text = named.removeTwitterUsername(text)
-        text = cleaner.removeStopwords(text)
-        text = cleaner.removeSymbols(text)
-        text = cleaner.removeLinks(text)
-        text = cleaner.removeSufPort(text)
-        text = cleaner.removeAccent(text)
-        tweet['text'] = text
+    # new_tweets = []
 
-    json_management.write_file(output_file, tweets)
+    print 'writing1'
+    # for tweet in tweets:
+    #     text = tweet['text']
+    #     text = text.lower()
+    #     text = named.removeTwitterUsername(text)
+    #     text = cleaner.removeStopwords(text)
+    #     text = cleaner.removeSymbols(text)
+    #     text = cleaner.removeLinks(text)
+    #     text = cleaner.removeSufPort(text)
+    #     text = cleaner.removeAccent(text)
+    #     tweet['text'] = text
+    #     new_tweets.append(tweet)
+
+    # csv_management.write_file(output_file, tweets)
 
 main()
