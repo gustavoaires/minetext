@@ -1,4 +1,7 @@
 import tweepy as tw
+from tweepy.streaming import StreamListener
+from tweepy import OAuthHandler
+from tweepy import Stream
 from twitterscraper import query_tweets
 
 
@@ -41,14 +44,28 @@ class APICollect(object):
 
         return tweets
 
-    def stream_tweets(self, query, lang="pt", limit=None):
-        pass
+    def stream_tweets(self, follow=None, track=None, async=False, locations=None,
+               stall_warnings=False, languages=None, encoding='utf8', filter_level=None):
+        l = StdOutListener()
+        stream = Stream(self.api.auth, l)
+        stream.filter(follow, track, async, locations, stall_warnings, languages, encoding, filter_level)
+
+
+class StdOutListener(StreamListener):
+    """ 
+    A listener handles tweets that are received from the stream.
+    This is a basic listener that just prints received tweets to stdout.
+    """
+
+    def on_data(self, data):
+        print(data)
+        return True
+
+    def on_error(self, status):
+        print(status)
 
 
 class ScrapeCollect(object):
-    def __init__(self):
-        pass
-
     def scrape_tweets(self, query, limit=None):
         """
         all the results obtained with this method 
