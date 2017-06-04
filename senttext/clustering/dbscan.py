@@ -42,10 +42,18 @@ def jaccardDistance(text1, text2):
     words2 = set(text2['text'].split())
 
     duplicated = len(words1.intersection(words2))
-    uniques = len(words1.union(words2.difference(words1)))
+    # uniques = len(words1.union(words2.difference(words1)))
+
+    tam1 = len(text1['text'].split())
+    tam2 = len(text2['text'].split())
+
+    if tam1 > tam2:
+        maior = tam1
+    else:
+        maior = tam2
 
     try:
-        simi = float(duplicated) / uniques
+        simi = float(duplicated) / maior
         return simi
     except ZeroDivisionError:
         return 0.0
@@ -104,7 +112,7 @@ print '- - - - - - - - - - START - - - - - - - - - -'
 import simplejson as json
 
 # Coloque o CAMINHO/NOME do seu arquivo de entrada dentro da funcao open()
-with open('tweets_22_05_pln.tsv') as json_data:
+with open('tweets_25_05_pln.tsv') as json_data:
     # A linha abaixo le um arquivo em formato JSON
     # points = json.load(json_data)
     
@@ -130,8 +138,7 @@ with open('tweets_22_05_pln.tsv') as json_data:
     shuffle(points['tweets'])
 
     # A funcao DBSCAN recebe um array de pontos, eps e minPoints.
-    dbScan(points['tweets'], 0.3, 15)
-    
+    dbScan(points['tweets'], 0.4, 35)
 
 
 print "######## CLUSTERS ########"
@@ -143,7 +150,7 @@ for obj in points['tweets']:
     groups[obj['cluster']].append(obj)
 
 # Caminho do arquivo de saida dos clusters
-output_file = open('result_u_22_eps03_min50.txt', 'w')
+output_file = open('result_u_25_eps04_min35.txt', 'w')
 for key in groups.keys():
     print ' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key]))
     for point in groups[key]:

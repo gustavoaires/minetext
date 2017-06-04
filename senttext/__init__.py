@@ -2,25 +2,24 @@
 from collecting.datacollect import APICollect
 from textprocessor.portugueseprocessor import TextCleaner, NamedEntity
 from filemanagement.filemanagement import JSONFileManagement, CSVTSVFileManagement
-
+import json
 
 def main():
-    # CONSUMER_KEY = '4jtRRPl3WvYyzPvRnNKRaaLGr'
-    # CONSUMER_SECRET = 'dFr8l0HDQ2RA3sQhiTjkMvJs9ML38BLkEoofDNr50tBEOCmZNA'
-    # ACCESS_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
-    # ACCESS_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
+    CONSUMER_KEY = '4jtRRPl3WvYyzPvRnNKRaaLGr'
+    CONSUMER_SECRET = 'dFr8l0HDQ2RA3sQhiTjkMvJs9ML38BLkEoofDNr50tBEOCmZNA'
+    ACCESS_TOKEN = '98992106-OsffZtvTWPxeHCkA5G9golyjU4inlvb7XB6g0oDva'
+    ACCESS_TOKEN_SECRET = 'eD0RE8AyfTDmyYnOKfWLo3XvjILKktRJOIoQnlmHCmbip'
 
-    input_file = 'tweets_22_05.json'
-    output_file = 'tweets_22_05_pln.tsv'
+    input_file = 'tweets_25_05.json'
+    output_file = 'tweets_25_05_pln.tsv'
 
-    # query = "previdencia social OR reforma da previdencia OR reforma da presidencia ' \
-    #         'OR previdencia since:2017-05-23 until:2017-05-24"
+    # query = "previdencia social OR reforma da previdencia OR reforma da presidencia OR previdencia since:2017-05-23 until:2017-05-24"
     # scrape = datacollect.ScrapeCollect()
     # tweets = scrape.scrape_tweets(query, 20)
 
     # api = APICollect(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-    # tweets = api.rest_tweets(query=query, limit=5)
-    #
+    # tweets = api.rest_tweets(query=query)
+
     # for tweet in tweets:
     #     json.dump(tweet, output_file)
     #     output_file.write("\n")
@@ -30,12 +29,12 @@ def main():
     json_management = JSONFileManagement()
     csv_management = CSVTSVFileManagement()
 
-    print 'reading1'
+    # print 'reading1'
     tweets = json_management.read_file(input_file)
 
     new_tweets = []
 
-    print 'writing1'
+    # print 'writing1'
     for tweet in tweets:
         text = tweet['text']
         text = text.lower()
