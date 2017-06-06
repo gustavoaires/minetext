@@ -1,30 +1,54 @@
 from datetime import datetime
 from math import sqrt, exp
+import numpy as np
 
 
-class DistanceCalculator(object):
-    def levenshtein_distance(string1, string2):
-        pass
+class LevenshteinCalculator(object):
+    def calculate(self, source, target):
+        if len(source) < len(target):
+            return self.calculate(target, source)
 
-    def euclidean_distance(point, point2):
-        x = float(point['latitude'])
-        x1 = float(point2['latitude'])
-        y = float(point['longitude'])
-        y1 = float(point2['longitude'])
+        if len(target) == 0:
+            return len(source)
 
-        return sqrt((x - x1) ** 2 + (y - y1) ** 2)
+        source = np.array(tuple(source))
+        target = np.array(tuple(target))
 
-    def fading_distance(text1, text2):
+        previous_row = np.arange(target.size + 1)
+        for s in source:
+            current_row = previous_row + 1
+
+            current_row[1:] = np.minimum(current_row[1:], np.add(previous_row[:-1], target != s))
+
+            current_row[1:] = np.minimum(current_row[1:], current_row[0:-1] + 1)
+
+            previous_row = current_row
+
+        return previous_row[-1]
+
+
+class EuclideanCalculator(object):
+    def calculate(self, source, target):
+        x1 = float(source['latitude'])
+        x2 = float(target['latitude'])
+        y1 = float(source['longitude'])
+        y2 = float(target['longitude'])
+
+        return sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+
+
+class FadingCalculator(object):
+    def calculate(self, source, target):
         FMT = '%H:%M:%S'
-        if datetime.strptime(text1['time'], FMT) > datetime.strptime(text2['time'], FMT):
-            tdelta = datetime.strptime(text1['time'], FMT) - datetime.strptime(text2['time'], FMT)
+        if datetime.strptime(source['time'], FMT) > datetime.strptime(target['time'], FMT):
+            tdelta = datetime.strptime(source['time'], FMT) - datetime.strptime(target['time'], FMT)
         else:
-            tdelta = datetime.strptime(text2['time'], FMT) - datetime.strptime(text1['time'], FMT)
+            tdelta = datetime.strptime(target['time'], FMT) - datetime.strptime(source['time'], FMT)
 
         timeDifference = tdelta.seconds / 60.0 / 60
 
-        words1 = set(text1['text'].split())
-        words2 = set(text2['text'].split())
+        words1 = set(source['text'].split())
+        words2 = set(target['text'].split())
 
         duplicates = words1.intersection(words2)
         uniques = words1.union(words2.difference(words1))
@@ -35,15 +59,17 @@ class DistanceCalculator(object):
         except:
             return 0.0
 
-    def jaccard_distance(text1, text2):
-        words1 = set(text1['text'].split())
-        words2 = set(text2['text'].split())
+
+class JaccardCalculator(object):
+    def calculate(self, source, target):
+        words1 = set(source['text'].split())
+        words2 = set(target['text'].split())
 
         duplicated = len(words1.intersection(words2))
         # uniques = len(words1.union(words2.difference(words1)))
 
-        tam1 = len(text1['text'].split())
-        tam2 = len(text2['text'].split())
+        tam1 = len(words1)
+        tam2 = len(words2)
 
         if tam1 > tam2:
             maior = tam1

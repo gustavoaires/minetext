@@ -150,7 +150,7 @@ for obj in points['tweets']:
     groups[obj['cluster']].append(obj)
 
 # Caminho do arquivo de saida dos clusters
-output_file = open('result_u_25_eps04_min35.txt', 'w')
+output_file = open('result_25_eps04_min35.txt', 'w')
 for key in groups.keys():
     print ' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key]))
     for point in groups[key]:
