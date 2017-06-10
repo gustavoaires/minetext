@@ -74,7 +74,10 @@ class Kmeans(object):
                     if not tweets[j]['id'] == tweets[k]['id']:
                         acc_distance += self.distance_calculator.calculate(tweets[j], tweets[k])
 
-                mean = acc_distance / (len(tweets) - 1)
+                try:
+                    mean = acc_distance / (len(tweets) - 1)
+                except ZeroDivisionError:
+                    mean = dist
                 if mean < dist:
                     dist = mean
                     self.clusters[j]['centroid'] = tweets[j]

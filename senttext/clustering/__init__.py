@@ -20,18 +20,14 @@ def main():
             point['text'] = data[1].strip()
             points['tweets'].append(point)
 
-        kmeans = Kmeans(k=3, tweets=points['tweets'], distance_calculator=distance_calculator)
+        kmeans = Kmeans(k=20, tweets=points['tweets'], distance_calculator=distance_calculator)
         result = kmeans.clustering()
 
-        cluster0 = 0
-        cluster1 = 0
-        cluster2 = 0
+        val = dict()
 
         for cluster in result:
-            for tweet in cluster['tweets']:
-                if tweet['cluster'] == 0: cluster0 += 1
-                elif tweet['cluster'] == 1: cluster1 += 1
-                else: cluster2 += 1
+            print cluster
+            val[cluster['id']] = len(cluster['tweets'])
 
-        print cluster0, cluster1, cluster2
+        print val
 main()
