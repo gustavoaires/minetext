@@ -45,7 +45,7 @@ class Kmeans(object):
         return centroids
 
     def assign_cluster(self):
-        min = self.max
+        min_dist = self.max
         self.clear_clusters()
         centroids = self.get_centroids()
         cluster_id = -1
@@ -53,20 +53,21 @@ class Kmeans(object):
         for i in range(len(self.tweets)):
             for j in range(len(centroids)):
                 distance = self.distance_calculator.calculate(self.tweets[i], centroids[j])
-                if distance < min:
-                    min = distance
+                if distance < min_dist:
+                    min_dist = distance
                     cluster_id = centroids[j]['cluster']
 
             self.tweets[i]['cluster'] = cluster_id
             self.get_cluster_by_id(cluster_id)['tweets'].append(self.tweets[i])
             cluster_id = -1
-            min = self.max
+            min_dist = self.max
 
     def calculate_centroids(self):
-        dist = self.max
+        min_dist = self.max
         centroids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
+            # maybe the following line is unnecessary
             tweets.append(self.clusters[i]['centroid'])
             for j in range(len(tweets)):
                 acc_distance = 0.0
@@ -74,17 +75,20 @@ class Kmeans(object):
                     if not tweets[j]['id'] == tweets[k]['id']:
                         acc_distance += self.distance_calculator.calculate(tweets[j], tweets[k])
 
+                # decide value for exception case
                 try:
                     mean = acc_distance / (len(tweets) - 1)
                 except ZeroDivisionError:
-                    mean = dist
-                if mean < dist:
-                    dist = mean
+                    mean = min_dist
+
+                if mean < min_dist:
+                    min_dist = mean
+                    # maybe variable i should be used instead of j on the first list
                     self.clusters[j]['centroid'] = tweets[j]
 
             self.clusters[i]['centroid']['cluster'] = self.clusters[i]['id']
             centroids.append(self.clusters[i]['centroid'])
-            dist = self.max
+            min_dist = self.max
         return centroids
 
     def get_cluster_by_id(self, cluster_id):
