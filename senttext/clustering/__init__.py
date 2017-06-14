@@ -20,7 +20,7 @@ def main():
             point['text'] = data[1].strip()
             points['tweets'].append(point)
 
-        kmeans = Kmeans(k=20, tweets=points['tweets'], distance_calculator=distance_calculator)
+        kmeans = Kmeans(k=10, tweets=points['tweets'], distance_calculator=distance_calculator)
         result = kmeans.clustering()
 
         val = dict()

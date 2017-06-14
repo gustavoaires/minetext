@@ -62,29 +62,33 @@ class Kmeans(object):
             cluster_id = -1
             min_dist = self.max
 
+    # still not working
     def calculate_centroids(self):
         min_dist = self.max
         centroids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
             # maybe the following line is unnecessary
-            tweets.append(self.clusters[i]['centroid'])
+            # tweets.append(self.clusters[i]['centroid'])
+            # if len(tweets) == 1 : print tweets
+            # the problem is that tweets somehow has just 1 tweet
+            # and this throws an exception when calculating the mean
             for j in range(len(tweets)):
                 acc_distance = 0.0
                 for k in range(len(tweets)):
                     if not tweets[j]['id'] == tweets[k]['id']:
                         acc_distance += self.distance_calculator.calculate(tweets[j], tweets[k])
 
+                # maybe check tweets length can help
                 # decide value for exception case
-                try:
-                    mean = acc_distance / (len(tweets) - 1)
-                except ZeroDivisionError:
-                    mean = min_dist
+                # try:
+                mean = acc_distance / (len(tweets))
+                # except ZeroDivisionError:
+                #     mean = min_dist
 
                 if mean < min_dist:
                     min_dist = mean
-                    # maybe variable i should be used instead of j on the first list
-                    self.clusters[j]['centroid'] = tweets[j]
+                    self.clusters[i]['centroid'] = tweets[j]
 
             self.clusters[i]['centroid']['cluster'] = self.clusters[i]['id']
             centroids.append(self.clusters[i]['centroid'])
