@@ -1,2 +1,2 @@
-# senttext
+# minetext
 
