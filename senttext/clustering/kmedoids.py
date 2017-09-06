@@ -1,7 +1,7 @@
 from random import shuffle
 
 
-class Kmeans(object):
+class Kmedoids(object):
     def __init__(self, k, tweets, distance_calculator):
         self.distance_calculator = distance_calculator
         self.k = k
@@ -52,7 +52,7 @@ class Kmeans(object):
 
         for i in range(len(self.tweets)):
             for j in range(len(centroids)):
-                distance = self.distance_calculator.calculate(self.tweets[i], centroids[j])
+                distance = self.distance_calculator.calculate(self.tweets[i]['text'], centroids[j]['text'])
                 if distance < min_dist:
                     min_dist = distance
                     cluster_id = centroids[j]['cluster']
@@ -64,35 +64,30 @@ class Kmeans(object):
 
     # still not working
     def calculate_centroids(self):
-        min_dist = self.max
+        dist = self.max
         centroids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
-            # maybe the following line is unnecessary
-            # tweets.append(self.clusters[i]['centroid'])
-            # if len(tweets) == 1 : print tweets
-            # the problem is that tweets somehow has just 1 tweet
-            # and this throws an exception when calculating the mean
             for j in range(len(tweets)):
                 acc_distance = 0.0
                 for k in range(len(tweets)):
                     if not tweets[j]['id'] == tweets[k]['id']:
-                        acc_distance += self.distance_calculator.calculate(tweets[j], tweets[k])
+                        acc_distance += self.distance_calculator.calculate(tweets[j]['text'], tweets[k]['text'])
 
                 # maybe check tweets length can help
                 # decide value for exception case
                 # try:
                 mean = acc_distance / (len(tweets))
                 # except ZeroDivisionError:
-                #     mean = min_dist
+                #     mean = dist
 
-                if mean < min_dist:
-                    min_dist = mean
+                if mean < dist:
+                    dist = mean
                     self.clusters[i]['centroid'] = tweets[j]
 
             self.clusters[i]['centroid']['cluster'] = self.clusters[i]['id']
             centroids.append(self.clusters[i]['centroid'])
-            min_dist = self.max
+            dist = self.max
         return centroids
 
     def get_cluster_by_id(self, cluster_id):

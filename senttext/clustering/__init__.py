@@ -1,5 +1,5 @@
 from distance import *
-from kmeans import *
+from kmedoids import *
 
 
 def main():
@@ -13,15 +13,17 @@ def main():
 
         for line in json_data:
             data = line.split('\t')
-            if data[0] == 'id' and data[1] == 'text': continue
-            point = dict()
+            if data[0] != 'id' and data[1] != 'text':
+                point = dict()
 
-            point['id'] = data[0]
-            point['text'] = data[1].strip()
-            points['tweets'].append(point)
+                point['id'] = data[0]
+                point['text'] = data[1].strip()
+                points['tweets'].append(point)
+            else:
+                continue
 
-        kmeans = Kmeans(k=10, tweets=points['tweets'], distance_calculator=distance_calculator)
-        result = kmeans.clustering()
+        kmedoids = Kmedoids(k=10, tweets=points['tweets'], distance_calculator=distance_calculator)
+        result = kmedoids.clustering()
 
         val = dict()
 

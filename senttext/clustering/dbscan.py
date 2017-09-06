@@ -105,14 +105,13 @@ def dbScan(tweets, eps, minPts):
                 cluster += 1
                 expandCluster(tweets, point, neighborPts, cluster, eps, minPts)
 
-
 print '- - - - - - - - - - START - - - - - - - - - -'
 
 # import json
 import simplejson as json
 
 # Coloque o CAMINHO/NOME do seu arquivo de entrada dentro da funcao open()
-with open('tweets_25_05_pln.tsv') as json_data:
+with open('22_25_pln.tsv') as json_data:
     # A linha abaixo le um arquivo em formato JSON
     # points = json.load(json_data)
     
@@ -121,7 +120,8 @@ with open('tweets_25_05_pln.tsv') as json_data:
     points['tweets'] = []
     for line in json_data:
         data = line.split('\t')
-        if data[0] == 'id' and data[1] == 'text': continue
+        if (data[0] == 'id' and data[1] == 'text') or len(data) < 2:
+            continue
         point = {}
 
         # Aqui vc deve criar os atributos que voce ira utilizar no DBSCAN
@@ -138,7 +138,7 @@ with open('tweets_25_05_pln.tsv') as json_data:
     shuffle(points['tweets'])
 
     # A funcao DBSCAN recebe um array de pontos, eps e minPoints.
-    dbScan(points['tweets'], 0.4, 35)
+    dbScan(points['tweets'], 0.4, 40)
 
 
 print "######## CLUSTERS ########"
@@ -150,7 +150,7 @@ for obj in points['tweets']:
     groups[obj['cluster']].append(obj)
 
 # Caminho do arquivo de saida dos clusters
-output_file = open('result_25_eps04_min35.txt', 'w')
+output_file = open('result_22_25_eps04_min50.txt', 'w')
 for key in groups.keys():
     print ' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key]))
     for point in groups[key]:

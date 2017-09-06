@@ -3,10 +3,11 @@ import json
 import csv
 from senttext.textprocessor.coordinateformater import CoordinateFormater
 
+
 class JSONFileManagement(object):
     def read_file(self, path):
         """
-        :param path: diretory of storage
+        :param path: directory of storage
         :return: list of tweets from the file
         """
         tweets = []
@@ -20,7 +21,7 @@ class JSONFileManagement(object):
 
     def write_file(self, path, tweets, mode='w'):
         """
-        :param path: diretory of storage 
+        :param path: directory of storage
         :param tweets: list of tweets to save
         :param mode: how to write (w: write, a:append, etc)
         :return: void 
