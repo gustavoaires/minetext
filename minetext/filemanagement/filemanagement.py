@@ -1,7 +1,7 @@
 # -*- coding: latin-1 -*-
 import json
 import csv
-from senttext.textprocessor.coordinateformater import CoordinateFormater
+from minetext.textprocessor.coordinateformater import CoordinateFormater
 
 
 class JSONFileManagement(object):
