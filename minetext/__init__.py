@@ -1,7 +1,7 @@
 # -*- coding: latin-1 -*-
 from collecting.datacollect import APICollect, ScrapeCollect
 from textprocessor.portugueseprocessor import TextCleaner, NamedEntity
-from filemanagement.filemanagement import JSONFileManagement, CSVTSVFileManagement
+from filemanager.filemanagement import JSONFileManagement, CSVTSVFileManagement
 import json
 
 
