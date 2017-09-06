@@ -62,24 +62,19 @@ class Kmedoids(object):
             cluster_id = -1
             min_dist = self.max
 
-    # still not working
     def calculate_centroids(self):
         dist = self.max
         centroids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
+            tweets.append(self.clusters[i]['centroid'])
             for j in range(len(tweets)):
                 acc_distance = 0.0
                 for k in range(len(tweets)):
                     if not tweets[j]['id'] == tweets[k]['id']:
                         acc_distance += self.distance_calculator.calculate(tweets[j]['text'], tweets[k]['text'])
 
-                # maybe check tweets length can help
-                # decide value for exception case
-                # try:
                 mean = acc_distance / (len(tweets))
-                # except ZeroDivisionError:
-                #     mean = dist
 
                 if mean < dist:
                     dist = mean

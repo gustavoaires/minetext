@@ -4,7 +4,7 @@ from kmedoids import *
 
 def main():
 
-    input_file = 'tweets_25_05_pln.tsv'
+    input_file = 'tweets_test.tsv'
     distance_calculator = LevenshteinCalculator()
 
     with open(input_file) as json_data:
@@ -22,7 +22,7 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=10, tweets=points['tweets'], distance_calculator=distance_calculator)
+        kmedoids = Kmedoids(k=3, tweets=points['tweets'], distance_calculator=distance_calculator)
         result = kmedoids.clustering()
 
         val = dict()
