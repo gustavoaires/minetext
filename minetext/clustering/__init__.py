@@ -1,11 +1,14 @@
 from distance import *
 from kmedoids import *
+from minetext.filemanager.filemanagement import *
 
 
 def main():
 
-    input_file = 'tweets_test.tsv'
+    input_file = 'tweets_22_05_pln.tsv'
+    output_file = 'tweets_with_clusters.json'
     distance_calculator = LevenshteinCalculator()
+    file_writer = JSONFileManagement()
 
     with open(input_file) as json_data:
         points = dict()
@@ -22,14 +25,16 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=3, tweets=points['tweets'], distance_calculator=distance_calculator)
+        kmedoids = Kmedoids(k=5, tweets=points['tweets'], distance_calculator=distance_calculator)
         result = kmedoids.clustering()
 
-        val = dict()
+        tweets = list()
 
         for cluster in result:
-            print cluster
-            val[cluster['id']] = len(cluster['tweets'])
+            # print cluster
+            # val[cluster['id']] = len(cluster['tweets'])
+            tweets += cluster['tweets']
 
-        print val
+        file_writer.write_file(output_file, tweets)
+
 main()
