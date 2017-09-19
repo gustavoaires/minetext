@@ -16,7 +16,7 @@ class NaiveBayes(object):
         self.words = Set()
         # data frame with the frequency
         self.df = pandas.DataFrame(columns=labels, index=self.words)
-        self.classes_prob = self.init_classes_prob()
+        self.classes_prob = self.init_classes_zero()
 
     def count_freq(self):
         words_set = Set()
@@ -33,30 +33,24 @@ class NaiveBayes(object):
         self.df.sort_index(by=self.labels, ascending=[True] * len(self.labels), inplace=True)
         return self.df
 
-    def init_classes_prob(self):
+    def init_classes_zero(self):
         classes_prob = dict()
         for item in self.labels:
             classes_prob[item] = 0.0
         return classes_prob
 
     def calculate_class_probability(self):
-        count_pos = 0.0
-        count_neg = 0.0
+        class_counts = self.init_classes_zero()
         total = 0.0
         for index, row in self.df.iterrows():
-            if row['neg'] > row['pos']:
-                count_neg = count_neg + 1.0
-            elif row['neg'] < row['pos']:
-                count_pos = count_pos + 1.0
-            total = total + 1.0
-        class_prob_neg = count_neg / total
-        class_prob_pos = count_pos / total
-        class_prob_neg = class_prob_neg
-        class_prob_pos = class_prob_pos
-        return class_prob_neg, class_prob_pos
+            class_counts[max(row.iteritems(), key=operator.itemgetter(1))[0]] += 1.0
+            total += 1.0
+        for key in class_counts.keys():
+            self.classes_prob[key] = class_counts[key] / total
+        return self.classes_prob
 
     # classifier
-    def naive_bayes_classify(self, document, labels, processed_words, class_probabilities, words_per_class, df):
+    def naive_bayes_classify(self, document, labels, processed_words, class_probabilities, words_per_class):
         no_words_in_doc = len(document)
         current_class_prob = {}
 
@@ -64,7 +58,7 @@ class NaiveBayes(object):
             prob = math.log(class_probabilities[label], 2) - no_words_in_doc * math.log(words_per_class[label], 2)
             for word in document:
                 if word in processed_words:
-                    occurence = df.loc[word][label]
+                    occurence = self.df.loc[word][label]
                     if occurence > 0:
                         prob = prob + math.log(occurence, 2)
                     else:
@@ -79,11 +73,11 @@ class NaiveBayes(object):
 
 
     def classify(self):
-        dataframe = self.count_freq()
+        self.count_freq()
 
         processed_words = []
 
-        class_prob_neg, class_prob_pos = self.calculate_class_probability(dataframe)
+        class_prob_neg, class_prob_pos = self.calculate_class_probability()
 
         for word in dataframe.index:
             processed_words.append(word)
@@ -103,7 +97,7 @@ class NaiveBayes(object):
         errou_pos = 0
         for document in self.test_set:
             classification = self.naive_bayes_classify(document[:-1], labels, processed_words, class_probabilities,
-                                                  words_per_class, dataframe)
+                                                  words_per_class)
             if classification == 'neg':
                 qtd_neg += 1
                 if neg not in document[-1]:
