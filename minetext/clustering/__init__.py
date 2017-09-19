@@ -7,6 +7,7 @@ def main():
 
     input_file = 'tweets_22_05_pln.tsv'
     output_file = 'tweets_with_clusters.json'
+    output_file2 = 'centroids.json'
     distance_calculator = LevenshteinCalculator()
     file_writer = JSONFileManagement()
 
@@ -29,12 +30,13 @@ def main():
         result = kmedoids.clustering()
 
         tweets = list()
+        centroids = list()
 
         for cluster in result:
-            # print cluster
-            # val[cluster['id']] = len(cluster['tweets'])
+            centroids.append(cluster['centroid'])
             tweets += cluster['tweets']
 
         file_writer.write_file(output_file, tweets)
+        file_writer.write_file(output_file2, centroids)
 
 main()
