@@ -13,17 +13,18 @@ class NaiveBayes(object):
         self.labels = labels
         # words for indexing data frame
         self.words_set = Set()
+        self.load_words_set()
         # data frame with the frequency
-        self.df = pandas.DataFrame(columns=labels, index=self.words_set)
+        self.df = pandas.DataFrame(columns=self.labels, index=self.words_set)
         self.classes_prob = self.assign_zero_to_classes()
         self.words_per_class = dict()
 
     def load_words_set(self):
         for document in self.training_set:
-            for word in document.split():
+            for word in document[self.text_field_name].split():
                 self.words_set.add(word)
 
-    def count_freq(self):
+    def count_word_frequency(self):
         words = Set()
         for document in self.training_set:
             label = document[self.label_field]
@@ -32,10 +33,8 @@ class NaiveBayes(object):
                 if word not in words:
                     words.add(word)
                     self.df.loc[word] = [0] * len(self.labels)
-                    self.df.ix[word][label] += 1
-                else:
-                    self.df.ix[word][label] += 1
-        self.df.sort_index(by=self.labels, ascending=[True] * len(self.labels), inplace=True)
+                self.df.ix[word][label] += 1
+        self.df.sort_values(by=self.labels, ascending=[True] * len(self.labels), inplace=True)
         return self.df
 
     def assign_zero_to_classes(self):
@@ -49,13 +48,13 @@ class NaiveBayes(object):
             self.words_per_class[label] = self.df[label].sum()
 
     def calculate_class_probability(self):
-        class_counts = self.assign_zero_to_classes()
+        classes_count = self.assign_zero_to_classes()
         total = 0.0
         for index, row in self.df.iterrows():
-            class_counts[max(row.iteritems(), key=operator.itemgetter(1))[0]] += 1.0
+            classes_count[max(row.iteritems(), key=operator.itemgetter(1))[0]] += 1.0
             total += 1.0
-        for key in class_counts.keys():
-            self.classes_prob[key] = class_counts[key] / total
+        for key in classes_count.keys():
+            self.classes_prob[key] = classes_count[key] / total
         return self.classes_prob
 
     def naive_bayes(self, document):
@@ -80,8 +79,7 @@ class NaiveBayes(object):
         return most_probable_class
 
     def run(self):
-        self.load_words_set()
-        self.count_freq()
+        self.count_word_frequency()
         self.calculate_class_probability()
         self.calculate_words_per_class()
 
