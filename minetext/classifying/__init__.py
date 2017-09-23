@@ -3,14 +3,19 @@ from minetext.filemanager.filemanagement import *
 
 
 def main():
-    input_file = 'classifying/tweets_with_clusters.json'
+    training_set = 'classifying/training_set.json'
+    test_set = 'classifying/test_set.json'
+    output_file = 'classifying/classified_tweets.json'
 
     file_management = JSONFileManagement()
 
-    documents = file_management.read_file(input_file)
+    training_set = file_management.read_file(training_set)
+    test_set = file_management.read_file(test_set)
 
-    classifier = NaiveBayes(documents[0:500], documents[500:], 'cluster', [0, 1, 2, 3, 4])
+    classifier = NaiveBayes(training_set, test_set, 'cluster', [1, 2, 3])
 
-    classifier.run()
+    result = classifier.train()
+
+    file_management.write_file(output_file, result)
 
 main()

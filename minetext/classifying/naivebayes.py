@@ -34,14 +34,13 @@ class NaiveBayes(object):
                     words.add(word)
                     self.df.loc[word] = [0] * len(self.labels)
                 self.df.ix[word][label] += 1
-        self.df.sort_values(by=self.labels, ascending=[True] * len(self.labels), inplace=True)
         return self.df
 
     def assign_zero_to_classes(self):
-        classes_prob = dict()
+        classes = dict()
         for label in self.labels:
-            classes_prob[label] = 0.0
-        return classes_prob
+            classes[label] = 0
+        return classes
 
     def calculate_words_per_class(self):
         for label in self.labels:
@@ -78,15 +77,17 @@ class NaiveBayes(object):
         most_probable_class = sorted_classes[-1][0]
         return most_probable_class
 
-    def run(self):
+    def train(self):
         self.count_word_frequency()
         self.calculate_class_probability()
         self.calculate_words_per_class()
 
-        for document in self.test_set:
-            self.classify(document)
+        test_set_result = []
 
-        return self.test_set
+        for document in self.test_set:
+            test_set_result.append(self.classify(document))
+
+        return test_set_result
 
     def classify(self, document):
         document['predicted_class'] = self.naive_bayes(document)
