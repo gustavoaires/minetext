@@ -1,7 +1,6 @@
 import pandas
 import operator
 import math
-from sets import Set
 
 
 class NaiveBayes(object):
@@ -12,7 +11,7 @@ class NaiveBayes(object):
         self.text_field_name = text_field_name
         self.labels = labels
         # words for indexing data frame
-        self.words_set = Set()
+        self.words_set = set()
         self.load_words_set()
         # data frame with the frequency
         self.df = pandas.DataFrame(columns=self.labels, index=self.words_set)
@@ -25,7 +24,7 @@ class NaiveBayes(object):
                 self.words_set.add(word)
 
     def count_word_frequency(self):
-        words = Set()
+        words = set()
         for document in self.training_set:
             label = document[self.label_field]
             text = document[self.text_field_name].split()
