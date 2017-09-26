@@ -15,7 +15,7 @@ class Kmedoids(object):
         for i in range(self.k):
             cluster = dict()
             cluster['id'] = i
-            cluster['centroid'] = None
+            cluster['medoid'] = None
             cluster['tweets'] = []
             self.clusters.append(cluster)
 
@@ -29,7 +29,7 @@ class Kmedoids(object):
         for j in range(self.k):
             centroid = self.tweets[possible_centroids[j]]
             centroid['cluster'] = j
-            self.clusters[j]['centroid'] = centroid
+            self.clusters[j]['medoid'] = centroid
 
     def clear_clusters(self):
         for cluster in self.clusters:
@@ -38,7 +38,7 @@ class Kmedoids(object):
     def get_centroids(self):
         centroids = []
         for cluster in self.clusters:
-            centroid = cluster['centroid']
+            centroid = cluster['medoid']
             centroid['cluster'] = cluster['id']
             centroids.append(centroid)
 
@@ -67,7 +67,7 @@ class Kmedoids(object):
         centroids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
-            tweets.append(self.clusters[i]['centroid'])
+            tweets.append(self.clusters[i]['medoid'])
             for j in range(len(tweets)):
                 acc_distance = 0.0
                 for k in range(len(tweets)):
@@ -78,10 +78,10 @@ class Kmedoids(object):
 
                 if mean < dist:
                     dist = mean
-                    self.clusters[i]['centroid'] = tweets[j]
+                    self.clusters[i]['medoid'] = tweets[j]
 
-            self.clusters[i]['centroid']['cluster'] = self.clusters[i]['id']
-            centroids.append(self.clusters[i]['centroid'])
+            self.clusters[i]['medoid']['cluster'] = self.clusters[i]['id']
+            centroids.append(self.clusters[i]['medoid'])
             dist = self.max
         return centroids
 
@@ -91,15 +91,8 @@ class Kmedoids(object):
                 return self.clusters[i]
         return None
 
-    def centroids_percent_variation(self, old_centroids, new_centroids):
-        distance = 0.0
-        for i in range(len(old_centroids)):
-            distance += self.distance_calculator.calculate(old_centroids[i], new_centroids[i])
-        mean = distance / len(old_centroids)
-        return mean
-
     def clustering(self):
-        for i in range(self.k):
-            self.assign_cluster()
-            self.calculate_centroids()
+        # for i in range(self.k):
+        self.assign_cluster()
+        self.calculate_centroids()
         return self.clusters

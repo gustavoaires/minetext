@@ -5,9 +5,9 @@ from minetext.filemanager.filemanagement import *
 
 def main():
 
-    input_file = 'tweets_22_05_pln.tsv'
-    output_file = 'tweets_with_clusters.json'
-    output_file2 = 'centroids.json'
+    input_file = 'clustering/tweets_22_05_pln.tsv'
+    output_file = 'clustering/tweets_with_clusters.json'
+    output_file2 = 'clustering/centroids.json'
     distance_calculator = LevenshteinCalculator()
     file_writer = JSONFileManagement()
 
@@ -33,7 +33,7 @@ def main():
         centroids = list()
 
         for cluster in result:
-            centroids.append(cluster['centroid'])
+            centroids.append(cluster['medoid'])
             tweets += cluster['tweets']
 
         file_writer.write_file(output_file, tweets)
