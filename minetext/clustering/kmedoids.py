@@ -105,12 +105,13 @@ class Kmedoids(object):
         return self.clusters
 
     def calculate_sse(self):
-        distance = 0
+        distance_sum = 0
         for cluster in self.clusters:
             for tweet in cluster[self.collection_field]:
-                distance += self.distance_calculator\
+                distance = self.distance_calculator\
                     .calculate(tweet[self.text_field_name], cluster[self.medoid_field][self.text_field_name])
-        return distance
+                distance_sum += distance * distance
+        return distance_sum
 
     def calculate_elbow(self):
         original_k = self.k
