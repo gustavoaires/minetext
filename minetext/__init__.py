@@ -4,7 +4,7 @@ from minetext.filemanager.filemanagement import *
 
 
 def main():
-
+    print 'start'
     input_file = 'clustering/tweets_22_05_pln.tsv'
     output_file = 'clustering/tweets_with_clusters.json'
     output_file2 = 'clustering/centroids.json'
@@ -41,4 +41,5 @@ def main():
         # file_writer.write_file(output_file, tweets)
         # file_writer.write_file(output_file2, centroids)
 
-main()
+if __name__ == "__main__":
+    main()
