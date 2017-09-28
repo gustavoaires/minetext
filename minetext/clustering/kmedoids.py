@@ -117,14 +117,14 @@ class Kmedoids(object):
     def calculate_elbow(self):
         original_k = self.k
         self.setup_environment()
-        sse = dict()
+        sses = dict()
         for k in range(self.k_min_init, self.k_max):
             self.k = k
             self.assign_cluster()
             self.calculate_medoids()
-            sse[k] = self.calculate_partial_sse()
+            sses[k] = self.calculate_partial_sse()
         self.k = original_k
-        return sse
+        return sses
 
     def setup_environment(self):
         self.init_clusters()
