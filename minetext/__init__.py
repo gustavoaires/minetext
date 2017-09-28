@@ -1,6 +1,3 @@
-from minetext.classifying.naivebayes import NaiveBayes
-from minetext.filemanager.filemanagement import *
-
 from minetext.clustering.distance import *
 from minetext.clustering.kmedoids import *
 from minetext.filemanager.filemanagement import *
@@ -29,35 +26,19 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=5, tweets=points['tweets'], distance_calculator=distance_calculator)
-        result = kmedoids.clustering()
+        kmedoids = Kmedoids(k=5, tweets=points['tweets'], distance_calculator=distance_calculator, k_max=3)
+        result = kmedoids.calculate_elbow()
 
-        tweets = list()
-        centroids = list()
+        print result
 
-        for cluster in result:
-            centroids.append(cluster['medoid'])
-            tweets += cluster['tweets']
+        # tweets = list()
+        # centroids = list()
 
-        file_writer.write_file(output_file, tweets)
-        file_writer.write_file(output_file2, centroids)
+        # for cluster in result:
+        #     centroids.append(cluster['medoid'])
+        #     tweets += cluster['tweets']
+
+        # file_writer.write_file(output_file, tweets)
+        # file_writer.write_file(output_file2, centroids)
 
 main()
-
-# def main():
-#     training_set = 'classifying/training_set.json'
-#     test_set = 'classifying/test_set.json'
-#     output_file = 'classifying/classified_tweets.json'
-#
-#     file_management = JSONFileManagement()
-#
-#     training_set = file_management.read_file(training_set)
-#     test_set = file_management.read_file(test_set)
-#
-#     classifier = NaiveBayes(training_set, test_set, 'cluster', [1, 2, 3])
-#
-#     result = classifier.train()
-#
-#     file_management.write_file(output_file, result)
-#
-# main()

@@ -26,15 +26,17 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=5, tweets=points['tweets'], distance_calculator=distance_calculator, k_min=1, k_max=3)
+        kmedoids = Kmedoids(k=5, tweets=points['tweets'], distance_calculator=distance_calculator, k_max=3)
         result = kmedoids.calculate_elbow()
 
-        tweets = list()
-        centroids = list()
+        print result
 
-        for cluster in result:
-            centroids.append(cluster['medoid'])
-            tweets += cluster['tweets']
+        # tweets = list()
+        # centroids = list()
+
+        # for cluster in result:
+        #     centroids.append(cluster['medoid'])
+        #     tweets += cluster['tweets']
 
         # file_writer.write_file(output_file, tweets)
         # file_writer.write_file(output_file2, centroids)
