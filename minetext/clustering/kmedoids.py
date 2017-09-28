@@ -2,14 +2,19 @@ from random import shuffle
 
 
 class Kmedoids(object):
-    def __init__(self, k, tweets, distance_calculator):
+    def __init__(self, k, tweets, distance_calculator, text_field_name='text', k_min=1, k_max=None, max_err=None):
         self.distance_calculator = distance_calculator
         self.k = k
         self.clusters = []
         self.tweets = tweets
         self.max = float("inf")
         self.init_clusters()
-        self.set_random_centroids()
+        self.set_random_medoids()
+        self.k_min = k_min
+        self.k_min_init = self.k_min
+        self.k_max = k_max
+        self.max_err = max_err
+        self.text_field_name = text_field_name
 
     def init_clusters(self):
         for i in range(self.k):
@@ -19,52 +24,52 @@ class Kmedoids(object):
             cluster['tweets'] = []
             self.clusters.append(cluster)
 
-    def set_random_centroids(self):
-        possible_centroids = []
+    def set_random_medoids(self):
+        possible_medoids = []
         for i in range(len(self.tweets)):
-            possible_centroids.append(i)
+            possible_medoids.append(i)
 
-        shuffle(possible_centroids)
+        shuffle(possible_medoids)
 
         for j in range(self.k):
-            centroid = self.tweets[possible_centroids[j]]
-            centroid['cluster'] = j
-            self.clusters[j]['medoid'] = centroid
+            medoid = self.tweets[possible_medoids[j]]
+            medoid['cluster'] = j
+            self.clusters[j]['medoid'] = medoid
 
     def clear_clusters(self):
         for cluster in self.clusters:
             cluster['tweets'] = []
 
-    def get_centroids(self):
-        centroids = []
+    def get_medoids(self):
+        medoids = []
         for cluster in self.clusters:
-            centroid = cluster['medoid']
-            centroid['cluster'] = cluster['id']
-            centroids.append(centroid)
+            medoid = cluster['medoid']
+            medoid['cluster'] = cluster['id']
+            medoids.append(medoid)
 
-        return centroids
+        return medoids
 
     def assign_cluster(self):
         min_dist = self.max
         self.clear_clusters()
-        centroids = self.get_centroids()
+        medoids = self.get_medoids()
         cluster_id = -1
 
         for i in range(len(self.tweets)):
-            for j in range(len(centroids)):
-                distance = self.distance_calculator.calculate(self.tweets[i]['text'], centroids[j]['text'])
+            for j in range(len(medoids)):
+                distance = self.distance_calculator.calculate(self.tweets[i][self.text_field_name], medoids[j][self.text_field_name])
                 if distance < min_dist:
                     min_dist = distance
-                    cluster_id = centroids[j]['cluster']
+                    cluster_id = medoids[j]['cluster']
 
             self.tweets[i]['cluster'] = cluster_id
             self.get_cluster_by_id(cluster_id)['tweets'].append(self.tweets[i])
             cluster_id = -1
             min_dist = self.max
 
-    def calculate_centroids(self):
+    def calculate_medoids(self):
         dist = self.max
-        centroids = []
+        medoids = []
         for i in range(len(self.clusters)):
             tweets = self.clusters[i]['tweets']
             tweets.append(self.clusters[i]['medoid'])
@@ -72,7 +77,7 @@ class Kmedoids(object):
                 acc_distance = 0.0
                 for k in range(len(tweets)):
                     if not tweets[j]['id'] == tweets[k]['id']:
-                        acc_distance += self.distance_calculator.calculate(tweets[j]['text'], tweets[k]['text'])
+                        acc_distance += self.distance_calculator.calculate(tweets[j][self.text_field_name], tweets[k][self.text_field_name])
 
                 mean = acc_distance / (len(tweets))
 
@@ -81,9 +86,9 @@ class Kmedoids(object):
                     self.clusters[i]['medoid'] = tweets[j]
 
             self.clusters[i]['medoid']['cluster'] = self.clusters[i]['id']
-            centroids.append(self.clusters[i]['medoid'])
+            medoids.append(self.clusters[i]['medoid'])
             dist = self.max
-        return centroids
+        return medoids
 
     def get_cluster_by_id(self, cluster_id):
         for i in range(len(self.clusters)):
@@ -92,7 +97,24 @@ class Kmedoids(object):
         return None
 
     def clustering(self):
-        # for i in range(self.k):
         self.assign_cluster()
-        self.calculate_centroids()
+        self.calculate_medoids()
         return self.clusters
+
+    def calculate_partial_sse(self):
+        distance = 0
+        for cluster in self.clusters:
+            for tweet in cluster['tweets']:
+                distance += self.distance_calculator.calculate(tweet[self.text_field_name], cluster['medoid'][self.text_field_name])
+        return distance
+
+    def calculate_elbow(self):
+        original_k = self.k
+        sse = dict()
+        for k in range(self.k_min_init, self.k_max):
+            self.k = k
+            self.assign_cluster()
+            self.calculate_medoids()
+            sse[k] = self.calculate_partial_sse()
+        self.k = original_k
+        return sse
