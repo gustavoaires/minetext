@@ -106,7 +106,7 @@ class Kmedoids(object):
         self.calculate_medoids()
         return self.clusters
 
-    def calculate_partial_sse(self):
+    def calculate_sse(self):
         distance = 0
         for cluster in self.clusters:
             for tweet in cluster[self.collection_field]:
