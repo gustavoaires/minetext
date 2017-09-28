@@ -3,7 +3,7 @@ from random import shuffle
 
 class Kmedoids(object):
     def __init__(self, k, tweets, distance_calculator, 
-                 text_field_name='text', collection_field='tweets', k_min=1, k_max=None, max_err_increase=0):
+                 text_field_name='text', collection_field='tweets', k_min=1, k_max=None, max_err_increase=None):
         self.distance_calculator = distance_calculator
         self.k = k
         self.clusters = []
@@ -121,7 +121,9 @@ class Kmedoids(object):
             self.assign_cluster()
             self.calculate_medoids()
             sses[k] = self.calculate_partial_sse()
-            if k is not self.k_min and (sses[k] - sses[k-1]) > self.max_err_increase:
+            if self.max_err_increase is not None \
+                    and k is not self.k_min \
+                    and (sses[k] - sses[k-1]) > self.max_err_increase:
                 break
         self.k = original_k
         return sses
