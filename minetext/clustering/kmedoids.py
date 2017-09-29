@@ -132,3 +132,21 @@ class Kmedoids(object):
     def setup_environment(self):
         self.init_clusters()
         self.set_random_medoids()
+
+    def set_k(self, k):
+        self.k = k
+
+    def n_most_similar_for_clusters_medoid(self, n):
+        n_most_similar = dict()
+        for cluster in self.clusters:
+            n_most_similar[cluster['id']] = sorted(
+                [self.calculate_distance_document_tuple(document, cluster[self.medoid_field])
+                    for document in cluster[self.collection_field]],
+                key=lambda x: x[0]
+            )[:n]
+        return n_most_similar
+
+    def calculate_distance_document_tuple(self, document, target):
+        distance = self.distance_calculator \
+            .calculate(document[self.text_field_name], target[self.text_field_name])
+        return distance, document
