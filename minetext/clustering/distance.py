@@ -47,8 +47,8 @@ class FadingCalculator(object):
 
         timeDifference = tdelta.seconds / 60.0 / 60
 
-        words1 = set(source['text'].split())
-        words2 = set(target['text'].split())
+        words1 = set(source.split())
+        words2 = set(target.split())
 
         duplicates = words1.intersection(words2)
         uniques = words1.union(words2.difference(words1))
@@ -60,24 +60,30 @@ class FadingCalculator(object):
             return 0.0
 
 
-class JaccardCalculator(object):
+class JaccardCalculatorSimilarity(object):
     def calculate(self, source, target):
-        words1 = set(source['text'].split())
-        words2 = set(target['text'].split())
+        words1 = set(source.split())
+        words2 = set(target.split())
 
         duplicated = len(words1.intersection(words2))
-        # uniques = len(words1.union(words2.difference(words1)))
-
-        tam1 = len(words1)
-        tam2 = len(words2)
-
-        if tam1 > tam2:
-            maior = tam1
-        else:
-            maior = tam2
+        uniques = len(words1.union(words2.difference(words1)))
 
         try:
-            simi = float(duplicated) / maior
+            simi = float(duplicated) / uniques
             return simi
         except ZeroDivisionError:
             return 0.0
+
+class JaccardCalculatorDistance(object):
+    def calculate(self, source, target):
+        words1 = set(source.split())
+        words2 = set(target.split())
+
+        duplicated = len(words1.intersection(words2))
+        uniques = len(words1.union(words2.difference(words1)))
+
+        try:
+            simi = float(duplicated) / uniques
+            return 1 - simi
+        except ZeroDivisionError:
+            return 1
