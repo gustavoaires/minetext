@@ -26,7 +26,7 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=3, tweets=points['tweets'], distance_calculator=distance_calculator)
+        kmedoids = Kmedoids(k=3, tweets=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets')
         kmedoids.clustering()
 
         print kmedoids.n_most_similar_for_clusters_medoid(3)
