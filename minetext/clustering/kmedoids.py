@@ -2,8 +2,7 @@ from random import shuffle
 
 
 class Kmedoids(object):
-    def __init__(self, k, documents, distance_calculator,
-                 text_field_name='text', collection_field='documents', k_min=2, k_max=None, max_err_increase=None):
+    def __init__(self, k, documents, distance_calculator, collection_field='documents', text_field_name='text', k_min=2, k_max=None, max_err_increase=None):
         self.distance_calculator = distance_calculator
         self.k = k
         self.clusters = []

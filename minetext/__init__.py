@@ -6,8 +6,8 @@ from minetext.filemanager.filemanagement import *
 def main():
     print 'start'
     input_file = 'clustering/tweets_22_05_pln.tsv'
-    output_file = 'clustering/tweets_with_clusters_jaccard.json'
-    output_file2 = 'clustering/centroids.json'
+    output_file = 'clustering/tweets_with_clusters_levenshtein.json'
+    output_file2 = 'clustering/centroids_levenshtein.json'
     distance_calculator = JaccardCalculatorDistance()
     file_writer = JSONFileManagement()
 
@@ -26,10 +26,12 @@ def main():
             else:
                 continue
 
-        kmedoids = Kmedoids(k=3, tweets=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets')
-        kmedoids.clustering()
+        kmedoids = Kmedoids(k=4, documents=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets', k_max=100)
+        result = kmedoids.calculate_elbow()
 
-        print kmedoids.n_most_similar_for_clusters_medoid(3)
+        print result
+
+        # print kmedoids.n_most_similar_for_clusters_medoid(10)
 
         # tweets = list()
         # centroids = list()
