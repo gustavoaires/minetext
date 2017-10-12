@@ -1,4 +1,5 @@
 from random import shuffle
+import minetext.visualization.xy_plot as plotter
 
 
 class Kmedoids(object):
@@ -149,3 +150,11 @@ class Kmedoids(object):
         distance = self.distance_calculator \
             .calculate(document[self.text_field_name], target[self.text_field_name])
         return distance, document
+
+    def generate_xy_elbow_plot(self, elbow_result, save_dir):
+        title = "Elbow method result"
+        xlabel = "K clusters"
+        x = list(elbow_result.keys())
+        ylabel = "Sum of Squared Errors (SSE)"
+        y = list(elbow_result.values())
+        plotter.xy_plot(x, y, xlabel, ylabel, title, save_dir)
