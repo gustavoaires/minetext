@@ -44,7 +44,7 @@ class APICollect(object):
         return tweets
 
     def stream_tweets(self, follow=None, track=None, async=False, locations=None,
-               stall_warnings=False, languages=None, encoding='utf8', filter_level=None):
+               stall_warnings=False, languages=None, encoding="utf8", filter_level=None):
         l = StdOutListener()
         stream = Stream(self.api.auth, l)
         stream.filter(follow, track, async, locations, stall_warnings, languages, encoding, filter_level)
@@ -81,10 +81,10 @@ class ScrapeCollect(object):
 
         for tweet in query_tweets(query, limit=limit):
             new_tweet = {}
-            new_tweet['id'] = tweet.id
-            new_tweet['text'] = tweet.text
-            new_tweet['screen_name'] = tweet.user
-            new_tweet['created_at'] = str(tweet.timestamp)
+            new_tweet["id"] = tweet.id
+            new_tweet["text"] = tweet.text
+            new_tweet["screen_name"] = tweet.user
+            new_tweet["created_at"] = str(tweet.timestamp)
             tweets.append(new_tweet)
 
         return tweets

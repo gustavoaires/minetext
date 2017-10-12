@@ -7,25 +7,25 @@ progress = 0
 
 
 def euclideanDistance(point, point2):
-    x = float(point['latitude'])
-    x1 = float(point2['latitude'])
-    y = float(point['longitude'])
-    y1 = float(point2['longitude'])
+    x = float(point["latitude"])
+    x1 = float(point2["latitude"])
+    y = float(point["longitude"])
+    y1 = float(point2["longitude"])
 
     return sqrt((x - x1) ** 2 + (y - y1) ** 2)
 
 
 def fadingDistance(text1, text2):
-    FMT = '%H:%M:%S'
-    if datetime.strptime(text1['time'], FMT) > datetime.strptime(text2['time'], FMT):
-        tdelta = datetime.strptime(text1['time'], FMT) - datetime.strptime(text2['time'], FMT)
+    FMT = "%H:%M:%S"
+    if datetime.strptime(text1["time"], FMT) > datetime.strptime(text2["time"], FMT):
+        tdelta = datetime.strptime(text1["time"], FMT) - datetime.strptime(text2["time"], FMT)
     else:
-        tdelta = datetime.strptime(text2['time'], FMT) - datetime.strptime(text1['time'], FMT)
+        tdelta = datetime.strptime(text2["time"], FMT) - datetime.strptime(text1["time"], FMT)
 
     timeDifference = tdelta.seconds / 60.0 / 60
 
-    words1 = set(text1['text'].split())
-    words2 = set(text2['text'].split())
+    words1 = set(text1["text"].split())
+    words2 = set(text2["text"].split())
 
     duplicates = words1.intersection(words2)
     uniques = words1.union(words2.difference(words1))
@@ -38,14 +38,14 @@ def fadingDistance(text1, text2):
 
 
 def jaccardDistance(text1, text2):
-    words1 = set(text1['text'].split())
-    words2 = set(text2['text'].split())
+    words1 = set(text1["text"].split())
+    words2 = set(text2["text"].split())
 
     duplicated = len(words1.intersection(words2))
     # uniques = len(words1.union(words2.difference(words1)))
 
-    tam1 = len(text1['text'].split())
-    tam2 = len(text2['text'].split())
+    tam1 = len(text1["text"].split())
+    tam2 = len(text2["text"].split())
 
     if tam1 > tam2:
         maior = tam1
@@ -75,19 +75,19 @@ def neighborhood(point, tweets, eps):
 
 def expandCluster(tweets, point, neighborPts, cluster, eps, minPts):
     global progress
-    point['cluster'] = cluster
-    point['core'] = True
+    point["cluster"] = cluster
+    point["core"] = True
 
     for point1 in neighborPts:
-        if not point1['visited']:
-            point1['visited'] = True
+        if not point1["visited"]:
+            point1["visited"] = True
             neighborPts1 = neighborhood(point1, tweets, eps)
             progress = progress + 1
             if len(neighborPts1) >= minPts:
-                point1['core'] = True
+                point1["core"] = True
                 neighborPts.extend(neighborPts1)
-        if point1['cluster'] == 0:
-            point1['cluster'] = cluster
+        if point1["cluster"] == 0:
+            point1["cluster"] = cluster
 
 
 def dbScan(tweets, eps, minPts):
@@ -95,50 +95,50 @@ def dbScan(tweets, eps, minPts):
     cluster = 0
 
     for point in tweets:
-        if not point['visited']:
-            point['visited'] = True
+        if not point["visited"]:
+            point["visited"] = True
             neighborPts = neighborhood(point, tweets, eps)
             progress = progress + 1
             if len(neighborPts) < minPts:
-                point['cluster'] = -1
+                point["cluster"] = -1
             else:
                 cluster += 1
                 expandCluster(tweets, point, neighborPts, cluster, eps, minPts)
 
-print('- - - - - - - - - - START - - - - - - - - - -')
+print("- - - - - - - - - - START - - - - - - - - - -")
 
 # import json
 import simplejson as json
 
 # Coloque o CAMINHO/NOME do seu arquivo de entrada dentro da funcao open()
-with open('22_25_pln.tsv') as json_data:
+with open("22_25_pln.tsv") as json_data:
     # A linha abaixo le um arquivo em formato JSON
     # points = json.load(json_data)
     
     # O codigo abaixo le um arquivo txt(tabulado)
     points = {}
-    points['tweets'] = []
+    points["tweets"] = []
     for line in json_data:
-        data = line.split('\t')
-        if (data[0] == 'id' and data[1] == 'text') or len(data) < 2:
+        data = line.split("\t")
+        if (data[0] == "id" and data[1] == "text") or len(data) < 2:
             continue
         point = {}
 
         # Aqui vc deve criar os atributos que voce ira utilizar no DBSCAN
         # Por exemplo: Na medida de fadding, voce ira precisar do atributo de tempo.
-        point['id'] = data[0]
-        point['text'] = data[1].strip()
-        # point['time'] = data[2].strip()
-        point['visited'] = False
-        point['cluster'] = 0
-        point['core'] = False
-        points['tweets'].append(point)
+        point["id"] = data[0]
+        point["text"] = data[1].strip()
+        # point["time"] = data[2].strip()
+        point["visited"] = False
+        point["cluster"] = 0
+        point["core"] = False
+        points["tweets"].append(point)
 
     # embaralhando os tweets
-    shuffle(points['tweets'])
+    shuffle(points["tweets"])
 
     # A funcao DBSCAN recebe um array de pontos, eps e minPoints.
-    dbScan(points['tweets'], 0.4, 40)
+    dbScan(points["tweets"], 0.4, 40)
 
 
 print("######## CLUSTERS ########")
@@ -146,20 +146,20 @@ print("######## CLUSTERS ########")
 # Print cluster amount
 groups = defaultdict(list)
 
-for obj in points['tweets']:
-    groups[obj['cluster']].append(obj)
+for obj in points["tweets"]:
+    groups[obj["cluster"]].append(obj)
 
 # Caminho do arquivo de saida dos clusters
-output_file = open('result_22_25_eps04_min50.txt', 'w')
+output_file = open("result_22_25_eps04_min50.txt", "w")
 for key in groups.keys():
-    print(' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key])))
+    print(" -> " + str(groups[key][0]["cluster"]) + ": " + str(len(groups[key])))
     for point in groups[key]:
-        text = point['text']
-        row = str(key) + "," + point['id'] + "," + text.encode('utf-8', 'ignore') + "," + str(point['core']) + "\n"
+        text = point["text"]
+        row = str(key) + "," + point["id"] + "," + text.encode("utf-8", "ignore") + "," + str(point["core"]) + "\n"
         output_file.write(row)
 
 
 # print "######## CLUSTERS ########"
 
-print('- - - - - - - - - -  END  - - - - - - - - - -')
+print("- - - - - - - - - -  END  - - - - - - - - - -")
 

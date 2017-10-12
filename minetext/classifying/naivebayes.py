@@ -4,7 +4,7 @@ import math
 
 
 class NaiveBayes(object):
-    def __init__(self, training_set, test_set, label_field, labels, text_field_name='text'):
+    def __init__(self, training_set, test_set, label_field, labels, text_field_name="text"):
         self.training_set = training_set
         self.test_set = test_set
         self.label_field = label_field
@@ -89,5 +89,5 @@ class NaiveBayes(object):
         return test_set_result
 
     def classify(self, document):
-        document['predicted_class'] = self.naive_bayes(document)
+        document["predicted_class"] = self.naive_bayes(document)
         return document

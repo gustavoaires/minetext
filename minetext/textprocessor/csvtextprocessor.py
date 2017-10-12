@@ -23,9 +23,9 @@ class TextProcess():
             self.reader = 0
    
         def processTwitterText(self, file):
-            self.reader = csv.DictReader(file, delimiter = '\t')
+            self.reader = csv.DictReader(file, delimiter = "\t")
             self.day = date.today()
-            self.output_file = open('C:/Users/jose.adail/workspace/TextProcessor/output/tweets_%s.tsv' %self.day,'a')
+            self.output_file = open("C:/Users/jose.adail/workspace/TextProcessor/output/tweets_%s.tsv" %self.day,"a")
             
             for line in self.reader:
                 try:
@@ -47,7 +47,7 @@ class TextProcess():
                     text = self.clean.removeOneCharacter(text)
                     text = self.clean.removeSufPort(text)
                     text = self.clean.normalizeText(text)
-                    row = line["id"]+"\t"+(text).encode('latin-1','ignore')+"\t"+(lat)+"\t"+(lon)+"\n"
+                    row = line["id"]+"\t"+(text).encode("latin-1","ignore")+"\t"+(lat)+"\t"+(lon)+"\n"
                     self.output_file.write(row)
 
                 except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
@@ -56,9 +56,9 @@ class TextProcess():
             self.output_file.close()
                 
         def processFacebookText(self,file):
-                self.reader = csv.DictReader(file, delimiter = '\t')
+                self.reader = csv.DictReader(file, delimiter = "\t")
                 self.day = date.today()
-                self.output_file = open('C:/Users/jose.adail/workspace/TextProcessor/output/comments_%s.tsv' %self.day,'a')
+                self.output_file = open("C:/Users/jose.adail/workspace/TextProcessor/output/comments_%s.tsv" %self.day,"a")
 
                 for line in self.reader:
                     try:
@@ -75,7 +75,7 @@ class TextProcess():
                         text = self.clean.removeOneCharacter(text)
                         text = self.clean.removeSufPort(text)
                         text = self.clean.normalizeText(text)
-                        row = line["sentiment"]+"\t"+line["id"]+"\t"+(text).encode('latin-1','ignore')+"\n"
+                        row = line["sentiment"]+"\t"+line["id"]+"\t"+(text).encode("latin-1","ignore")+"\n"
                         self.output_file.write(row)
                     
                     except(UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
@@ -84,7 +84,7 @@ class TextProcess():
                 self.output_file.close()
                 
         def createTrainingSet(self,file):
-                self.reader = csv.DictReader(file, delimiter = '\t')
+                self.reader = csv.DictReader(file, delimiter = "\t")
                 rand = []
                 num = 0
                 count = 1
@@ -97,7 +97,7 @@ class TextProcess():
                                 for i in range(len(rand)-1):
                                         if rand[i]==count:
                                                 print(line["id"]+"\t",)
-                                                print (text).encode('latin-1','ignore')
+                                                print (text).encode("latin-1","ignore")
                                                 break
                         except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                                 print(e, "\n")
@@ -105,8 +105,8 @@ class TextProcess():
                         count+=1
                         
         def processName(self,file):
-                self.reader = csv.DictReader(file, delimiter = '\t')
-                self.output_file = open('C:/Users/jose.adail/workspace/TextProcessor/names/tagged_names.txt','a')
+                self.reader = csv.DictReader(file, delimiter = "\t")
+                self.output_file = open("C:/Users/jose.adail/workspace/TextProcessor/names/tagged_names.txt","a")
                 for line in self.reader:
                         try:
                                 text = line["name"]
@@ -115,7 +115,7 @@ class TextProcess():
                                 text = self.named.tokenizeWords(text)
                                 for n in text:
                                         if n != "":
-                                                n = (n).encode('latin-1','ignore')
+                                                n = (n).encode("latin-1","ignore")
                                                 self.output_file.write(n+"_NPROP\n")
                         except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
                                 print(e, "\n")
@@ -129,7 +129,7 @@ class TextProcess():
                                 text = self.named.tokenizeWords(text)
                                 for n in text:
                                         if n != "":
-                                                n = (n).encode('latin-1','ignore')
+                                                n = (n).encode("latin-1","ignore")
                                                 self.output_file.write(n+"_NPROP\n")
                         except (UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
                                 print(e, "\n")
@@ -160,39 +160,39 @@ class TextProcess():
         def openCSV(self,path):
                 if os.path.exists(path):
                         with open(path,"rU") as file:
-                                opt = ''
-                                system('cls')
+                                opt = ""
+                                system("cls")
                                 self.menu()
                                 opt = str(input("Select: "))
-                                if opt == '1':
+                                if opt == "1":
                                     self.createTrainingSet(file)
-                                    system('pause')
-                                    system('cls')
+                                    system("pause")
+                                    system("cls")
                                     
-                                if opt == '2':
+                                if opt == "2":
                                     self.processTwitterText(file)
-                                    system('pause')
-                                    system('cls')
+                                    system("pause")
+                                    system("cls")
                                     
-                                if opt == '3':
+                                if opt == "3":
                                     self.processFacebookText(file)
-                                    system('pause')
-                                    system('cls')
+                                    system("pause")
+                                    system("cls")
                                     
-                                if opt == '4':
+                                if opt == "4":
                                     self.processName(file)
-                                    system('pause')
-                                    system('pause')
+                                    system("pause")
+                                    system("pause")
                                     
-                                if opt == '5':
-                                    system('cls')
+                                if opt == "5":
+                                    system("cls")
                                     self.showInfo()
-                                    system('pause')
+                                    system("pause")
                             
-                                if opt == '6':
+                                if opt == "6":
                                     print("Exit...")
-                                    system('pause')
-                                    system('cls')                
+                                    system("pause")
+                                    system("cls")                
                                     
                 else:                
                         print("Arguments: [file separetade by TAB]")
@@ -201,5 +201,5 @@ class TextProcess():
 tp = TextProcess()
 file =sys.argv[1]
 if __name__ == "__main__":
-        system('cls')
+        system("cls")
         tp.openCSV(file)

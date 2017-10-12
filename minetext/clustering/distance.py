@@ -29,21 +29,21 @@ class LevenshteinCalculator(object):
 
 class EuclideanCalculator(object):
     def calculate(self, source, target):
-        x1 = float(source['latitude'])
-        x2 = float(target['latitude'])
-        y1 = float(source['longitude'])
-        y2 = float(target['longitude'])
+        x1 = float(source["latitude"])
+        x2 = float(target["latitude"])
+        y1 = float(source["longitude"])
+        y2 = float(target["longitude"])
 
         return sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 
 class FadingCalculator(object):
     def calculate(self, source, target):
-        FMT = '%H:%M:%S'
-        if datetime.strptime(source['time'], FMT) > datetime.strptime(target['time'], FMT):
-            tdelta = datetime.strptime(source['time'], FMT) - datetime.strptime(target['time'], FMT)
+        FMT = "%H:%M:%S"
+        if datetime.strptime(source["time"], FMT) > datetime.strptime(target["time"], FMT):
+            tdelta = datetime.strptime(source["time"], FMT) - datetime.strptime(target["time"], FMT)
         else:
-            tdelta = datetime.strptime(target['time'], FMT) - datetime.strptime(source['time'], FMT)
+            tdelta = datetime.strptime(target["time"], FMT) - datetime.strptime(source["time"], FMT)
 
         timeDifference = tdelta.seconds / 60.0 / 60
 
