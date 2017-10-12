@@ -29,8 +29,10 @@ def main():
                 continue
 
         kmedoids = Kmedoids(k=4, documents=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets', k_max=10)
-        result = kmedoids.calculate_elbow()
-        kmedoids.generate_xy_elbow_plot(result, 'elbow.png')
+        # result = kmedoids.calculate_elbow()
+        # kmedoids.generate_xy_elbow_plot(result, 'elbow.png')
+        kmedoids.clustering()
+        kmedoids.generate_word_cloud('wc.png')
 
         # print(result)
 
