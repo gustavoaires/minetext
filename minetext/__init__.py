@@ -2,34 +2,39 @@ from minetext.clustering.distance import *
 from minetext.clustering.kmedoids import *
 from minetext.filemanager.filemanagement import *
 
+import minetext.visualization.wordcloud_visualization as wc_visualization
+
 
 def main():
-    print 'start'
-    input_file = 'clustering/tweets_22_05_pln.tsv'
-    output_file = 'clustering/tweets_with_clusters_levenshtein.json'
-    output_file2 = 'clustering/centroids_levenshtein.json'
-    distance_calculator = JaccardCalculatorDistance()
-    file_writer = JSONFileManagement()
+    wc_visualization.generate_word_cloud("gustavo gustavo gabriela dating dating dating", 'test.png')
 
-    with open(input_file) as json_data:
-        points = dict()
-        points['tweets'] = []
+# def main():
+#     print('start')
+#     input_file = 'clustering/tweets_22_05_pln.tsv'
+#     output_file = 'clustering/tweets_with_clusters_levenshtein.json'
+#     output_file2 = 'clustering/centroids_levenshtein.json'
+#     distance_calculator = LevenshteinCalculator()
+#     file_writer = JSONFileManagement()
 
-        for line in json_data:
-            data = line.split('\t')
-            if data[0] != 'id' and data[1] != 'text':
-                point = dict()
+    # with open(input_file) as json_data:
+    #     points = dict()
+    #     points['tweets'] = []
+    #
+    #     for line in json_data:
+    #         data = line.split('\t')
+    #         if data[0] != 'id' and data[1] != 'text':
+    #             point = dict()
+    #
+    #             point['id'] = data[0]
+    #             point['text'] = data[1].strip()
+    #             points['tweets'].append(point)
+    #         else:
+    #             continue
 
-                point['id'] = data[0]
-                point['text'] = data[1].strip()
-                points['tweets'].append(point)
-            else:
-                continue
+        # kmedoids = Kmedoids(k=4, documents=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets', k_max=10)
+        # result = kmedoids.calculate_elbow()
 
-        kmedoids = Kmedoids(k=4, documents=points['tweets'], distance_calculator=distance_calculator, collection_field='tweets', k_max=100)
-        result = kmedoids.calculate_elbow()
-
-        print result
+        # print(result)
 
         # print kmedoids.n_most_similar_for_clusters_medoid(10)
 

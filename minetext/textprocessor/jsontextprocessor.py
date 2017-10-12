@@ -5,11 +5,10 @@
 
 import sys
 import os
-import re 
 import json
 from os import system
-from coordinateformater import*
-from portugueseprocessor import*
+from minetext.textprocessor.coordinateformater import*
+from minetext.textprocessor.portugueseprocessor import*
 from datetime import date
 
 class TextProcess():
@@ -29,7 +28,7 @@ class TextProcess():
             try:
                 self.json_data.append(json.loads(line))
             except (UnicodeDecodeError, UnicodeEncodeError, TypeError,AttributeError,KeyError, ValueError) as e:
-                print e, "\n"
+                print(e, "\n")
 
         for d in self.json_data:
             try:
@@ -56,7 +55,7 @@ class TextProcess():
                 self.output_file.write(row)
 
             except (UnicodeDecodeError, UnicodeEncodeError, TypeError,AttributeError,KeyError) as e:
-                    print e, "\n"
+                    print(e, "\n")
         self.output_file.close()
 
     def processFacebookText(self, file):
@@ -66,7 +65,7 @@ class TextProcess():
             try:
                 self.json_data.append(json.loads(line))
             except(UnicodeDecodeError, UnicodeEncodeError, TypeError, AttributeError, KeyError, ValueError) as e:
-                print e, "\n"
+                print(e, "\n")
 
         for d in self.json_data:
             try:
@@ -88,28 +87,28 @@ class TextProcess():
                 self.output_file.write(row)
 
             except(UnicodeDecodeError, UnicodeEncodeError, TypeError, AttributeError, KeyError, ValueError) as e:
-                    print e, "\n"
+                    print(e, "\n")
         self.output_file.close()
 
     def menu(self):
-        print "__________________________________________"
-        print "-*-Text Processor -*-"
-        print "__________________________________________"
-        print "1. Process Twitter Text"
-        print "2. Process Facebook Text"
-        print "3. About"
-        print "4. Exit"
-        print "__________________________________________"
+        print("__________________________________________")
+        print("-*-Text Processor -*-")
+        print("__________________________________________")
+        print("1. Process Twitter Text")
+        print("2. Process Facebook Text")
+        print("3. About")
+        print("4. Exit")
+        print("__________________________________________")
 
     def showInfo(self):
-        print "__________________________________________"
-        print "-*-Text Processor -*-"
-        print "__________________________________________"
-        print "Developed by Adail Carvalho"
-        print "Twitter: @Adail_Carvalho"
-        print "E-mail: adail.dux@gmail.com"
-        print "December, 2014"
-        print "__________________________________________"
+        print("__________________________________________")
+        print("-*-Text Processor -*-")
+        print("__________________________________________")
+        print("Developed by Adail Carvalho")
+        print("Twitter: @Adail_Carvalho")
+        print("E-mail: adail.dux@gmail.com")
+        print("December, 2014")
+        print("__________________________________________")
 
     def JSONParser(self, json_file):
         if os.path.exists(json_file):
@@ -117,7 +116,7 @@ class TextProcess():
                 opt = ''
                 system('cls')
                 self.menu()
-                opt = str(raw_input("Select: "))
+                opt = str(input("Select: "))
 
                 if opt == '1':
                     self.processTwitterText(file)
@@ -135,12 +134,12 @@ class TextProcess():
                     system('pause')
 
                 if opt == '4':
-                    print "Exit..."
+                    print("Exit...")
                     system('pause')
                     system('cls')
 
         else:
-                print "Arguments: [JSON File]"
+                print("Arguments: [JSON File]")
 
 tp = TextProcess()
 json_file = sys.argv[1]

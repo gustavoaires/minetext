@@ -78,17 +78,17 @@ class CSVTSVFileManagement(object):
         output_file.write(header + '\n')
         for tweet in tweets:
             try:
-                row = unicode(tweet['id']) + delimiter + tweet['text'].encode('ascii', 'ignore')
+                row = tweet['id'] + delimiter + tweet['text'].encode('ascii', 'ignore')
                 if hasCoordinates:
                     lat_lon = tweet['coordinates']
                     lat_lon = self.points.formatCoordinate(lat_lon)
                     lat = lat_lon[0]
                     lon = lat_lon[1]
-                    row += delimiter + unicode(lat) + delimiter + unicode(lon)
+                    row += delimiter + lat + delimiter + lon
                 output_file.write(row + '\n')
             except (UnicodeEncodeError, UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
-                print e, "\n"
-                print "Tweet should contain id, text and coordinates"
-                print row
+                print(e, "\n")
+                print("Tweet should contain id, text and coordinates")
+                print(row)
 
         output_file.close()

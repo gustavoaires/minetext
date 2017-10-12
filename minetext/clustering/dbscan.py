@@ -105,7 +105,7 @@ def dbScan(tweets, eps, minPts):
                 cluster += 1
                 expandCluster(tweets, point, neighborPts, cluster, eps, minPts)
 
-print '- - - - - - - - - - START - - - - - - - - - -'
+print('- - - - - - - - - - START - - - - - - - - - -')
 
 # import json
 import simplejson as json
@@ -141,7 +141,7 @@ with open('22_25_pln.tsv') as json_data:
     dbScan(points['tweets'], 0.4, 40)
 
 
-print "######## CLUSTERS ########"
+print("######## CLUSTERS ########")
 
 # Print cluster amount
 groups = defaultdict(list)
@@ -152,7 +152,7 @@ for obj in points['tweets']:
 # Caminho do arquivo de saida dos clusters
 output_file = open('result_22_25_eps04_min50.txt', 'w')
 for key in groups.keys():
-    print ' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key]))
+    print(' -> ' + str(groups[key][0]['cluster']) + ': ' + str(len(groups[key])))
     for point in groups[key]:
         text = point['text']
         row = str(key) + "," + point['id'] + "," + text.encode('utf-8', 'ignore') + "," + str(point['core']) + "\n"
@@ -161,5 +161,5 @@ for key in groups.keys():
 
 # print "######## CLUSTERS ########"
 
-print '- - - - - - - - - -  END  - - - - - - - - - -'
+print('- - - - - - - - - -  END  - - - - - - - - - -')
 

@@ -8,8 +8,8 @@ import sys
 import os
 import random
 from os import system
-from coordinateformater import*
-from portugueseprocessor import*
+from minetext.textprocessor.coordinateformater import*
+from minetext.textprocessor.portugueseprocessor import*
 from datetime import date
 
 class TextProcess():
@@ -51,8 +51,8 @@ class TextProcess():
                     self.output_file.write(row)
 
                 except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
-                        print e, "\n"
-                        print "Header label: id    text    coordinates"
+                        print(e, "\n")
+                        print("Header label: id    text    coordinates")
             self.output_file.close()
                 
         def processFacebookText(self,file):
@@ -79,8 +79,8 @@ class TextProcess():
                         self.output_file.write(row)
                     
                     except(UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
-                            print e, "\n"
-                            print "Header label: id    text"
+                            print(e, "\n")
+                            print("Header label: id    text")
                 self.output_file.close()
                 
         def createTrainingSet(self,file):
@@ -96,12 +96,12 @@ class TextProcess():
                                 text = line["text"]
                                 for i in range(len(rand)-1):
                                         if rand[i]==count:
-                                                print line["id"]+"\t",
+                                                print(line["id"]+"\t",)
                                                 print (text).encode('latin-1','ignore')
                                                 break
                         except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
-                                print e, "\n"
-                                print "Header label: id    text"
+                                print(e, "\n")
+                                print("Header label: id    text")
                         count+=1
                         
         def processName(self,file):
@@ -118,8 +118,8 @@ class TextProcess():
                                                 n = (n).encode('latin-1','ignore')
                                                 self.output_file.write(n+"_NPROP\n")
                         except (UnicodeDecodeError, csv.Error, AttributeError, KeyError) as e:
-                                print e, "\n"
-                                print "Header label: name    name_tag"
+                                print(e, "\n")
+                                print("Header label: name    name_tag")
 
                 for line in self.reader:
                         try:
@@ -132,30 +132,30 @@ class TextProcess():
                                                 n = (n).encode('latin-1','ignore')
                                                 self.output_file.write(n+"_NPROP\n")
                         except (UnicodeDecodeError,csv.Error,AttributeError,KeyError) as e:
-                                print e, "\n"
+                                print(e, "\n")
                 self.output_file.close()
         
         def menu(self):
-            print "__________________________________________"
-            print "-*-Text Processor -*-"
-            print "__________________________________________"
-            print "1. Create Training Set"
-            print "2. Process Twitter Text"
-            print "3. Process Facebook Text"
-            print "4. Process Names"
-            print "5. About"
-            print "6. Exit"        
-            print "__________________________________________"
+            print("__________________________________________")
+            print("-*-Text Processor -*-")
+            print("__________________________________________")
+            print("1. Create Training Set")
+            print("2. Process Twitter Text")
+            print("3. Process Facebook Text")
+            print("4. Process Names")
+            print("5. About")
+            print("6. Exit")
+            print("__________________________________________")
         
         def showInfo(self):
-            print "__________________________________________"
-            print "-*-Text Processor -*-"
-            print "__________________________________________"
-            print "Developed by Adail Carvalho"
-            print "Twitter: @Adail_Carvalho"
-            print "E-mail: adail.dux@gmail.com"
-            print "December, 2014"  
-            print "__________________________________________"
+            print("__________________________________________")
+            print("-*-Text Processor -*-")
+            print("__________________________________________")
+            print("Developed by Adail Carvalho")
+            print("Twitter: @Adail_Carvalho")
+            print("E-mail: adail.dux@gmail.com")
+            print("December, 2014")
+            print("__________________________________________")
                 
         def openCSV(self,path):
                 if os.path.exists(path):
@@ -163,7 +163,7 @@ class TextProcess():
                                 opt = ''
                                 system('cls')
                                 self.menu()
-                                opt = str(raw_input("Select: "))
+                                opt = str(input("Select: "))
                                 if opt == '1':
                                     self.createTrainingSet(file)
                                     system('pause')
@@ -190,12 +190,12 @@ class TextProcess():
                                     system('pause')
                             
                                 if opt == '6':
-                                    print "Exit..."
+                                    print("Exit...")
                                     system('pause')
                                     system('cls')                
                                     
                 else:                
-                        print "Arguments: [file separetade by TAB]"
+                        print("Arguments: [file separetade by TAB]")
                    
 
 tp = TextProcess()
