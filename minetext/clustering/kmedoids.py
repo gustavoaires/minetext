@@ -115,7 +115,6 @@ class Kmedoids(object):
 
     def calculate_elbow(self):
         original_k = self.k
-        self.setup_environment()
         sses = dict()
         for k in range(self.k_min, self.k_max+1):
             self.k = k
