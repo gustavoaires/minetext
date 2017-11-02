@@ -102,7 +102,6 @@ class Kmedoids(object):
     def clustering(self):
         self.setup_environment()
         self.assign_cluster()
-        self.calculate_medoids()
         return self.clusters
 
     def calculate_sse(self):
@@ -120,8 +119,7 @@ class Kmedoids(object):
         sses = dict()
         for k in range(self.k_min, self.k_max+1):
             self.k = k
-            self.assign_cluster()
-            self.calculate_medoids()
+            self.clustering()
             sses[k] = self.calculate_sse()
             if self.max_err_increase is not None \
                     and k is not self.k_min \
