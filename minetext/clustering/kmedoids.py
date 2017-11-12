@@ -161,6 +161,6 @@ class Kmedoids(object):
         corpus = ""
         for cluster in self.clusters:
             for document in cluster[self.collection_field]:
-                corpus += " ".join(document[self.text_field_name])
+                corpus += "".join(document[self.text_field_name])
 
         wc_visualization.generate_word_cloud(corpus, save_dir)
