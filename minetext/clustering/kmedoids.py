@@ -1,7 +1,7 @@
 from random import shuffle
 import minetext.visualization.xy_plot as plotter
 import minetext.visualization.wordcloud_visualization as wc_visualization
-
+import minetext.visualization.utils as utils
 
 class Kmedoids(object):
     def __init__(self, k, documents, distance_calculator, collection_field="documents", text_field_name="text", k_min=2, k_max=None, max_err_increase=None):
@@ -157,10 +157,22 @@ class Kmedoids(object):
         y = list(elbow_result.values())
         plotter.xy_plot(x, y, xlabel, ylabel, title, save_dir)
 
-    def generate_word_cloud(self, save_dir):
-        corpus = ""
+    def generate_pure_word_cloud(self, save_dir_file):
         for cluster in self.clusters:
-            for document in cluster[self.collection_field]:
-                corpus += "".join(document[self.text_field_name])
+            self.__generate_word_cloud(save_dir_file, cluster)
 
-        wc_visualization.generate_word_cloud(corpus, save_dir)
+    def generate_readable_word_cloud(self, save_dir_file, target):
+        new_clusters = list()
+        for cluster in self.clusters:
+            matched_documents = utils.match_documents(cluster[self.collection_field], target)
+            new_cluster = cluster
+            new_cluster[self.collection_field] = matched_documents
+            new_clusters.append(new_cluster)
+            self.__generate_word_cloud(save_dir_file, new_cluster)
+        return new_clusters
+
+    def __generate_word_cloud(self, save_dir_file, cluster):
+        corpus = ""
+        for document in cluster[self.collection_field]:
+            corpus += "".join(document[self.text_field_name])
+        wc_visualization.generate_word_cloud(corpus, save_dir_file + "_" + str(cluster["id"]) + ".png")

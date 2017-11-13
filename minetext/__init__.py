@@ -8,10 +8,13 @@ import minetext.visualization.wordcloud_visualization as wc_visualization
 def main():
     print('start')
     input_file = 'clustering/tweets_22_05_pln.tsv'
+    target = 'tweets_22_05.json'
     output_file = 'clustering/tweets_with_clusters_levenshtein.json'
     output_file2 = 'clustering/centroids_levenshtein.json'
     distance_calculator = JaccardCalculatorDistance()
     file_writer = JSONFileManagement()
+
+    target = file_writer.read_file(target)
 
     with open(input_file) as json_data:
         points = dict()
@@ -32,7 +35,7 @@ def main():
         # result = kmedoids.calculate_elbow()
         # kmedoids.generate_xy_elbow_plot(result, 'elbow.png')
         kmedoids.clustering()
-        kmedoids.generate_word_cloud('wc.png')
+        kmedoids.generate_readable_word_cloud('22_05_read', target)
 
         # print(result)
 
