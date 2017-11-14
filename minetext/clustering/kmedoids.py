@@ -157,22 +157,23 @@ class Kmedoids(object):
         y = list(elbow_result.values())
         plotter.xy_plot(x, y, xlabel, ylabel, title, save_dir)
 
-    def generate_pure_word_cloud(self, save_dir_file):
+    def generate_pure_word_cloud(self, save_dir_file, ignored_words=list()):
         for cluster in self.clusters:
-            self.__generate_word_cloud(save_dir_file, cluster)
+            self.__generate_word_cloud(save_dir_file, cluster, ignored_words)
 
-    def generate_readable_word_cloud(self, save_dir_file, target):
+    def generate_readable_word_cloud(self, save_dir_file, target, ignored_words=list()):
         new_clusters = list()
         for cluster in self.clusters:
             matched_documents = utils.match_documents(cluster[self.collection_field], target)
             new_cluster = cluster
             new_cluster[self.collection_field] = matched_documents
             new_clusters.append(new_cluster)
-            self.__generate_word_cloud(save_dir_file, new_cluster)
+            self.__generate_word_cloud(save_dir_file, new_cluster, ignored_words)
         return new_clusters
 
-    def __generate_word_cloud(self, save_dir_file, cluster):
+    def __generate_word_cloud(self, save_dir_file, cluster, ignored_words):
         corpus = ""
         for document in cluster[self.collection_field]:
-            corpus += "".join(document[self.text_field_name])
+            filtered_words = [word for word in document[self.text_field_name].split() if word not in ignored_words]
+            corpus += "".join(" ".join(filtered_words))
         wc_visualization.generate_word_cloud(corpus, save_dir_file + "_" + str(cluster["id"]) + ".png")

@@ -1,6 +1,7 @@
 from minetext.clustering.distance import *
 from minetext.clustering.kmedoids import *
 from minetext.filemanager.filemanagement import *
+from minetext.textprocessor.portugueseprocessor import TextCleaner, NamedEntity
 
 import minetext.visualization.wordcloud_visualization as wc_visualization
 
@@ -15,6 +16,19 @@ def main():
     file_writer = JSONFileManagement()
 
     target = file_writer.read_file(target)
+
+    # clean readable data to plot word cloud
+    text_processor = TextCleaner()
+    named_entity = NamedEntity()
+    for document in target:
+        text = document["text"].lower()
+        text = text_processor.removeAccent(text)
+        text = text_processor.removeSymbols(text)
+        text = text_processor.removeLinks(text)
+        text = named_entity.removeTwitterUsername(text)
+        document["text"] = text
+
+    print(target[0]["text"])
 
     with open(input_file) as json_data:
         points = dict()
@@ -35,7 +49,7 @@ def main():
         # result = kmedoids.calculate_elbow()
         # kmedoids.generate_xy_elbow_plot(result, "elbow.png")
         kmedoids.clustering()
-        kmedoids.generate_readable_word_cloud("22_05_read", target)
+        kmedoids.generate_readable_word_cloud("22_05_read", target, ["rt", "previdencia", "social", "reforma", "da", "de", "que", "para"])
 
         # print(result)
 

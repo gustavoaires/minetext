@@ -63,7 +63,7 @@ class TextCleaner(object):
             self.accents = unicode_replace
         else:
             self.accents = ascii_replace
-        self.link_patterns = [('http'), ('www'), ('w3c')]
+        self.link_patterns = [('http'), ('www'), ('w3c'), ('https')]
         self.normal = [(r'kxkxk', 'kkk'), (r'nao ', ' nao_'), (r' ir ', '_ir '), (r'bom demal', ' bomdemais '), (r'\s*insan\s*', ' insano '), (r'\s*saudad\s*', ' saudade ')]
         self.digraph = [(r'rxr', 'rr'), (r'sxs', 'ss'), (r'aqa', 'aa'), (r'eqe', 'ee'), (r'oqo', 'oo')]
 
