@@ -3,7 +3,8 @@ from minetext.clustering.kmedoids import *
 from minetext.filemanager.filemanagement import *
 from minetext.textprocessor.portugueseprocessor import TextCleaner, NamedEntity
 
-import minetext.visualization.wordcloud_visualization as wc_visualization
+import minetext.visualization.wordcloud_visualization as wcv
+import minetext.visualization.xy_plot as elbow_plotter
 
 
 def main():
@@ -28,8 +29,6 @@ def main():
         text = named_entity.removeTwitterUsername(text)
         document["text"] = text
 
-    print(target[0]["text"])
-
     with open(input_file) as json_data:
         points = dict()
         points["tweets"] = []
@@ -46,10 +45,11 @@ def main():
                 continue
 
         kmedoids = Kmedoids(k=4, documents=points["tweets"], distance_calculator=distance_calculator, collection_field="tweets", k_max=10)
-        # result = kmedoids.calculate_elbow()
-        # kmedoids.generate_xy_elbow_plot(result, "elbow.png")
+        result = kmedoids.calculate_elbow()
+        # elbow_plotter.generate_xy_elbow_plot(result, "elbow.png")
         kmedoids.clustering()
-        kmedoids.generate_readable_word_cloud("22_05_read", target, ["rt", "previdencia", "social", "reforma", "da", "de", "que", "para"])
+        wcv.generate_readable_word_cloud_from_clusters("22_05_read", target, kmedoids.clusters, "tweets", "text",
+                                         ["rt", "previdencia", "social", "reforma", "da", "de", "que", "para"])
 
         # print(result)
 

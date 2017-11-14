@@ -74,6 +74,7 @@ class JaccardCalculatorSimilarity(object):
         except ZeroDivisionError:
             return 0.0
 
+
 class JaccardCalculatorDistance(object):
     def calculate(self, source, target):
         words1 = set(source.split())
