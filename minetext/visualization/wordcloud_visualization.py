@@ -24,7 +24,7 @@ def __generate_word_cloud(save_dir_file, cluster, collection_field, text_field_n
     corpus = ""
     for document in cluster[collection_field]:
         filtered_words = [word for word in document[text_field_name].split() if word not in ignored_words]
-        corpus += "".join(" ".join(filtered_words))
+        corpus += "".join(" ".join(filtered_words)) + " "
     generate_word_cloud(corpus, save_dir_file + "_" + str(cluster["id"]) + ".png")
 
 
