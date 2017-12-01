@@ -34,6 +34,7 @@ class Kmedoids(object):
             medoid = self.documents[possible_medoids[j]]
             medoid["cluster"] = j
             self.clusters[j][self.medoid_field] = medoid
+            self.clusters[j][self.collection_field].append(medoid)
 
     def clear_clusters(self):
         for cluster in self.clusters:
