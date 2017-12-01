@@ -24,7 +24,7 @@ class LevenshteinCalculator(object):
 
             previous_row = current_row
 
-        return previous_row[-1]
+        return previous_row[-1] / len(source)
 
 
 class EuclideanCalculator(object):
