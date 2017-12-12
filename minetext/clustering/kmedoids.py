@@ -16,10 +16,11 @@ class Kmedoids(object):
         self.medoid_field = "medoid"
 
     def init_clusters(self):
+        self.clusters = []
         for i in range(self.k):
             cluster = dict()
             cluster["id"] = i
-            cluster[self.medoid_field] = None
+            cluster[self.medoid_field] = dict()
             cluster[self.collection_field] = []
             self.clusters.append(cluster)
 
@@ -37,7 +38,7 @@ class Kmedoids(object):
         for j in range(self.k):
             medoid = self.documents[possible_medoids[j]]
             medoid["cluster"] = j
-            
+
             self.clusters[j][self.medoid_field] = medoid
 
     def clear_clusters(self):
@@ -68,14 +69,20 @@ class Kmedoids(object):
                     if distance < min_dist:
                         min_dist = distance
                         cluster_id = medoids[j]["cluster"]
+
+                self.documents[i]["cluster"] = cluster_id
+                self.get_cluster_by_id(cluster_id)[self.collection_field].append(self.documents[i])
+
+                cluster_id = -1
+                min_dist = self.max
             else:
-                cluster_id = self.documents[i]["cluster"]
+                continue
 
-            self.documents[i]["cluster"] = cluster_id
-            self.get_cluster_by_id(cluster_id)[self.collection_field].append(self.documents[i])
-
-            cluster_id = -1
-            min_dist = self.max
+    def append_document_to_cluster(self, document, cluster_id):
+        for i in range(len(self.clusters)):
+            if self.clusters[i]["id"] == cluster_id:
+                self.clusters[i][self.collection_field] = document
+                break
 
     def calculate_medoids(self):
         dist = self.max

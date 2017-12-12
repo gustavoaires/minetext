@@ -81,8 +81,18 @@ class NaiveBayes(object):
         self.calculate_class_probability()
         self.calculate_words_per_class()
 
+        training_set_result = []
+
+        # modifiquei aqui de test para training set
+        for document in self.training_set:
+            training_set_result.append(self.classify(document))
+
+        return training_set_result
+
+    def test(self):
         test_set_result = []
 
+        # modifiquei aqui de test para test set
         for document in self.test_set:
             test_set_result.append(self.classify(document))
 

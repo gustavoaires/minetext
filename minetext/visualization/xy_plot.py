@@ -10,7 +10,7 @@ def xy_plot(x, y, xlabel, ylabel, title, save_dir):
     plt.savefig(save_dir)
 
 
-def generate_xy_elbow_plot(self, elbow_result, save_dir):
+def generate_xy_elbow_plot(elbow_result, save_dir):
     title = "Elbow method result"
     xlabel = "K clusters"
     x = list(elbow_result.keys())

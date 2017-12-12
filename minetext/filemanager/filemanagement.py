@@ -14,7 +14,8 @@ class JSONFileManagement(object):
         input_file = open(path, "r")
 
         for line in input_file:
-            tweets.append(json.loads(line))
+            if line.startswith("{"):
+                tweets.append(json.loads(line))
 
         input_file.close()
         return tweets

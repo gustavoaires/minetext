@@ -1,69 +1,87 @@
-from minetext.clustering.distance import *
-from minetext.clustering.kmedoids import *
+from minetext.classifying.naivebayes import NaiveBayes
 from minetext.filemanager.filemanagement import *
-from minetext.textprocessor.portugueseprocessor import TextCleaner, NamedEntity
-
-import minetext.visualization.wordcloud_visualization as wcv
-import minetext.visualization.xy_plot as elbow_plotter
+from random import shuffle
 
 
 def main():
-    print("start")
-    input_file = "clustering/tweets_22_05_pln.tsv"
-    target = "tweets_22_05.json"
-    # output_file = "clustering/tweets_with_clusters_levenshtein.json"
-    # output_file2 = "clustering/centroids_levenshtein.json"
-    distance_calculator = JaccardCalculatorDistance()
-    file_writer = JSONFileManagement()
+    input_file = 'aug_jac_clusters.json'
+    output_file = 'aug_jac_class.json'
 
-    target = file_writer.read_file(target)
+    file_management = JSONFileManagement()
 
-    # clean readable data to plot word cloud
-    text_processor = TextCleaner()
-    named_entity = NamedEntity()
-    for document in target:
-        text = document["text"].lower()
-        text = text_processor.removeAccent(text)
-        text = text_processor.removeSymbols(text)
-        text = text_processor.removeLinks(text)
-        text = named_entity.removeTwitterUsername(text)
-        document["text"] = text
+    set = file_management.read_file(input_file)
 
-    with open(input_file) as json_data:
-        points = dict()
-        points["tweets"] = []
+    shuffle(set)
 
-        for line in json_data:
-            data = line.split("\t")
-            if data[0] != "id" and data[1] != "text":
-                point = dict()
+    training_set = list()
+    test_set = list()
+    cluster_0 = 0
+    cluster_1 = 0
+    cluster_2 = 0
+    cluster_3 = 0
+    cluster_4 = 0
+    for document in set:
+        if document["cluster"] == 0 and cluster_0 < 218:
+            cluster_0 += 1
+            training_set.append(document)
+        elif document["cluster"] == 1 and cluster_1 < 218:
+            cluster_1 += 1
+            training_set.append(document)
+        elif document["cluster"] == 2 and cluster_2 < 218:
+            cluster_2 += 1
+            training_set.append(document)
+        elif document["cluster"] == 3 and cluster_3 < 218:
+            cluster_3 += 1
+            training_set.append(document)
+        elif document["cluster"] == 4 and cluster_4 < 218:
+            cluster_4 += 1
+            training_set.append(document)
+        elif len(test_set) < 327:
+            test_set.append(document)
 
-                point["id"] = data[0]
-                point["text"] = data[1].strip()
-                points["tweets"].append(point)
-            else:
-                continue
+    classifier = NaiveBayes(training_set, test_set, 'cluster', [0, 1, 2, 3, 4])
 
-        kmedoids = Kmedoids(k=4, documents=points["tweets"], distance_calculator=distance_calculator, collection_field="tweets", k_max=10)
-        result = kmedoids.calculate_elbow()
-        # elbow_plotter.generate_xy_elbow_plot(result, "elbow.png")
-        kmedoids.clustering()
-        wcv.generate_readable_word_cloud_from_clusters("22_05_read", target, kmedoids.clusters, "tweets", "text",
-                                         ["rt", "previdencia", "social", "reforma", "da", "de", "que", "para"])
+    result = classifier.train()
 
-        # print(result)
+    correct_total = 0
+    incorrect_total = 0
 
-        # print kmedoids.n_most_similar_for_clusters_medoid(10)
+    for document in result:
+        if document["predicted_class"] == document["cluster"]:
+            correct_total += 1
+        else:
+            incorrect_total += 1
 
-        # tweets = list()
-        # centroids = list()
+    # training set
+    correct_percent = correct_total / len(result)
+    incorrect_percent = incorrect_total / len(result)
 
-        # for cluster in kmedoids.clusters:
-        #     centroids.append(cluster["medoid"])
-        #     tweets += cluster["tweets"]
+    print('train correct total', correct_total)
+    print('train incorrect total', incorrect_total)
+    print('train correct percent', correct_percent * 100)
+    print('train incorrect percent', incorrect_percent * 100)
 
-        # file_writer.write_file(output_file, tweets)
-        # file_writer.write_file(output_file2, centroids)
+    # test set
+    result = classifier.test()
+
+    correct_total = 0
+    incorrect_total = 0
+
+    for document in result:
+        if document["predicted_class"] == document["cluster"]:
+            correct_total += 1
+        else:
+            incorrect_total += 1
+
+    correct_percent = correct_total / len(result)
+    incorrect_percent = incorrect_total / len(result)
+
+    print('test correct total', correct_total)
+    print('test incorrect total', incorrect_total)
+    print('test correct percent', correct_percent * 100)
+    print('test incorrect percent', incorrect_percent * 100)
+
+    file_management.write_file(output_file, result)
 
 if __name__ == "__main__":
     main()
